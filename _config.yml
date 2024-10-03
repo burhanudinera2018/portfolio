@@ -1,6 +1,6 @@
 # add the following to _config.yml file
 title: Burhanudin Badiuzaman
-logo: /assets/img/burhan-logo.png
+logo: /assets/img/cropped.png
 #description: text below image
 show_downloads: true
 theme: jekyll-theme-minimal
