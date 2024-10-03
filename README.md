@@ -40,7 +40,7 @@ Indosat Group ( PT Indosat Tbk)
    comprehensive reports for the Category Manager, facilitating informed
    strategic decisions and enhancing commercial applications.
 
-![WordCount](/assets/img/WordCount.png)
+![Quantium](/assets/img/Quantium.png)
 
 
    **PwC Switzerland Power BI Job Simulation on Forage - September 2024**
@@ -61,5 +61,15 @@ Indosat Group ( PT Indosat Tbk)
 
 ![Pwc](/assets/img/Pwc.png)
  
-   
+   **Accenture North America Data Analytics and Visualization Job Simulation on
+Forage - September 2024**
+
+
+ * Completed a simulation focused on advising a hypothetical social media client
+   as a Data Analyst at Accenture
+ * Cleaned, modelled and analyzed 7 datasets to uncover insights into content
+   trends to inform strategic decisions
+ * Prepared a PowerPoint deck and video presentation to communicate key insights
+   for the client and internal stakeholders
     
+   ![WordCount](/assets/img/WordCount.png)
