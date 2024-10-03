@@ -1,3 +1,6 @@
 # add the following to _config.yml file
 title: Burhanudin Badiuzaman
-theme: jeykll-theme-minimal
+logo: /assets/img/when i was young.jpg
+#description: text below image
+show_downloads: true
+theme: jekyll-theme-minimal
