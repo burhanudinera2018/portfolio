@@ -40,6 +40,9 @@ Indosat Group ( PT Indosat Tbk)
    comprehensive reports for the Category Manager, facilitating informed
    strategic decisions and enhancing commercial applications.
 
+![WordCount](/assets/img/WordCount.png)
+
+
    
    
     
