@@ -5,7 +5,7 @@ logo: /assets/img/cropped.png
 show_downloads: true
 theme: jekyll-theme-minimal
 
-social_links:
+social :
 twitter: "https://twitter.com/BurhanudinBZ"
 linkedin: "https://www.linkedin.com/in/burhanudin-badiuzaman4a9204161/"
 github: "burhanudinera2018"
