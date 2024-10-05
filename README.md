@@ -10,12 +10,11 @@ Technical Skills: Excel, Python, SQL, Microsoft Azure, Power BI, Microservice, P
 ### Work Experience
 
 #### Data Science - Freelance
-- Data Analytics ]Virtual Intership Project 1!
+- Data Analytics Virtual Intership Project 1!
 - Power BI Virtual Intership Project 2!
 - Data Analytics and Virtualization Virtual Intership Project 3!
 - Commonwealth Bank Introduction to Data Science Job Simulation Virtual Intership Project 4!
-- BCG Data Science Job Simulation Virtual Intership Project 5!
-
+  
 #### Architecture System @ PUSINTEK - Kementrian Keuangan Republik Indonesia
 - Reengineering Application IT System PUSINTEK
 
