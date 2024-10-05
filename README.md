@@ -43,7 +43,7 @@ Indosat Group ( PT Indosat Tbk)
 ![Quantium](/assets/img/Quantium.png)
 
 
-   **PwC Switzerland Power BI Job Simulation on Forage - September 2024**
+**PwC Switzerland Power BI Job Simulation on Forage - September 2024**
 
 
  * Completed a job simulation where I strengthened my PowerBI skills to better
@@ -61,7 +61,7 @@ Indosat Group ( PT Indosat Tbk)
 
 ![Pwc](/assets/img/Pwc.png)
  
-   **Accenture North America Data Analytics and Visualization Job Simulation on
+**Accenture North America Data Analytics and Visualization Job Simulation on
 Forage - September 2024**
 
 
@@ -74,7 +74,7 @@ Forage - September 2024**
     
    ![WordCount](/assets/img/WordCount.png)
 
-   **Commonwealth Bank Introduction to Data Science Job Simulation on Forage -
+**Commonwealth Bank Introduction to Data Science Job Simulation on Forage -
 October 2024**
 
 
