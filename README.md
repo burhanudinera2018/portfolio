@@ -108,3 +108,15 @@ October 2024**
    actionable insights for informed decision-making based on the analysis.
 
    ![corrMatrix](/assets/img/corrMatrix.png)
+
+**British Airways Data Science Job Simulation on Forage - October 2024**
+
+ ![Review](/assets/img/Review.png)
+
+ * Completed a simulation focussing on how data science is a critical component
+   of British Airways success
+ * Scraped and analysed customer review data to uncover findings
+ * Built a predictive model to understand factors that influence buying
+   behaviour
+
+ ![Buying Behavior](/assets/img/Buying Behavior.png)
