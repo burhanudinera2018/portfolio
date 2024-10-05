@@ -8,6 +8,8 @@ Technical Skills: Excel, Python, SQL, Microsoft Azure, Power BI, Microservice, P
 - Electrical Engineer - Telecommunication, S.T
 
 ### Work Experience
+
+Data Science - Freelance
 - Data Analytics ]Virtual Intership Project 1!
 - Power BI Virtual Intership Project 2!
 - Data Analytics and Virtualization Virtual Intership Project 3!
@@ -63,6 +65,7 @@ Indosat Group ( PT Indosat Tbk)
 
 ![Pwc](/assets/img/Pwc.png)
  
+
 **Accenture North America Data Analytics and Visualization Job Simulation on
 Forage - September 2024**
 
@@ -75,6 +78,7 @@ Forage - September 2024**
    for the client and internal stakeholders
     
    ![WordCount](/assets/img/WordCount.png)
+
 
 **Commonwealth Bank Introduction to Data Science Job Simulation on Forage -
 October 2024**
@@ -90,6 +94,7 @@ October 2024**
  * Proposed effective data analysis approaches, particularly related to social
    media, and demonstrated the ability to design well-structured databases for
    efficient information management.
+
 
 **BCG Data Science Job Simulation on Forage - October 2024**
 
