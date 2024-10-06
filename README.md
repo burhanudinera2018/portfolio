@@ -2,10 +2,10 @@
 
 # Data Analysis
 Technical Skills: Excel, Python, SQL, Microsoft Azure, Power BI, Microservice, Project Management
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
+
 
 ## Link Social Media
-[![Linkedin](https://i.sstatic.net/gVE0j.png) LinkedIn](https://www.linkedin.com/)
+[![linkedin](/assets/img/Linkedln.svg) LinkedIn](https://www.linkedin.com/in/burhanudin-badiuzaman4a9204161/)
 &nbsp;
 [![GitHub](https://i.sstatic.net/tskMh.png) GitHub](https://github.com/)
 
