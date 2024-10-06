@@ -3,6 +3,11 @@
 # Data Analysis
 Technical Skills: Excel, Python, SQL, Microsoft Azure, Power BI, Microservice, Project Management
 
+## Link Social Media
+[![Linkedin](https://i.sstatic.net/gVE0j.png) LinkedIn](https://www.linkedin.com/)
+&nbsp;
+[![GitHub](https://i.sstatic.net/tskMh.png) GitHub](https://github.com/)
+
 ### Education
 - Electrical Engineer - Information Technology, MSc
 - Electrical Engineer - Telecommunication, S.T
