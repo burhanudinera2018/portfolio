@@ -5,7 +5,7 @@ Technical Skills: Excel, Python, SQL, Microsoft Azure, Power BI, Microservice, P
 
 
 ## Link Social Media
-[![linkedin](/assets/img/linkedln.png) LinkedIn](https://www.linkedin.com/in/burhanudin-badiuzaman4a9204161/)
+[![linkedln](/assets/img/linkedln.png) LinkedIn](https://www.linkedin.com/in/burhanudin-badiuzaman4a9204161/)
 
 
 ### Education
