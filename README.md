@@ -116,7 +116,7 @@ October 2024**
    ![corrMatrix](/assets/img/corrMatrix.png)
 
 **British Airways Data Science Job Simulation on Forage - October 2024**
-
+  
  ![Review](/assets/img/Review.png)
 
  * Completed a simulation focussing on how data science is a critical component
