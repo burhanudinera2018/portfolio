@@ -8,6 +8,10 @@ Technical Skills: Excel, Python, SQL, Microsoft Azure, Power BI, Microservice, P
 [![Linkedin](https://i.sstatic.net/gVE0j.png) LinkedIn](https://www.linkedin.com/in/burhanudin-badiuzaman4a9204161/)
 &nbsp;
 [![GitHub](https://i.sstatic.net/tskMh.png) GitHub](https://github.com/burhanudinera2018)
+&nbsp;
+![Coursera](/assets/img/coursera.png)(https://www.coursera.org/user/4c17c704eb4eaf802fbd655231fecac2)
+
+
 
 ### Education
 - Electrical Engineer - Information Technology, MSc
