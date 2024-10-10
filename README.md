@@ -9,7 +9,7 @@ Technical Skills: Excel, Python, SQL, Microsoft Azure, Power BI, Microservice, P
 &nbsp;
 [![GitHub](https://i.sstatic.net/tskMh.png) GitHub](https://github.com/burhanudinera2018)
 &nbsp;
-![Coursera](/assets/img/coursera.png)(https://www.coursera.org/user/4c17c704eb4eaf802fbd655231fecac2)
+![Coursera](/assets/img/coursera.png)](https://www.coursera.org/user/4c17c704eb4eaf802fbd655231fecac2)
 
 
 
