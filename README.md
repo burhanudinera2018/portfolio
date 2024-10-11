@@ -1,7 +1,7 @@
 
 
 # Data Analysis
-Technical Skills: Excel, Python, SQL, Microsoft Azure, Power BI, Microservice, Project Management
+Technical Skills: Excel, Python, SQL, Microsoft Azure, Tableau, Power BI, Microservice, Project Management
 
 
 ## Link Social Media
@@ -130,3 +130,19 @@ October 2024**
    behaviour
 
  ![Buying Behavior](/assets/img/Buying Behavior.png)
+
+
+**Tata Data Visualisation: Empowering Business with Effective Insights Job
+Simulation on Forage - October 2024**
+
+
+ * Completed a simulation involving creating data visualizations for Tata
+   Consultancy Services
+ * Prepared questions for a meeting with client senior leadership
+ * Created visuals for data analysis to help executives with effective decision
+   making
+
+![Tata](/assets/img/Tata-Dashboard.png)
+
+![Dashboard visualization tableau public](https://public.tableau.com/views/TATATask3-CreatingEffectiveVisuals/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+    
