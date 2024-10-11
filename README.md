@@ -129,8 +129,7 @@ October 2024**
  * Built a predictive model to understand factors that influence buying
    behaviour
 
- [Buying Behavior](/assets/img/Buying Behavior.png)
-
+ ![Buying Behavior](/assets/img/Buying Behavior.png)
 
 **Tata Data Visualisation: Empowering Business with Effective Insights Job
 Simulation on Forage - October 2024**
@@ -142,7 +141,7 @@ Simulation on Forage - October 2024**
  * Created visuals for data analysis to help executives with effective decision
    making
 
-[Tata](/assets/img/Tata-dashboard.png)
+![Tata](/assets/img/Tata-dashboard.png)
 
 ![Dashboard visualization tableau public](https://public.tableau.com/views/TATATask3-CreatingEffectiveVisuals/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
     
