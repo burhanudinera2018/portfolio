@@ -24,6 +24,9 @@ Technical Skills: Excel, Python, SQL, Microsoft Azure, Tableau, Power BI, Micros
 - Power BI Virtual Intership Project 2!
 - Data Analytics and Virtualization Virtual Intership Project 3!
 - Commonwealth Bank Introduction to Data Science Job Simulation Virtual Intership Project 4!
+- BCG Data Science Job Simulation on Forage Job Simulation Virtual Intership Project 5!
+- Tata Data Visualisation: Empowering Business with Effective Insights Job
+Simulation Virtual Intership Project 6!
   
 #### Architecture System @ PUSINTEK - Kementrian Keuangan Republik Indonesia
 - Reengineering Application IT System PUSINTEK
@@ -53,7 +56,7 @@ Technical Skills: Excel, Python, SQL, Microsoft Azure, Tableau, Power BI, Micros
    comprehensive reports for the Category Manager, facilitating informed
    strategic decisions and enhancing commercial applications.
 
-[Quantium](/assets/img/Quantium.png)
+    ![Quantium](/assets/img/Quantium.png)
 
 
 **PwC Switzerland Power BI Job Simulation on Forage - September 2024**
@@ -143,5 +146,5 @@ Simulation on Forage - October 2024**
 
 ![Tata-dashboard](/assets/img/Tata-dashboard.png)
 
-[Dashboard visualization tableau public](https://public.tableau.com/views/TATATask3-CreatingEffectiveVisuals/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+<a href="https://public.tableau.com/views/TATATask3-CreatingEffectiveVisuals/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Dashboard Visualization Tableau Public</a>
     
