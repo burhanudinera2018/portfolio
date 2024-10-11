@@ -53,7 +53,7 @@ Technical Skills: Excel, Python, SQL, Microsoft Azure, Tableau, Power BI, Micros
    comprehensive reports for the Category Manager, facilitating informed
    strategic decisions and enhancing commercial applications.
 
-![Quantium](/assets/img/Quantium.png)
+[Quantium](/assets/img/Quantium.png)
 
 
 **PwC Switzerland Power BI Job Simulation on Forage - September 2024**
