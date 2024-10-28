@@ -146,9 +146,9 @@ Simulation on Forage - October 2024**
    making
 
 ![Tata-dashboard](/assets/img/Tata-dashboard.png)
-
 <a href="https://public.tableau.com/views/TATATask3-CreatingEffectiveVisuals/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Dashboard Visualization Tableau Public</a>
     
+
 
 **BCG GenAI Job Simulation on Forage - October 2024**
 
