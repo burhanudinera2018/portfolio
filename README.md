@@ -149,8 +149,8 @@ Simulation on Forage - October 2024**
 
 <a href="https://public.tableau.com/views/TATATask3-CreatingEffectiveVisuals/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Dashboard Visualization Tableau Public</a>
     
-**BCG GenAI Job Simulation on Forage - October 2024**
 
+**BCG GenAI Job Simulation on Forage - October 2024**
 
  * Completed a job simulation involving AI-powered financial chatbot development
    for BCG's GenAI Consulting team.
