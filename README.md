@@ -27,6 +27,7 @@ Technical Skills: Excel, Python, SQL, Microsoft Azure, Tableau, Power BI, Micros
 - BCG Data Science Job Simulation on Forage Job Simulation Virtual Intership Project 5!
 - Tata Data Visualisation: Empowering Business with Effective Insights Job
 Simulation Virtual Intership Project 6!
+- Develop a chatbot to assist with financial inquiries with the GenAI team at BCG Simulation Virtual Intership Project 7!
   
 #### Architecture System @ PUSINTEK - Kementrian Keuangan Republik Indonesia
 - Reengineering Application IT System PUSINTEK
@@ -148,3 +149,13 @@ Simulation on Forage - October 2024**
 
 <a href="https://public.tableau.com/views/TATATask3-CreatingEffectiveVisuals/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Dashboard Visualization Tableau Public</a>
     
+**BCG GenAI Job Simulation on Forage - October 2024**
+
+
+ * Completed a job simulation involving AI-powered financial chatbot development
+   for BCG's GenAI Consulting team.
+ * Gained experience in Python programming, including the use of libraries such
+   as pandas for data manipulation.
+ * Integrated and interpreted complex financial data from 10-K and 10-Q reports,
+   employing rule-based logic to create a chatbot that provides user-friendly
+   financial insights and analysis.
