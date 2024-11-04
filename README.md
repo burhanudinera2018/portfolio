@@ -1,7 +1,7 @@
 
 
 # Data Analysis
-Technical Skills: Excel, Python, SQL, Microsoft Azure, Tableau, Power BI, Microservice, Project Management
+Technical Skills: Excel, Python, SQL, Data Modeling, Microsoft Azure, Tableau, Power BI, Microservice, Project Management
 
 
 ## Link Social Media
