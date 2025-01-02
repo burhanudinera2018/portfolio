@@ -123,6 +123,8 @@ October 2024**
 
    ![corrMatrix](/assets/img/corrMatrix.png)
 
+   
+
 **British Airways Data Science Job Simulation on Forage - October 2024**
   
  ![Review](/assets/img/Review.png)
@@ -134,6 +136,8 @@ October 2024**
    behaviour
 
  ![Buying Berhavior](/assets/img/Buying Behavior.png)
+
+ 
 
 **Tata Data Visualisation: Empowering Business with Effective Insights Job
 Simulation on Forage - October 2024**
@@ -159,3 +163,30 @@ Simulation on Forage - October 2024**
  * Integrated and interpreted complex financial data from 10-K and 10-Q reports,
    employing rule-based logic to create a chatbot that provides user-friendly
    financial insights and analysis.
+
+
+
+**Standard Bank Data Science Job Simulation - Desember 2024**
+
+Standard Bank is embracing the digital transformation wave and intends to use new and exciting technologies to give their customers a complete set of services from the convenience of their mobile devices.
+
+As Africa’s biggest lender by assets, the bank aims to improve the current process in which potential borrowers apply for a home loan. The current process involves loan officers having to manually process home loan applications. This process takes 2 to 3 days to process, upon which the applicant will receive communication on whether or not they have been granted the loan for the requested amount.
+
+To improve the process, Standard Bank wants to make use of machine learning to assess the creditworthiness of an applicant by implementing a model that will predict if the potential borrower will default on his/her loan or not, and do this such that they receive a response immediately after completing their application.
+
+Here we will be required to follow the data science lifecycle to fulfil the objective. The data science lifecycle includes the following:
+
+- Business Understanding
+
+- Data Understanding
+
+- Data Preparation
+
+- Modeling
+
+- Evaluation
+
+- Deployment.
+
+  <img width="841" alt="Screen Shot 2025-01-01 at 19 30 32" src="https://github.com/user-attachments/assets/cfb15d3b-ce50-4432-a0fb-948ebcd17b5e" />
+
