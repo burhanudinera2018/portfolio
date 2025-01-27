@@ -191,3 +191,8 @@ Here we will be required to follow the data science lifecycle to fulfil the obje
   <img width="603" alt="Screen Shot 2025-01-27 at 09 20 53" src="https://github.com/user-attachments/assets/80cddb52-566b-4317-a5c9-3debc379c9c8" />
 
 
+**Deloitte Australia Data Analytics Job Simulation on Forage - January 2025**
+
+- Completed a Deloitte job simulation involving data analysis and forensic technology 
+- Created a data dashboard using Tableau 
+- Used Excel to classify data and draw business conclusions
