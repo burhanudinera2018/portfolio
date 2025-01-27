@@ -188,5 +188,6 @@ Here we will be required to follow the data science lifecycle to fulfil the obje
 
 - Deployment.
 
-  <img width="841" alt="Screen Shot 2025-01-01 at 19 30 32" src="https://github.com/user-attachments/assets/cfb15d3b-ce50-4432-a0fb-948ebcd17b5e" />
+  <img width="603" alt="Screen Shot 2025-01-27 at 09 20 53" src="https://github.com/user-attachments/assets/80cddb52-566b-4317-a5c9-3debc379c9c8" />
+
 
