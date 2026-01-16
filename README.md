@@ -44,7 +44,7 @@ Simulation Virtual Intership Project 6!
 
 ### Project
 
-**Quantium Data Analytics Job Simulation on Forage - September 2024**
+**1. Quantium Data Analytics Job Simulation on Forage - September 2024**
  * Completed a job simulation focused on Data Analytics and Commercial Insights
    for the data science team.
  * Developed expertise in data preparation and customer analytics, utilizing
@@ -60,7 +60,7 @@ Simulation Virtual Intership Project 6!
     ![Quantium](/assets/img/Quantium.png)
 
 
-**PwC Switzerland Power BI Job Simulation on Forage - September 2024**
+**2. PwC Switzerland Power BI Job Simulation on Forage - September 2024**
 
 
  * Completed a job simulation where I strengthened my PowerBI skills to better
@@ -79,7 +79,7 @@ Simulation Virtual Intership Project 6!
 ![Pwc](/assets/img/Pwc.png)
  
 
-**Accenture North America Data Analytics and Visualization Job Simulation on
+**3. Accenture North America Data Analytics and Visualization Job Simulation on
 Forage - September 2024**
 
 
@@ -93,7 +93,7 @@ Forage - September 2024**
    ![WordCount](/assets/img/WordCount.png)
 
 
-**Commonwealth Bank Introduction to Data Science Job Simulation on Forage -
+**4. Commonwealth Bank Introduction to Data Science Job Simulation on Forage -
 October 2024**
 
 
@@ -109,7 +109,7 @@ October 2024**
    efficient information management.
 
 
-**BCG Data Science Job Simulation on Forage - October 2024**
+**5. BCG Data Science Job Simulation on Forage - October 2024**
 
  * Completed a customer churn analysis simulation for XYZ Analytics,
    demonstrating advanced data analytics skills, identifying essential client
@@ -125,7 +125,7 @@ October 2024**
 
    
 
-**British Airways Data Science Job Simulation on Forage - October 2024**
+**6. British Airways Data Science Job Simulation on Forage - October 2024**
   
  ![Review](/assets/img/Review.png)
 
@@ -139,7 +139,7 @@ October 2024**
 
  
 
-**Tata Data Visualisation: Empowering Business with Effective Insights Job
+**7. Tata Data Visualisation: Empowering Business with Effective Insights Job
 Simulation on Forage - October 2024**
 
 
@@ -154,7 +154,7 @@ Simulation on Forage - October 2024**
     
 
 
-**BCG GenAI Job Simulation on Forage - October 2024**
+**8. BCG GenAI Job Simulation on Forage - October 2024**
 
  * Completed a job simulation involving AI-powered financial chatbot development
    for BCG's GenAI Consulting team.
@@ -166,7 +166,7 @@ Simulation on Forage - October 2024**
 
 
 
-**Standard Bank Data Science Job Simulation - Desember 2024**
+**9. Standard Bank Data Science Job Simulation - Desember 2024**
 
 Standard Bank is embracing the digital transformation wave and intends to use new and exciting technologies to give their customers a complete set of services from the convenience of their mobile devices.
 
@@ -191,8 +191,70 @@ Here we will be required to follow the data science lifecycle to fulfil the obje
   <img width="603" alt="Screen Shot 2025-01-27 at 09 20 53" src="https://github.com/user-attachments/assets/80cddb52-566b-4317-a5c9-3debc379c9c8" />
 
 
-**Deloitte Australia Data Analytics Job Simulation on Forage - January 2025**
+**10. Deloitte Australia Data Analytics Job Simulation on Forage - January 2025**
 
 - Completed a Deloitte job simulation involving data analysis and forensic technology 
 - Created a data dashboard using Tableau 
 - Used Excel to classify data and draw business conclusions
+
+**11. Sistem Management Aset Sawah dengan RBAC Microservices Architecture**
+
+## **Overview Proyek**
+Sistem Management Aset Sawah adalah aplikasi enterprise yang dibangun dengan arsitektur **microservices** untuk mengelola aset pertanian sawah secara efisien dan aman. Sistem ini mengimplementasikan **Role-Based Access Control (RBAC)** untuk mengatur hak akses pengguna berdasarkan peran mereka dalam organisasi.
+
+---
+
+## **Latar Belakang dan Tujuan**
+
+### **Masalah yang Dipecahkan:**
+1. **Manajemen aset sawah** yang masih manual dan terfragmentasi
+2. **Kesulitan tracking** penyewaan alat pertanian
+3. **Tidak adanya kontrol akses** yang terstruktur
+4. **Harga sewa yang tidak terstandarisasi**
+5. **Transaksi yang tidak tercatat dengan baik**
+
+### **Tujuan Pengembangan:**
+- Membangun sistem terintegrasi untuk manajemen aset pertanian
+- Menerapkan keamanan akses berbasis peran (RBAC)
+- Mengadopsi arsitektur microservices untuk skalabilitas
+- Menyediakan dashboard real-time untuk monitoring
+- Mengotomatisasi proses penyewaan dan pembayaran
+
+---
+
+## **Arsitektur Teknis**
+
+### **Microservices Architecture:**
+
+![Architecture](/assets/img/Architecture.png)
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    API GATEWAY (Port 5000)                  │
+└────────────────┬────────────────┬───────────────────────────┘
+                 │                │
+    ┌────────────▼──────┐ ┌─────-─▼──────────-──┐
+    │  AUTH SERVICE     │ │  MANAGEMENT         │
+    │  Port 5004        │ │  SERVICE            │
+    │  • Authentication │ │  Port 5002          │
+    │  • Authorization  │ │  • Asset Management │
+    │  • RBAC           │ │  • Tenant Management│
+    │  • User Management│ │  • Transaction      │
+    └───────────────────┘ └────────────────--───┘
+                 │                │
+    ┌────────────▼────────────────▼────────────┐
+    │          DATABASE LAYER                  │
+    │          PostgreSQL Cluster              │
+    │          • auth_db                       │
+    │          • management_db                 │
+    │          • price_db                      │
+    └───────────────────┬──────────────────────┘
+                        │
+            ┌───────────▼──────────┐
+            │   PRICE SERVICE      │
+            │   Port 5003          │
+            │   • Price Reference  │
+            │   • Price History    │
+            └──────────────────────┘
+```
+
+---
