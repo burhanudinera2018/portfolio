@@ -42,10 +42,10 @@ Simulation Virtual Intership Project 6!
 - Head Account mobile service (PO Rosalia Indah)
 - B2B Indosat Head Account
   
----
+
 ---
 ### Project
-
+---
 **1. Quantium Data Analytics Job Simulation on Forage - September 2024**
  * Completed a job simulation focused on Data Analytics and Commercial Insights
    for the data science team.
@@ -280,3 +280,27 @@ Dibuat sebuah mini portfolio project chatbot berbasis AI dengan use case dan kon
 
 ![Running Chatboat LLM Chatbot](/assets/img/run-steramlit-3.png)
 
+---
+
+**13. Implementing Gemini AI in Chatbot**
+
+In this session project, we will build a simple web-based chatbot that can:
+- Accept text input from the user (via a browser)
+- Send that message to a server (Node.js)
+- Ask Gemini AI to generate a relevant response
+- Display the AI-generated message back to the user in real-time
+
+![Schema Chat API](/assets/img/schema-chat-api.png)
+
+> This is not a hardcoded bot — it will generate smart replies dynamically, powered by Google’s Gemini 1.5 Flash model.
+
+The integration process typically involves three main steps:
+
+1. Capturing user input on the frontend.
+2. Sending the input to a backend service.
+3. Using the AI model to generate and return a response.
+
+![Workflow](/assets/img/workflow.png)
+
+---
+  
