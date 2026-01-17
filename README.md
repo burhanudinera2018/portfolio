@@ -41,7 +41,9 @@ Simulation Virtual Intership Project 6!
 - Head Account mobile ervice (Bank BNI Tbk)
 - Head Account mobile service (PO Rosalia Indah)
 - B2B Indosat Head Account
-
+  
+---
+---
 ### Project
 
 **1. Quantium Data Analytics Job Simulation on Forage - September 2024**
@@ -59,6 +61,7 @@ Simulation Virtual Intership Project 6!
 
     ![Quantium](/assets/img/Quantium.png)
 
+---
 
 **2. PwC Switzerland Power BI Job Simulation on Forage - September 2024**
 
@@ -78,6 +81,7 @@ Simulation Virtual Intership Project 6!
 
 ![Pwc](/assets/img/Pwc.png)
  
+---
 
 **3. Accenture North America Data Analytics and Visualization Job Simulation on
 Forage - September 2024**
@@ -92,7 +96,7 @@ Forage - September 2024**
     
    ![WordCount](/assets/img/WordCount.png)
 
-
+---
 **4. Commonwealth Bank Introduction to Data Science Job Simulation on Forage -
 October 2024**
 
@@ -108,6 +112,7 @@ October 2024**
    media, and demonstrated the ability to design well-structured databases for
    efficient information management.
 
+---
 
 **5. BCG Data Science Job Simulation on Forage - October 2024**
 
@@ -123,7 +128,7 @@ October 2024**
 
    ![corrMatrix](/assets/img/corrMatrix.png)
 
-   
+ ---  
 
 **6. British Airways Data Science Job Simulation on Forage - October 2024**
   
@@ -137,7 +142,7 @@ October 2024**
 
  ![Buying Berhavior](/assets/img/Buying Behavior.png)
 
- 
+ ---
 
 **7. Tata Data Visualisation: Empowering Business with Effective Insights Job
 Simulation on Forage - October 2024**
@@ -152,7 +157,7 @@ Simulation on Forage - October 2024**
 ![Tata-dashboard](/assets/img/Tata-dashboard.png)
 <a href="https://public.tableau.com/views/TATATask3-CreatingEffectiveVisuals/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Dashboard Visualization Tableau Public</a>
     
-
+---
 
 **8. BCG GenAI Job Simulation on Forage - October 2024**
 
@@ -164,7 +169,7 @@ Simulation on Forage - October 2024**
    employing rule-based logic to create a chatbot that provides user-friendly
    financial insights and analysis.
 
-
+---
 
 **9. Standard Bank Data Science Job Simulation - Desember 2024**
 
@@ -189,7 +194,8 @@ Here we will be required to follow the data science lifecycle to fulfil the obje
 - Deployment.
 
   <img width="603" alt="Screen Shot 2025-01-27 at 09 20 53" src="https://github.com/user-attachments/assets/80cddb52-566b-4317-a5c9-3debc379c9c8" />
-
+  
+---
 
 **10. Deloitte Australia Data Analytics Job Simulation on Forage - January 2025**
 
@@ -197,6 +203,7 @@ Here we will be required to follow the data science lifecycle to fulfil the obje
 - Created a data dashboard using Tableau 
 - Used Excel to classify data and draw business conclusions
 
+---
 **11. Sistem Management Aset Sawah dengan RBAC Microservices Architecture**
 
 ## **Overview Proyek**
@@ -258,3 +265,18 @@ Sistem Management Aset Sawah adalah aplikasi enterprise yang dibangun dengan ars
 ```
 
 ---
+**12. Chatbot AI Modern Menggunakan LangChain dan Streamlit**
+
+Dibuat sebuah mini portfolio project chatbot berbasis AI dengan use case dan konfigurasi parameter yang sesuai dengan kreativitas masing-masing. Chatbot harus menggunakan model AI (misalnya NLP/LLM) untuk memproses bahasa alami dan memberikan respon yang relevan kepada pengguna.
+
+- Contoh  use  case:  customer  service  bot,  education  bot, travel assistant, personal productivity assistant, dll.
+- Contoh  parameter  kreatif:  gaya  bahasa  (formal/santai), domain  pengetahuan  tertentu  (misalnya  kesehatan, edukasi, hobi), integrasi API eksternal, atau fitur tambahan seperti memory dan rekomendasi.
+
+![Konfigurasi System LLM Chatbot](/assets/img/LLM-Project-1.png)
+
+## Deliverables: 
+- URL repositori [GitHub](https://github.com/burhanudinera2018/AI-Chatbot-with-GPT-4o)
+- Screenshoots User Interface
+
+![Running Chatboat LLM Chatbot](/assets/img/run_steramlit_3.png)
+
