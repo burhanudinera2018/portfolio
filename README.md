@@ -5,16 +5,19 @@ Technical Skills: Excel, Python, SQL, Data Modeling, Microsoft Azure, Tableau, P
 
 
 ## Link Social Media
+<!-- LinkedIn -->
 <a href="https://www.linkedin.com/in/burhanudin-badiuzaman4a9204161/" target="_blank">
-  <img src="https://i.sstatic.net/gVE0j.png" alt="LinkedIn" width="24" style="vertical-align: middle;" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="24" style="vertical-align: middle;" />
 </a>
 &nbsp;
+<!-- GitHub -->
 <a href="https://github.com/burhanudinera2018" target="_blank">
-  <img src="https://i.sstatic.net/tsKMh.png" alt="GitHub" width="24" style="vertical-align: middle;" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" width="24" style="vertical-align: middle;" />
 </a>
 &nbsp;
+<!-- Coursera -->
 <a href="https://www.coursera.org/curso/b4c17c704eb4eaf802fbd655231fecac2" target="_blank">
-  <img src="/assets/img/coursera.png" alt="Coursera" width="24" style="vertical-align: middle;" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/coursera.svg" alt="Coursera" width="24" style="vertical-align: middle;" />
 </a>
 
 
