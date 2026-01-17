@@ -284,7 +284,7 @@ Dibuat sebuah mini portfolio project chatbot berbasis AI dengan use case dan kon
 - URL repositori [GitHub](https://github.com/burhanudinera2018/AI-Chatbot-with-GPT-4o)
 - Screenshoots User Interface
 
-![Running Chatboat LLM Chatbot](/assets/img/run-steramlit-3.png)
+![Running Chatboat LLM Chatbot](/assets/img/run-streamlit-3.png)
 
 ---
 
