@@ -209,8 +209,6 @@ Here we will be required to follow the data science lifecycle to fulfil the obje
 ## **Overview Proyek**
 Sistem Management Aset Sawah adalah aplikasi enterprise yang dibangun dengan arsitektur **microservices** untuk mengelola aset pertanian sawah secara efisien dan aman. Sistem ini mengimplementasikan **Role-Based Access Control (RBAC)** untuk mengatur hak akses pengguna berdasarkan peran mereka dalam organisasi.
 
----
-
 ## **Latar Belakang dan Tujuan**
 
 ### **Masalah yang Dipecahkan:**
@@ -226,8 +224,6 @@ Sistem Management Aset Sawah adalah aplikasi enterprise yang dibangun dengan ars
 - Mengadopsi arsitektur microservices untuk skalabilitas
 - Menyediakan dashboard real-time untuk monitoring
 - Mengotomatisasi proses penyewaan dan pembayaran
-
----
 
 ## **Arsitektur Teknis**
 
@@ -263,7 +259,8 @@ Sistem Management Aset Sawah adalah aplikasi enterprise yang dibangun dengan ars
             │   • Price History    │
             └──────────────────────┘
 ```
-
+## Deliverables: 
+- URL repositori [GitHub]([https://github.com/burhanudinera2018/AI-Chatbot-with-GPT-4o](https://github.com/burhanudinera2018/microservice_management_aset_v2)
 ---
 **12. Chatbot AI Modern Menggunakan LangChain dan Streamlit**
 
@@ -302,5 +299,7 @@ The integration process typically involves three main steps:
 
 ![Workflow](/assets/img/workflow.png)
 
+## Deliverables: 
+- URL repositori [GitHub](https://github.com/burhanudinera2018/gemini-chat-api)
 ---
   
