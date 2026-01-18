@@ -16,7 +16,7 @@ Technical Skills: Excel, Python, SQL, Data Modeling, Microsoft Azure, Tableau, P
 </a>
 &nbsp;
 <!-- Coursera -->
-<a href="https://www.coursera.org/curso/b4c17c704eb4eaf802fbd655231fecac2" target="_blank">
+<a href="https://www.coursera.org/learner/burhanudin-badiuzaman-1477" target="_blank">
   <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/coursera.svg" alt="Coursera" width="24" style="vertical-align: middle;" />
 </a>
 
