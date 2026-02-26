@@ -254,7 +254,7 @@ Proyek ini berhasil menyelesaikan analisis data telemetri dari 4 pabrik Daikibo 
 > "Berdasarkan data telemetri Mei 2021, pabrik Daikibo Seiko di Osaka mengalami waktu henti tertinggi dengan total 412 menit. Mesin LaserWelder menjadi penyumbang terbesar dengan 156 menit downtime, kemungkinan disebabkan oleh keausan komponen optik atau kalibrasi yang tidak tepat. Direkomendasikan untuk melakukan maintenance preventif setiap minggu pada mesin LaserWelder dan menyiapkan spare part cadangan untuk meminimalkan downtime produksi."
 
 ## Deliverables: 
--  🔗 URL repositori [GitHub](https://github.com/burhanudinera2018/data-analyst-local)
+-  🔗 URL repositori [GitHub](https://github.com/burhanudinera2018/Deloitte-Data-Analyst)
 - 
 ---
 ---
