@@ -177,14 +177,78 @@ Simulation on Forage - October 2024**
 
 **8. BCG GenAI Job Simulation on Forage - October 2024**
 
- * Completed a job simulation involving AI-powered financial chatbot development
-   for BCG's GenAI Consulting team.
- * Gained experience in Python programming, including the use of libraries such
-   as pandas for data manipulation.
- * Integrated and interpreted complex financial data from 10-K and 10-Q reports,
-   employing rule-based logic to create a chatbot that provides user-friendly
-   financial insights and analysis.
+![Schema Chat API](/assets/img/GenAI_11.png)
 
+## 📋 **Ringkasan Eksekutif**
+
+Proyek ini mengembangkan **chatbot AI interaktif** untuk Global Finance Corp (GFC) yang mampu menganalisis data keuangan dan memberikan wawasan secara real-time. Menggabungkan kekuatan **rule-based logic** untuk query spesifik dan **Local Large Language Model (Ollama)** untuk pertanyaan umum, chatbot ini menjembatani kesenjangan antara data keuangan kompleks dengan pemahaman pengguna.
+
+## 🎯 **Latar Belakang & Tantangan**
+
+Global Finance Corp (GFC) memiliki dataset keuangan yang kaya namun pengguna non-teknis kesulitan mengakses wawasan di dalamnya. Dibutuhkan solusi yang dapat:
+
+1. **Menyederhanakan data kompleks** menjadi bahasa sehari-hari
+2. **Menjawab pertanyaan spesifik** tentang metrik keuangan
+3. **Memberikan konteks dan analisis** bukan sekadar angka mentah
+4. **Beroperasi dengan privasi** - semua data tetap di lokal
+
+## 🎯 **Latar Belakang & Tantangan**
+
+Global Finance Corp (GFC) memiliki dataset keuangan yang kaya namun pengguna non-teknis kesulitan mengakses wawasan di dalamnya. Dibutuhkan solusi yang dapat:
+
+1. **Menyederhanakan data kompleks** menjadi bahasa sehari-hari
+2. **Menjawab pertanyaan spesifik** tentang metrik keuangan
+3. **Memberikan konteks dan analisis** bukan sekadar angka mentah
+4. **Beroperasi dengan privasi** - semua data tetap di lokal
+
+---
+
+## 🏗️ **Arsitektur Solusi**
+
+### **Komponen Utama:**
+
+```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│   User Input    │────▶│  Pattern Match  │────▶│ Rule-based Resp │
+│  (Streamlit UI) │     │                 │     │  (Predefined)   │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+         │                       │                        │
+         │                       ▼                        │
+         │              ┌─────────────────┐               │
+         └─────────────▶│   Ollama LLM    │◀──────────────┘
+                        │  (Mistral/Llama)│
+                        └─────────────────┘
+                               │
+                               ▼
+                        ┌─────────────────┐
+                        │  Financial Data │
+                        │    (JSON/CSV)   │
+                        └─────────────────┘
+```
+### **Teknologi yang Digunakan:**
+- **Frontend**: Streamlit (Python-based web framework)
+- **Backend Logic**: Python dengan pattern matching
+- **LLM Integration**: Ollama dengan model Mistral/Llama2
+- **Data Processing**: Pandas, NumPy
+- **Visualisasi**: Plotly untuk charts interaktif
+
+---
+
+## 📈 **Dampak Bisnis**
+
+### **Untuk GFC:**
+1. **Efisiensi Analisis**: Pengguna non-teknis bisa langsung mengakses data
+2. **Pengambilan Keputusan Lebih Cepat**: Wawasan tersedia 24/7
+3. **Edukasi Karyawan**: Memahami metrik keuangan jadi lebih mudah
+4. **Self-Service Analytics**: Mengurangi ketergantungan pada tim data
+
+### **Untuk Tim Data:**
+1. **Fokus pada Analisis Kompleks**: Query rutin di-handle chatbot
+2. **Demokratisasi Data**: Semua orang bisa mengakses insights
+3. **Feedback Loop**: Pertanyaan user menunjukkan insight apa yang paling dicari
+
+## Deliverables: 
+-  🔗 URL repositori [GitHub](https://github.com/burhanudinera2018/GFC-Financial-Chatbot)
 ---
 ---
 
@@ -255,7 +319,6 @@ Proyek ini berhasil menyelesaikan analisis data telemetri dari 4 pabrik Daikibo 
 
 ## Deliverables: 
 -  🔗 URL repositori [GitHub](https://github.com/burhanudinera2018/Deloitte-Data-Analyst)
-- 
 ---
 ---
 **11. Sistem Management Aset Sawah dengan RBAC Microservices Architecture**
