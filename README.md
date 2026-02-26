@@ -316,7 +316,7 @@ The integration process typically involves three main steps:
 
 **14. AI-Powered Data Analytics Platform**
 
-![Schema Chat API](/assets/img/schema-chat-api.png)
+![Schema Chat API](/assets/img/lab_gemini_cli_15.png)
 
 ## 📋 Ringkasan Eksekutif
 
