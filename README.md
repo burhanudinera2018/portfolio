@@ -55,7 +55,7 @@ Simulation Virtual Intership Project 6!
 ---
 ### Project
 ---
-**1. Quantium Data Analytics Job Simulation on Forage - September 2024**
+<font color=red>**1. Quantium Data Analytics Job Simulation on Forage - September 2024**</font>
  * Completed a job simulation focused on Data Analytics and Commercial Insights
    for the data science team.
  * Developed expertise in data preparation and customer analytics, utilizing
