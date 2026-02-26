@@ -378,5 +378,5 @@ Platform ini tidak hanya menjadi showcase kemampuan teknis dalam data engineerin
 *"Memberikan kekuatan AI untuk analitik data, tanpa mengorbankan privasi dan kontrol atas data Anda."*
 
 ## Deliverables: 
--  🔗 URL repositori [Gitgub](https://github.com/burhanudinera2018/data-analyst-local)
+-  🔗 URL repositori [GitHub](https://github.com/burhanudinera2018/data-analyst-local)
 ---
