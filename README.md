@@ -215,12 +215,47 @@ Here we will be required to follow the data science lifecycle to fulfil the obje
 ---
 ---
 
-**10. Deloitte Australia Data Analytics Job Simulation on Forage - January 2025**
+**10. 📊 Deloitte Australia Data Analytics Job Simulation "Analisis Data Telemetri dengan LLM Lokal & Streamlit - January 2025**
 
-- Completed a Deloitte job simulation involving data analysis and forensic technology 
-- Created a data dashboard using Tableau 
-- Used Excel to classify data and draw business conclusions
+![Schema Chat API](/assets/img/deloitte_1.png)
 
+## 🎯 **Ringkasan Eksekutif**
+
+Proyek ini berhasil menyelesaikan analisis data telemetri dari 4 pabrik Daikibo selama periode Mei 2021 dengan mengintegrasikan **Local LLM (Ollama)** dan **Streamlit** untuk membuat dashboard interaktif. Tujuan utama adalah mengidentifikasi lokasi pabrik dengan tingkat kerusakan mesin tertinggi serta jenis mesin paling bermasalah di lokasi tersebut.
+
+## 🏗️ **Arsitektur Solusi**
+
+### **Stack Teknologi yang Digunakan:**
+- **Python 3.11** - Base programming language
+- **Streamlit** - Framework untuk dashboard interaktif
+- **Ollama** - Local LLM runner (Mistral 7B & Llama2)
+- **Pandas** - Data processing dan analisis
+- **Plotly** - Visualisasi interaktif
+- **REST API** - Komunikasi dengan Ollama
+
+## 📊 **Hasil Analisis**
+
+### **Temuan Utama:**
+
+1. **Pabrik dengan Kerusakan Tertinggi:**
+   - Berdasarkan chart pertama, dapat diidentifikasi pabrik dengan bar tertinggi
+   - Total downtime dalam menit selama periode analisis
+
+2. **Mesin Paling Bermasalah:**
+   - Setelah memfilter pabrik terburuk, chart kedua menunjukkan jenis mesin dengan downtime tertinggi
+   - Identifikasi 2-3 mesin kritis untuk prioritas maintenance
+
+3. **Pattern Kerusakan:**
+   - Distribusi kerusakan antar pabrik
+   - Konsentrasi masalah pada jenis mesin tertentu
+   - Potensi root cause (berdasarkan analisis LLM)
+
+### **Contoh Insight dari LLM (Mistral):**
+> "Berdasarkan data telemetri Mei 2021, pabrik Daikibo Seiko di Osaka mengalami waktu henti tertinggi dengan total 412 menit. Mesin LaserWelder menjadi penyumbang terbesar dengan 156 menit downtime, kemungkinan disebabkan oleh keausan komponen optik atau kalibrasi yang tidak tepat. Direkomendasikan untuk melakukan maintenance preventif setiap minggu pada mesin LaserWelder dan menyiapkan spare part cadangan untuk meminimalkan downtime produksi."
+
+## Deliverables: 
+-  🔗 URL repositori [GitHub](https://github.com/burhanudinera2018/data-analyst-local)
+- 
 ---
 ---
 **11. Sistem Management Aset Sawah dengan RBAC Microservices Architecture**
