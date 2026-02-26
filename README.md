@@ -306,9 +306,64 @@ The integration process typically involves three main steps:
 2. Sending the input to a backend service.
 3. Using the AI model to generate and return a response.
 
+
 ![Workflow](/assets/img/workflow.png)
 
 ## Deliverables: 
 - URL repositori [GitHub](https://github.com/burhanudinera2018/gemini-chat-api)
+
 ---
-  
+
+**14. AI-Powered Data Analytics Platform**
+
+![Schema Chat API](/assets/img/schema-chat-api.png)
+
+## 📋 Ringkasan Eksekutif
+
+Saya telah berhasil mengembangkan **platform analitik data end-to-end berbasis AI** yang berjalan sepenuhnya di lingkungan lokal (local-first), menggabungkan kekuatan database relasional, analitik Python, dan Large Language Model (LLM) untuk menciptakan solusi data yang modern, privat, dan mandiri.
+
+## 🎯 Latar Belakang & Tantangan
+
+Dalam era di mana data menjadi aset paling berharga, organisasi menghadapi dilema: memanfaatkan kekuatan AI untuk analitik data namun tetap menjaga privasi dan keamanan data. Platform berbasis cloud menawarkan kemudahan tetapi membawa risiko kebocoran data dan ketergantungan pada koneksi internet.
+
+**Tantangan yang saya identifikasi:**
+- Kebutuhan akan analitik data yang powerful namun tetap privat
+- Keinginan untuk memanfaatkan AI tanpa mengirim data sensitif ke cloud
+- Perlunya platform yang dapat dijalankan di lingkungan terbatas/offline
+- Tuntutan untuk memiliki solusi yang reproducible dan portable
+
+## 🏗️ Arsitektur Solusi
+
+Saya merancang **Data Analyst Local Stack**, sebuah platform terintegrasi dengan komponen:
+
+### 1. **Database Layer: PostgreSQL**
+- Penyimpanan data terstruktur dengan performa tinggi
+- Schema design untuk berbagai kebutuhan analitik
+- Optimasi query untuk data dalam jumlah besar
+
+### 2. **Analytics Engine: Python Stack**
+- **Pandas & NumPy**: Manipulasi dan analisis data eksploratori
+- **Jupyter Notebooks**: Environment interaktif untuk eksperimen dan visualisasi
+- **Scikit-learn & Statsmodels**: Machine learning dan analisis statistik
+- **Prophet**: Time series forecasting untuk prediksi penjualan
+
+### 3. **AI Assistant Layer: Local LLM dengan Ollama**
+- Integrasi **Gemma2/Mistral** yang berjalan 100% lokal
+- Kemampuan natural language query ke data
+- Asisten cerdas untuk eksplorasi data tanpa coding
+
+### 4. **Visualization Layer: Streamlit + Plotly**
+- Dashboard interaktif real-time
+- Visualisasi dinamis dengan Plotly
+- Antarmuka user-friendly untuk eksplorasi data
+
+## 🏁 Kesimpulan
+
+Project **AI-Powered Data Analytics Platform** ini membuktikan bahwa kita dapat membangun solusi analitik data enterprise-grade yang powerful, modern, dan AI-enabled, namun tetap menjaga privasi dan kemandirian dengan berjalan sepenuhnya di lingkungan lokal.
+
+Platform ini tidak hanya menjadi showcase kemampuan teknis dalam data engineering, data science, dan AI integration, tetapi juga solusi praktis yang siap digunakan untuk kebutuhan analitik data nyata di berbagai organisasi.
+
+*"Memberikan kekuatan AI untuk analitik data, tanpa mengorbankan privasi dan kontrol atas data Anda."*
+
+🔗 [https://github.com/burhanudinera2018/data-analyst-local](https://github.com/burhanudinera2018/data-analyst-local)
+---
