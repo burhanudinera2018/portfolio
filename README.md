@@ -279,7 +279,7 @@ Sistem Management Aset Sawah adalah aplikasi enterprise yang dibangun dengan ars
             └──────────────────────┘
 ```
 ## Deliverables: 
-- URL repositori [GitHub]([https://github.com/burhanudinera2018/AI-Chatbot-with-GPT-4o](https://github.com/burhanudinera2018/microservice_management_aset_v2)
+-  🔗 URL repositori [GitHub](https://github.com/burhanudinera2018/microservice_management_aset_v2)
 ---
 **12. Chatbot AI Modern Menggunakan LangChain dan Streamlit**
 
@@ -291,7 +291,7 @@ Dibuat sebuah mini portfolio project chatbot berbasis AI dengan use case dan kon
 ![Konfigurasi System LLM Chatbot](/assets/img/LLM-Project-1.png)
 
 ## Deliverables: 
-- URL repositori [GitHub](https://github.com/burhanudinera2018/AI-Chatbot-with-GPT-4o)
+-  🔗 URL repositori [GitHub](https://github.com/burhanudinera2018/AI-Chatbot-with-GPT-4o)
 - Screenshoots User Interface
 
 ![Running Chatboat LLM Chatbot](/assets/img/run-streamlit-3.png)
@@ -321,7 +321,7 @@ The integration process typically involves three main steps:
 ![Workflow](/assets/img/workflow.png)
 
 ## Deliverables: 
-- URL repositori [GitHub](https://github.com/burhanudinera2018/gemini-chat-api)
+-  🔗 URL repositori [GitHub](https://github.com/burhanudinera2018/gemini-chat-api)
 
 ---
 ---
@@ -377,5 +377,6 @@ Platform ini tidak hanya menjadi showcase kemampuan teknis dalam data engineerin
 
 *"Memberikan kekuatan AI untuk analitik data, tanpa mengorbankan privasi dan kontrol atas data Anda."*
 
-🔗 [https://github.com/burhanudinera2018/data-analyst-local](https://github.com/burhanudinera2018/data-analyst-local)
+## Deliverables: 
+-  🔗 URL repositori [Gitgub](https://github.com/burhanudinera2018/data-analyst-local)
 ---
