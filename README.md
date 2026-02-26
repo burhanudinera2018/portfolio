@@ -177,7 +177,7 @@ Simulation on Forage - October 2024**
 
 **8. BCG GenAI Job Simulation on Forage - October 2024**
 
-![Schema Chat API](/assets/img/GenAI_11.png)
+![Schema Chat API](/assets/img/GenAI_1.png)
 
 ## 📋 **Ringkasan Eksekutif**
 
