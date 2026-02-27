@@ -154,7 +154,7 @@ October 2024**
  * Built a predictive model to understand factors that influence buying
    behaviour
 
- ![Buying Berhavior](/assets/img/Buying Behavior.png)
+ ![Schema Chat API](/assets/img/Buying Behavior.png)
 
  ---
  ---
@@ -176,7 +176,9 @@ Simulation on Forage - October 2024**
 ---
 
 **8.0. 📊 SEC Financial Data Scraper & Analyzer dengan Streamlit + Ollama, Job Simulation on Forage - October 2024**
+
 ![Schema Chat API](/assets/img/GenAI_web_scraping_1.png)
+
 ## 🎯 **Ringkasan Eksekutif**
 
 Proyek ini berhasil mengembangkan **aplikasi web scraping dan analisis data keuangan** yang terintegrasi dengan **Local LLM (Ollama)** untuk mengekstrak, menganalisis, dan menyajikan data laporan keuangan 10-K dari perusahaan publik (Apple, Microsoft, Tesla) yang tersedia di database SEC EDGAR. Aplikasi ini mengubah proses manual yang rumit menjadi otomatis, interaktif, dan dapat diakses oleh siapa saja.
