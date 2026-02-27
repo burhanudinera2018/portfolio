@@ -265,7 +265,7 @@ Menggunakan **pattern matching** dan **regular expressions** untuk mengekstrak m
 ---
 ---
 
-**8. BCG GenAI Job Simulation on Forage - October 2024**
+**8.1. BCG GenAI Job Simulation on Forage - October 2024**
 
 ![Schema Chat API](/assets/img/GenAI_1.png)
 
