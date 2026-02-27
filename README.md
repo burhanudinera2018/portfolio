@@ -171,7 +171,97 @@ Simulation on Forage - October 2024**
 
 ![Tata-dashboard](/assets/img/Tata-dashboard.png)
 <a href="https://public.tableau.com/views/TATATask3-CreatingEffectiveVisuals/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Dashboard Visualization Tableau Public</a>
-    
+---
+---
+**8.0. 📊 SEC Financial Data Scraper & Analyzer dengan Streamlit + Ollama, Job Simulation on Forage - October 2024**
+
+## 🎯 **Ringkasan Eksekutif**
+
+Proyek ini berhasil mengembangkan **aplikasi web scraping dan analisis data keuangan** yang terintegrasi dengan **Local LLM (Ollama)** untuk mengekstrak, menganalisis, dan menyajikan data laporan keuangan 10-K dari perusahaan publik (Apple, Microsoft, Tesla) yang tersedia di database SEC EDGAR. Aplikasi ini mengubah proses manual yang rumit menjadi otomatis, interaktif, dan dapat diakses oleh siapa saja.
+
+## 🏗️ **Arsitektur Solusi**
+
+### **Komponen Utama:**
+
+```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│   SEC EDGAR     │────▶│  Web Scraper    │────▶│  Data Extractor │
+│   Database      │     │  (requests+BS4) │     │  (Pattern Match)│
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+                                                          │
+                                                          ▼
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│   Streamlit     │◀────│  Data Processor │◀────│  JSON/CSV Data  │
+│   Dashboard     │     │  (Pandas)       │     │                 │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+         │
+         ▼
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│   Visualisasi   │     │  Ollama LLM     │     │  Export untuk   │
+│   (Plotly)      │     │  (Mistral)      │     │  Tugas 2 Chatbot│
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+```
+
+### **Teknologi yang Digunakan:**
+
+| Komponen | Teknologi | Versi | Fungsi |
+|----------|-----------|-------|--------|
+| **Backend** | Python | 3.11 | Base language |
+| **Web Scraping** | Requests + BeautifulSoup | 2.31.0 / 4.12.2 | Mengambil data dari SEC EDGAR |
+| **Data Processing** | Pandas + NumPy | 2.0.3 / 1.24.3 | Membersihkan dan menganalisis data |
+| **Dashboard** | Streamlit | 1.28.1 | Framework web interaktif |
+| **Visualisasi** | Plotly | 5.15.0 | Charts interaktif |
+| **AI Integration** | Ollama + Mistral | - | Local LLM untuk analisis |
+| **Data Format** | JSON / CSV | - | Export untuk Tugas 2 |
+---
+## ✨ **Fitur-Fitur Unggulan**
+
+### **1. Web Scraping Otomatis dari SEC EDGAR**
+
+Aplikasi dapat secara otomatis mengambil laporan 10-K dari database SEC EDGAR untuk tiga perusahaan:
+
+| Ticker | Perusahaan | Sektor |
+|--------|------------|--------|
+| **AAPL** | Apple Inc. | Teknologi |
+| **MSFT** | Microsoft Corporation | Teknologi |
+| **TSLA** | Tesla, Inc. | Otomotif |
+
+### **2. Ekstraksi Data Keuangan Cerdas**
+
+Menggunakan **pattern matching** dan **regular expressions** untuk mengekstrak metrik keuangan kunci:
+
+| Metrik | Deskripsi | Sumber di 10-K |
+|--------|-----------|----------------|
+| **Revenue** | Total pendapatan | Income Statement |
+| **Net Income** | Laba bersih | Income Statement |
+| **Total Assets** | Total aset | Balance Sheet |
+| **Total Liabilities** | Total kewajiban | Balance Sheet |
+| **Cash & Equivalents** | Kas dan setara kas | Balance Sheet |
+| **Operating Income** | Laba operasi | Income Statement |
+| **Gross Profit** | Laba kotor | Income Statement |
+
+**Keunggulan:**
+- ✅ Mendukung berbagai format angka (ribuan, jutaan, miliaran)
+- ✅ Menangani variasi penulisan (e.g., "revenue", "sales", "total revenue")
+- ✅ Ekstraksi akurat dengan validasi
+---
+## 🚀 **Dampak dan Manfaat**
+
+### **Untuk Tim Data Analyst:**
+1. **Efisiensi Waktu**: Proses manual 3 hari jadi 10 menit
+2. **Akurasi Data**: Minimal human error dalam ekstraksi
+3. **Reproducible**: Kode bisa dijalankan kapan saja
+4. **Scalable**: Bisa tambah perusahaan/tahun dengan mudah
+
+### **Untuk Stakeholder/Manajemen:**
+1. **Real-time Insights**: Data selalu up-to-date
+2. **Visualisasi Jelas**: Memudahkan presentasi
+3. **Decision Support**: Analisis otomatis membantu keputusan
+4. **Self-Service**: Tim non-teknis bisa akses data
+---
+## Deliverables: 
+-  🔗 URL repositori [GitHub](https://github.com/burhanudinera2018/SEC-Financial-Scraper)
+
 ---
 ---
 
