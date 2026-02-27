@@ -154,8 +154,6 @@ October 2024**
  * Built a predictive model to understand factors that influence buying
    behaviour
 
- ![Schema Chat API](/assets/img/Buying Behavior.png)
-
  ---
  ---
 
