@@ -171,8 +171,10 @@ Simulation on Forage - October 2024**
 
 ![Tata-dashboard](/assets/img/Tata-dashboard.png)
 <a href="https://public.tableau.com/views/TATATask3-CreatingEffectiveVisuals/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Dashboard Visualization Tableau Public</a>
+
 ---
 ---
+
 **8.0. 📊 SEC Financial Data Scraper & Analyzer dengan Streamlit + Ollama, Job Simulation on Forage - October 2024**
 ![Schema Chat API](/assets/img/GenAI_web_scraping_1.png)
 ## 🎯 **Ringkasan Eksekutif**
