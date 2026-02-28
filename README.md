@@ -561,3 +561,43 @@ Platform ini tidak hanya menjadi showcase kemampuan teknis dalam data engineerin
 ## Deliverables: 
 -  🔗 URL repositori [GitHub](https://github.com/burhanudinera2018/data-analyst-local)
 ---
+---
+
+**15. AI-Powered Delinquency Analyzer (Ollama + Streamlit) - February 2026**
+
+![Schema Chat API](/assets/img/Deliquency_2.png)
+
+## Tech Stack:** Python, Streamlit, Ollama (Local LLM), Pandas, SQL, Plotly.
+
+## 📋 **Deskripsi Proyek**
+
+Sistem analisis data delinquency untuk **Gellium Finance** yang dikembangkan untuk **Tata iQ GenAI Consulting Virtual Internship**. Aplikasi ini melakukan **Exploratory Data Analysis (EDA)** secara otomatis dengan bantuan AI untuk memprediksi risiko credit card delinquency.
+
+### 🎯 **Tujuan Bisnis**
+- Mengidentifikasi faktor risiko utama penyebab delinquency
+- Membantu tim collections menentukan strategi intervensi
+- Menyediakan dashboard interaktif untuk analisis data
+- Mengintegrasikan AI untuk wawasan otomatis
+
+## ✨ **Fitur Utama**
+
+| Fitur | Deskripsi |
+|-------|-----------|
+| **📊 EDA Otomatis** | Analisis dataset dengan ringkasan statistik lengkap |
+| **🔍 Missing Value Handler** | Deteksi dan rekomendasi penanganan data hilang |
+| **⚠️ Risk Factor Analysis** | Identifikasi faktor risiko delinquency dengan visualisasi |
+| **🤖 AI Assistant** | Tanya jawab interaktif tentang data dengan Ollama |
+| **📄 Report Generator** | Generate laporan EDA sesuai template tugas |
+
+## Hasil & Dampak Proyek:
+
+- **Peningkatan Aksesibilitas Data:** Tim collection yang tidak memiliki kemampuan coding/SQL kini bisa menggali insight dari data tunggakan hanya dengan bertanya dalam bahasa sehari-hari melalui antarmuka Streamlit yang saya bangun.
+- **Efisiensi Analisis:** Waktu yang dibutuhkan untuk mendapatkan laporan ad-hoc turun drastis dari hitungan jam/hari menjadi hitungan menit berkat kemampuan LLM dalam mengeksekusi query secara real-time.
+- **Keamanan Data:** Dengan menggunakan **Ollama** sebagai local LLM, semua data sensitif nasabah tidak perlu dikirim ke API eksternal (seperti ChatGPT), sehingga kepatuhan terhadap regulasi privasi data perusahaan/lembaga tetap terjaga.
+
+## Deliverables: 
+-  🔗 URL repositori [GitHub](https://github.com/burhanudinera2018/gellium-delinquency-analysis-v1)
+
+---
+---
+
