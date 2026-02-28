@@ -567,7 +567,7 @@ Platform ini tidak hanya menjadi showcase kemampuan teknis dalam data engineerin
 
 ![Schema Chat API](/assets/img/Deliquency_2.png)
 
-## Tech Stack:** Python, Streamlit, Ollama (Local LLM), Pandas, SQL, Plotly.
+## Tech Stack: Python, Streamlit, Ollama (Local LLM), Pandas, SQL, Plotly.
 
 ## 📋 **Deskripsi Proyek**
 
