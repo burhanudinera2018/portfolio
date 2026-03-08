@@ -603,7 +603,7 @@ Sistem analisis data delinquency untuk **Gellium Finance** yang dikembangkan unt
 
 **16. 📊 AI-Powered Customer Analytics & Order Processing System - DATACOM-Job Simulation, March 2026**
 
-![Schema Chat API](/assets/img/AI Analytics Hub.png)
+![AI Analytics Hub](assets/img/AI%20Analytics%20Hub.png)
 
 ### **Executive Summary**
 
