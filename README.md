@@ -1,7 +1,7 @@
 
 
 # Data Analysis
-Technical Skills: Excel, Python, SQL, Data Modeling, Microsoft Azure, Tableau, Power BI, Microservice, Project Management, AI Engineer
+Technical Skills: Excel, Python, SQL, Data Modeling, Microsoft Azure, Tableau, Power BI, Microservice, Project Management, Architecture System/AI Engineer
 
 
 ## Link Social Media
@@ -767,8 +767,8 @@ Proyek ini tidak hanya menunjukkan kemampuan teknis dalam **Python, AI/ML, dan S
 
 *"The best way to predict the future is to build it with AI."*
 
-**Burhanudin**  
-Senior Python Developer & AI Enthusiast  
+**Burhanudin Badiuzaman**  
+Python Developer & AI Enthusiast  
 [LinkedIn](https://www.linkedin.com/in/burhanudin-badiuzaman4a9204161/) | [GitHub](https://github.com/burhanudinera2018) | [Portfolio Website](https://burhanudinera2018.github.io/portfolio/)
 
 ---
