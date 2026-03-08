@@ -762,7 +762,7 @@ Proyek ini tidak hanya menunjukkan kemampuan teknis dalam **Python, AI/ML, dan S
 
 ## 🔗 **Deliverables:**
 
-- **GitHub Repository**: [github.com/burhanudiner2018/customer-analytics-sys](https://github.com/burhanudiner2018/customer-analytics-sys)
+- **GitHub Repository**: [Github](https://github.com/burhanudinera2018/customer-analytics-sys)
 ---
 
 *"The best way to predict the future is to build it with AI."*
