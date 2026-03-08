@@ -23,7 +23,7 @@ Technical Skills: Excel, Python, SQL, Data Modeling, Microsoft Azure, Tableau, P
 
 
 ### Education
-- Electrical Engineer - Information Technology, MSc
+- Electrical Engineer - Information Technology, M.T
 - Electrical Engineer - Telecommunication, S.T
 
 ### Work Experience
