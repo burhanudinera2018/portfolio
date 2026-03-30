@@ -788,8 +788,9 @@ Dalam industri telekomunikasi yang kompetitif, customer churn merupakan tantanga
 ## 🛠️ Technical Architecture
 
 ---
-## 📊 Results & Metrics
+## 📈  Results & Metrics
 ### Model Performance
+```
 ┌─────────────────────┬────────────┬─────────────┐
 │ Metric              │ Value      │ Status      │
 ├─────────────────────┼────────────┼─────────────┤
@@ -799,6 +800,7 @@ Dalam industri telekomunikasi yang kompetitif, customer churn merupakan tantanga
 │ Precision           │ 0.7432     │ ✅ Good     │
 │ Recall              │ 0.7801     │ ✅ Good     │
 └─────────────────────┴────────────┴─────────────┘
+```
 ### Monitoring Results
 #### Drift Detection Summary:
 • Features monitored: 19
@@ -807,13 +809,14 @@ Dalam industri telekomunikasi yang kompetitif, customer churn merupakan tantanga
 • Average PSI for drifted features: 12.8 (severe drift)
 • Alert trigger: Yes - retraining recommended
 ### Testing Results
+```mermaid
 Test Suite: 5 tests
 ├── ✅ test_data_loader: PASSED
 ├── ✅ test_data_cleaner: PASSED (with FutureWarning)
 ├── ✅ test_feature_engineering: PASSED
 ├── ⚠️ test_model_prediction: SKIPPED (feature mismatch)
 └── ✅ test_data_transformer: PASSED
-
+```
 > Success Rate: 80% | Code Coverage: 85%
 ---
 ## 💡 Lessons Learned & Best Practices
