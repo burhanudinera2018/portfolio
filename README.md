@@ -786,7 +786,7 @@ Dalam industri telekomunikasi yang kompetitif, customer churn merupakan tantanga
 - ROI: 3-5x return on investment dalam 6 bulan pertama
 ---
 ## 🛠️ Technical Architecture
-
+![Architecture](/assets/img/architecture.png)
 ---
 
 ## 📈  Results & Metrics
@@ -811,7 +811,7 @@ Dalam industri telekomunikasi yang kompetitif, customer churn merupakan tantanga
 • Alert trigger: Yes - retraining recommended
 
 ### Testing Results
-```mermaid
+```
 Test Suite: 5 tests
 ├── ✅ test_data_loader: PASSED
 ├── ✅ test_data_cleaner: PASSED (with FutureWarning)
