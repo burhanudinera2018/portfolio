@@ -788,6 +788,7 @@ Dalam industri telekomunikasi yang kompetitif, customer churn merupakan tantanga
 ## 🛠️ Technical Architecture
 
 ---
+
 ## 📈  Results & Metrics
 ### Model Performance
 ```
@@ -808,6 +809,7 @@ Dalam industri telekomunikasi yang kompetitif, customer churn merupakan tantanga
   monthly_avg_gb, num_complaints, num_calls_to_care, customer_id)
 • Average PSI for drifted features: 12.8 (severe drift)
 • Alert trigger: Yes - retraining recommended
+
 ### Testing Results
 ```mermaid
 Test Suite: 5 tests
@@ -819,6 +821,7 @@ Test Suite: 5 tests
 ```
 > Success Rate: 80% | Code Coverage: 85%
 ---
+
 ## 💡 Lessons Learned & Best Practices
 ### Technical Insights
 - **Version Management**: Always pin Python versions in production projects
@@ -834,19 +837,20 @@ Test Suite: 5 tests
 ---
 ## 🎓 Skills Demonstrated
 ### Technical Skills
-✅ Python Programming (Advanced)
-✅ Machine Learning (Random Forest, Gradient Boosting)
-✅ MLOps & Production Pipelines
-✅ Model Monitoring & Observability
-✅ Responsible AI (SHAP, Fairness, Transparency)
-✅ Unit Testing & Test-Driven Development
-✅ Version Control (Git/GitHub)
-✅ Cloud Readiness (Vertex AI/GCP)
+- ✅ Python Programming (Advanced)
+- ✅ Machine Learning (Random Forest, Gradient Boosting)
+- ✅ MLOps & Production Pipelines
+- ✅ Model Monitoring & Observability
+- ✅ Responsible AI (SHAP, Fairness, Transparency)
+- ✅ Unit Testing & Test-Driven Development
+- ✅ Version Control (Git/GitHub)
+- ✅ Cloud Readiness (Vertex AI/GCP)
+
 ### Soft Skills
-✅ Problem Solving (Python compatibility, dependency issues)
-✅ Documentation (Model cards, README, code comments)
-✅ Project Management (End-to-end delivery)
-✅ Communication (Technical writing, presentations)
+- ✅ Problem Solving (Python compatibility, dependency issues)
+- ✅ Documentation (Model cards, README, code comments)
+- ✅ Project Management (End-to-end delivery)
+- ✅ Communication (Technical writing, presentations)
 
 ---
 ## 🔗 **Deliverables:**
