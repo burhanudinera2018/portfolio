@@ -773,3 +773,89 @@ Python Developer & AI Enthusiast
 
 ---
 ---
+
+**17. 📊 Portfolio Project: Telecom AI Data Science, March 2026**
+
+## 🏗️ Project Overview
+Domain Context
+Dalam industri telekomunikasi yang kompetitif, customer churn merupakan tantangan utama yang dapat mengurangi pendapatan hingga 30% per tahun. Project ini bertujuan membangun sistem prediksi churn yang proaktif, memungkinkan tim retention untuk melakukan intervensi sebelum pelanggan meninggalkan layanan.
+
+### Business Impact
+- Target Churn Reduction: 15-20% melalui intervensi tepat waktu
+- ARPU Protection: Mempertahankan $50-100 juta pendapatan tahunan
+- ROI: 3-5x return on investment dalam 6 bulan pertama
+---
+## 🛠️ Technical Architecture
+
+---
+## 📊 Results & Metrics
+### Model Performance
+┌─────────────────────┬────────────┬─────────────┐
+│ Metric              │ Value      │ Status      │
+├─────────────────────┼────────────┼─────────────┤
+│ AUC-ROC             │ 0.8548     │ ✅ Good     │
+│ F1-Score            │ 0.7612     │ ✅ Good     │
+│ Accuracy            │ 0.8321     │ ✅ Good     │
+│ Precision           │ 0.7432     │ ✅ Good     │
+│ Recall              │ 0.7801     │ ✅ Good     │
+└─────────────────────┴────────────┴─────────────┘
+### Monitoring Results
+#### Drift Detection Summary:
+• Features monitored: 19
+• Features with drift: 7 (tenure, monthly_charges, total_charges, 
+  monthly_avg_gb, num_complaints, num_calls_to_care, customer_id)
+• Average PSI for drifted features: 12.8 (severe drift)
+• Alert trigger: Yes - retraining recommended
+### Testing Results
+Test Suite: 5 tests
+├── ✅ test_data_loader: PASSED
+├── ✅ test_data_cleaner: PASSED (with FutureWarning)
+├── ✅ test_feature_engineering: PASSED
+├── ⚠️ test_model_prediction: SKIPPED (feature mismatch)
+└── ✅ test_data_transformer: PASSED
+
+> Success Rate: 80% | Code Coverage: 85%
+---
+## 💡 Lessons Learned & Best Practices
+### Technical Insights
+- **Version Management**: Always pin Python versions in production projects
+- **Testing Strategy**: Implement tests at multiple levels (unit, integration, e2e)
+- **Monitoring First**: Build monitoring before model deployment
+- **Documentation**: Model cards essential for regulatory compliance
+
+### Process Improvements
+- **CI/CD Pipeline**: Automate testing and retraining
+- **Feature Store**: Centralize feature definitions
+- **Experiment Tracking**: Use MLflow for reproducibility
+- **Alert Tuning**: Set appropriate thresholds based on business context
+---
+## 🎓 Skills Demonstrated
+### Technical Skills
+✅ Python Programming (Advanced)
+✅ Machine Learning (Random Forest, Gradient Boosting)
+✅ MLOps & Production Pipelines
+✅ Model Monitoring & Observability
+✅ Responsible AI (SHAP, Fairness, Transparency)
+✅ Unit Testing & Test-Driven Development
+✅ Version Control (Git/GitHub)
+✅ Cloud Readiness (Vertex AI/GCP)
+### Soft Skills
+✅ Problem Solving (Python compatibility, dependency issues)
+✅ Documentation (Model cards, README, code comments)
+✅ Project Management (End-to-end delivery)
+✅ Communication (Technical writing, presentations)
+
+---
+## 🔗 **Deliverables:**
+
+- **GitHub Repository**: [Github](https://github.com/burhanudinera2018/telecom-ai-mlops-portfolio)
+---
+
+*"The best way to predict the future is to build it with AI."*
+
+**Burhanudin Badiuzaman**  
+Python Developer & AI Enthusiast  
+[LinkedIn](https://www.linkedin.com/in/burhanudin-badiuzaman4a9204161/) | [GitHub](https://github.com/burhanudinera2018) | [Portfolio Website](https://burhanudinera2018.github.io/portfolio/)
+
+---
+---
