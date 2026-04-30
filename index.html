@@ -157,6 +157,11 @@
             color: #1e293b;
         }
 
+        .skill-tag.highlight {
+            background: linear-gradient(135deg, #2563eb, #7c3aed);
+            color: white;
+        }
+
         /* Section Styles */
         .section {
             padding: 64px 0;
@@ -252,6 +257,24 @@
             box-shadow: 0 20px 30px -12px rgba(0,0,0,0.15);
         }
 
+        /* Featured Project Card (ILASPP) */
+        .project-card.featured {
+            border: 2px solid transparent;
+            background: linear-gradient(white, white) padding-box,
+                        linear-gradient(135deg, #2563eb, #7c3aed, #f5576c) border-box;
+        }
+
+        .featured-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #f5576c, #f093fb);
+            color: white;
+            font-size: 0.7rem;
+            padding: 2px 10px;
+            border-radius: 20px;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+
         .project-content {
             padding: 24px;
             flex: 1;
@@ -280,12 +303,52 @@
             font-weight: 600;
         }
 
+        .project-stack span.r {
+            background-color: #276DC3;
+            color: white;
+        }
+
+        .project-stack span.python {
+            background-color: #3776AB;
+            color: white;
+        }
+
+        .project-stack span.postgres {
+            background-color: #4169E1;
+            color: white;
+        }
+
+        .project-metrics {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f1f5f9;
+            padding: 12px;
+            border-radius: 12px;
+            margin: 16px 0;
+            text-align: center;
+        }
+
+        .metric {
+            flex: 1;
+        }
+
+        .metric-value {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #0f172a;
+        }
+
+        .metric-label {
+            font-size: 0.7rem;
+            color: #64748b;
+        }
+
         .project-impact {
             background-color: #f1f5f9;
             padding: 12px;
             border-radius: 12px;
             margin: 16px 0;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             border-left: 3px solid #2563eb;
         }
 
@@ -370,6 +433,10 @@
             .projects-grid {
                 grid-template-columns: 1fr;
             }
+            .project-metrics {
+                flex-direction: column;
+                gap: 8px;
+            }
         }
     </style>
 </head>
@@ -388,7 +455,7 @@
     </nav>
 
     <main>
-                <!-- Hero Section -->
+        <!-- Hero Section -->
         <section id="home" class="hero">
             <div class="container">
                 <div style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap;">
@@ -411,6 +478,10 @@
                             <span class="skill-tag">PostgreSQL</span>
                             <span class="skill-tag">Power BI</span>
                             <span class="skill-tag">Docker</span>
+                            <span class="skill-tag highlight">📐 R</span>
+                            <span class="skill-tag highlight">🗺️ GIS / Spasial</span>
+                            <span class="skill-tag highlight">GWR</span>
+                            <span class="skill-tag highlight">Kriging</span>
                         </div>
                         <div style="display: flex; gap: 16px; flex-wrap: wrap;">
                             <a href="#featured-projects" class="btn-primary">Lihat Proyek Unggulan</a>
@@ -454,7 +525,51 @@
             <div class="container">
                 <h2 class="section-title">Proyek Unggulan</h2>
                 <div class="projects-grid">
-                    <!-- Project 1 -->
+                    
+                    <!-- PROJECT ILASPP (NEW - FEATURED) -->
+                    <div class="project-card featured">
+                        <div class="project-content">
+                            <div class="project-title">
+                                🗺️ ILASPP - Sistem Informasi Nilai Tanah Spasial Prediktif
+                                <span class="featured-badge">TERBARU</span>
+                            </div>
+                            <div class="project-stack">
+                                <span class="python">🐍 Python</span>
+                                <span class="r">📐 R</span>
+                                <span class="postgres">🐘 PostgreSQL + PostGIS</span>
+                                <span>📊 Streamlit</span>
+                                <span>🗺️ GWR</span>
+                                <span>🌐 Kriging</span>
+                            </div>
+                            <p>Sistem informasi nilai tanah spasial prediktif yang dikembangkan untuk ATR/BPN. Mengimplementasikan GWR (Geographically Weighted Regression) dan Kriging Interpolation untuk menganalisis variasi nilai tanah di 10 kecamatan dengan pendekatan hybrid R + Python.</p>
+                            
+                            <div class="project-metrics">
+                                <div class="metric">
+                                    <div class="metric-value">42.4%</div>
+                                    <div class="metric-label">R² GWR</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value">100%</div>
+                                    <div class="metric-label">Negatif Distance</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value">23.87</div>
+                                    <div class="metric-label">Mean Prediksi (juta/m²)</div>
+                                </div>
+                            </div>
+                            
+                            <div class="project-impact">
+                                <i class="fas fa-chart-line" style="margin-right: 8px; color:#2563eb;"></i>
+                                <strong>Hasil Analisis:</strong> 100% lokasi menunjukkan koefisien negatif untuk jarak ke pusat kota dan 100% positif untuk lebar jalan. Range prediksi Kriging: 14.34 - 40.65 juta/m².
+                            </div>
+                            
+                            <a href="https://github.com/burhanudinera2018/portfolio_ilaspp_hybrid" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Lihat Repository →
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 1 - AI-Powered Customer Analytics -->
                     <div class="project-card">
                         <div class="project-content">
                             <div class="project-title">AI-Powered Customer Analytics & Order Processing</div>
@@ -469,7 +584,8 @@
                             <a href="https://github.com/burhanudinera2018/customer-analytics-sys" class="project-link" target="_blank">Lihat Repository →</a>
                         </div>
                     </div>
-                    <!-- Project 2 -->
+                    
+                    <!-- Project 2 - AI-Powered Delinquency Analyzer -->
                     <div class="project-card">
                         <div class="project-content">
                             <div class="project-title">AI-Powered Delinquency Analyzer</div>
@@ -484,7 +600,8 @@
                             <a href="https://github.com/burhanudinera2018/gellium-delinquency-analysis-v1" class="project-link" target="_blank">Lihat Repository →</a>
                         </div>
                     </div>
-                    <!-- Project 3 -->
+                    
+                    <!-- Project 3 - Telecom AI Customer Churn Prediction -->
                     <div class="project-card">
                         <div class="project-content">
                             <div class="project-title">Telecom AI - Customer Churn Prediction</div>
@@ -532,7 +649,7 @@
                 <h2 class="section-title">Terhubung Dengan Saya</h2>
                 <p style="margin-bottom: 24px; max-width: 600px;">Tertarik berkolaborasi atau mendiskusikan proyek data & AI? Jangan ragu untuk menghubungi saya melalui platform di bawah ini.</p>
                 <div class="contact-links">
-                    <a href="https://www.linkedin.com/in/burhanudin-badiuzaman4a9204161/" class="contact-link" target="_blank"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/burhanudin-badiuzaman-4a9204161/" class="contact-link" target="_blank"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
                     <a href="https://github.com/burhanudinera2018" class="contact-link" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub</a>
                     <a href="mailto:burhanudinera2018@gmail.com" class="contact-link"><i class="fas fa-envelope fa-lg"></i> Email</a>
                 </div>
