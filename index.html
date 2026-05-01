@@ -110,6 +110,46 @@
             color: white;
         }
 
+        /* Button untuk Live Demo & Repository */
+        .btn-demo {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .btn-demo.github {
+            background-color: #24292e;
+            color: white;
+        }
+
+        .btn-demo.github:hover {
+            background-color: #1a1e22;
+            transform: translateY(-2px);
+        }
+
+        .btn-demo.streamlit {
+            background-color: #FF4B4B;
+            color: white;
+        }
+
+        .btn-demo.streamlit:hover {
+            background-color: #e03e3e;
+            transform: translateY(-2px);
+        }
+
+        .project-links {
+            display: flex;
+            gap: 12px;
+            margin-top: 16px;
+            flex-wrap: wrap;
+        }
+
         /* Hero Section */
         .hero {
             padding: 80px 0 60px;
@@ -437,6 +477,12 @@
                 flex-direction: column;
                 gap: 8px;
             }
+            .project-links {
+                flex-direction: column;
+            }
+            .btn-demo {
+                justify-content: center;
+            }
         }
     </style>
 </head>
@@ -526,7 +572,7 @@
                 <h2 class="section-title">Proyek Unggulan</h2>
                 <div class="projects-grid">
                     
-                    <!-- PROJECT ILASPP (NEW - FEATURED) -->
+                    <!-- PROJECT ILASPP (NEW - FEATURED) dengan Link Live Demo -->
                     <div class="project-card featured">
                         <div class="project-content">
                             <div class="project-title">
@@ -563,9 +609,15 @@
                                 <strong>Hasil Analisis:</strong> 100% lokasi menunjukkan koefisien negatif untuk jarak ke pusat kota dan 100% positif untuk lebar jalan. Range prediksi Kriging: 14.34 - 40.65 juta/m².
                             </div>
                             
-                            <a href="https://github.com/burhanudinera2018/portfolio_ilaspp_hybrid" class="project-link" target="_blank">
-                                <i class="fab fa-github"></i> Lihat Repository →
-                            </a>
+                            <!-- TOMBOL REPOSITORY DAN LIVE DEMO -->
+                            <div class="project-links">
+                                <a href="https://github.com/burhanudinera2018/portfolio_ilaspp_hybrid" class="btn-demo github" target="_blank">
+                                    <i class="fab fa-github"></i> Repository
+                                </a>
+                                <a href="https://portfolioilaspphybrid-ealkwgpld5qq7f8x3h4tn2.streamlit.app/" class="btn-demo streamlit" target="_blank">
+                                    <i class="fas fa-chart-line"></i> Live Demo
+                                </a>
+                            </div>
                         </div>
                     </div>
 
