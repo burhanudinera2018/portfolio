@@ -297,7 +297,7 @@
             box-shadow: 0 20px 30px -12px rgba(0,0,0,0.15);
         }
 
-        /* Featured Project Card (ILASPP) */
+        /* Featured Project Card */
         .project-card.featured {
             border: 2px solid transparent;
             background: linear-gradient(white, white) padding-box,
@@ -528,6 +528,7 @@
                             <span class="skill-tag highlight">🗺️ GIS / Spasial</span>
                             <span class="skill-tag highlight">GWR</span>
                             <span class="skill-tag highlight">Kriging</span>
+                            <span class="skill-tag highlight">📱 A2P Analytics</span>
                         </div>
                         <div style="display: flex; gap: 16px; flex-wrap: wrap;">
                             <a href="#featured-projects" class="btn-primary">Lihat Proyek Unggulan</a>
@@ -572,12 +573,60 @@
                 <h2 class="section-title">Proyek Unggulan</h2>
                 <div class="projects-grid">
                     
-                    <!-- PROJECT ILASPP (NEW - FEATURED) dengan Link Live Demo -->
+                    <!-- PROJECT A2P TELECOM ANALYTICS (NEW) -->
+                    <div class="project-card featured">
+                        <div class="project-content">
+                            <div class="project-title">
+                                📱 A2P Telecom Analytics - Traffic & Revenue Intelligence
+                                <span class="featured-badge">TERBARU</span>
+                            </div>
+                            <div class="project-stack">
+                                <span class="python">🐍 Python</span>
+                                <span class="r">📐 R</span>
+                                <span class="postgres">🐘 PostgreSQL + PostGIS</span>
+                                <span>📊 Streamlit</span>
+                                <span>🗺️ GWR</span>
+                                <span>📈 A2P Strategy</span>
+                            </div>
+                            <p>Dashboard intelijen traffic & revenue untuk A2P messaging. Mengimplementasikan GWR (Geographically Weighted Regression) untuk mengidentifikasi faktor dominan traffic A2P di 30+ wilayah Indonesia.</p>
+                            
+                            <div class="project-metrics">
+                                <div class="metric">
+                                    <div class="metric-value">89.4%</div>
+                                    <div class="metric-label">R² GWR</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value">30+</div>
+                                    <div class="metric-label">Regions</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value">4</div>
+                                    <div class="metric-label">Key Drivers</div>
+                                </div>
+                            </div>
+                            
+                            <div class="project-impact">
+                                <i class="fas fa-chart-line" style="margin-right: 8px; color:#2563eb;"></i>
+                                <strong>Hasil Analisis:</strong> GWR mengungkap bahwa faktor dominan traffic A2P bervariasi per wilayah: MNO partners (Jakarta), BTS density (Timur), OTT penetration (Bali), Regulation score (Sumatra).
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="https://github.com/burhanudinera2018/a2p-telecom-analytics" class="btn-demo github" target="_blank">
+                                    <i class="fab fa-github"></i> Repository
+                                </a>
+                                <a href="https://burhanudinera2018-a2p-telecom-analytics.streamlit.app" class="btn-demo streamlit" target="_blank">
+                                    <i class="fas fa-chart-line"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT ILASPP -->
                     <div class="project-card featured">
                         <div class="project-content">
                             <div class="project-title">
                                 🗺️ ILASPP - Sistem Informasi Nilai Tanah Spasial Prediktif
-                                <span class="featured-badge">TERBARU</span>
+                                <span class="featured-badge">PORTFOLIO</span>
                             </div>
                             <div class="project-stack">
                                 <span class="python">🐍 Python</span>
@@ -587,7 +636,7 @@
                                 <span>🗺️ GWR</span>
                                 <span>🌐 Kriging</span>
                             </div>
-                            <p>Sistem informasi nilai tanah spasial prediktif yang dikembangkan untuk ATR/BPN. Mengimplementasikan GWR (Geographically Weighted Regression) dan Kriging Interpolation untuk menganalisis variasi nilai tanah di 10 kecamatan dengan pendekatan hybrid R + Python.</p>
+                            <p>Sistem informasi nilai tanah spasial prediktif yang dikembangkan untuk ATR/BPN. Mengimplementasikan GWR (Geographically Weighted Regression) dan Kriging Interpolation.</p>
                             
                             <div class="project-metrics">
                                 <div class="metric">
@@ -609,7 +658,6 @@
                                 <strong>Hasil Analisis:</strong> 100% lokasi menunjukkan koefisien negatif untuk jarak ke pusat kota dan 100% positif untuk lebar jalan. Range prediksi Kriging: 14.34 - 40.65 juta/m².
                             </div>
                             
-                            <!-- TOMBOL REPOSITORY DAN LIVE DEMO -->
                             <div class="project-links">
                                 <a href="https://github.com/burhanudinera2018/portfolio_ilaspp_hybrid" class="btn-demo github" target="_blank">
                                     <i class="fab fa-github"></i> Repository
