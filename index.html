@@ -458,6 +458,21 @@
             font-size: 0.85rem;
         }
 
+        .footer-links {
+            margin-top: 8px;
+            font-size: 12px;
+        }
+
+        .footer-links a {
+            color: #64748b;
+            text-decoration: none;
+            margin: 0 8px;
+        }
+
+        .footer-links a:hover {
+            color: #2563eb;
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .nav-container {
@@ -573,7 +588,54 @@
                 <h2 class="section-title">Proyek Unggulan</h2>
                 <div class="projects-grid">
                     
-                    <!-- PROJECT A2P TELECOM ANALYTICS (NEW) dengan Link Live Dashboard yang BENAR -->
+                    <!-- PROJECT INDICO ANALYTICS (NEW - TERBARU) -->
+                    <div class="project-card featured">
+                        <div class="project-content">
+                            <div class="project-title">
+                                📊 INDICO Digital Ecosystem Analytics - Kuncie, Fita, Majamojo
+                                <span class="featured-badge">TERBARU</span>
+                            </div>
+                            <div class="project-stack">
+                                <span class="python">🐍 Python</span>
+                                <span class="postgres">🐘 PostgreSQL</span>
+                                <span>📊 Streamlit</span>
+                                <span>📈 Plotly</span>
+                                <span>☁️ Supabase</span>
+                            </div>
+                            <p>Dashboard analitik untuk INDICO (anak perusahaan Telkomsel) yang menganalisis user engagement di 3 unit bisnis digital: Kuncie (Edu-tech), Fita (Health-tech), dan Majamojo (Game Publishing).</p>
+                            
+                            <div class="project-metrics">
+                                <div class="metric">
+                                    <div class="metric-value">500+</div>
+                                    <div class="metric-label">Users</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value">8,479</div>
+                                    <div class="metric-label">Activities</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value">8%</div>
+                                    <div class="metric-label">Cross-Engagement</div>
+                                </div>
+                            </div>
+                            
+                            <div class="project-impact">
+                                <i class="fas fa-chart-line" style="margin-right: 8px; color:#2563eb;"></i>
+                                <strong>Key Insights:</strong> Hanya 8% user yang menggunakan lebih dari satu produk → peluang cross-selling <strong>Majamojo → Kuncie</strong>. Kuncie memiliki LTV tertinggi, Fita menunjukkan pertumbuhan aktif user bulanan.
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="https://github.com/burhanudinera2018/indico-analytics-portfolio" class="btn-demo github" target="_blank">
+                                    <i class="fab fa-github"></i> Repository
+                                </a>
+                                <a href="https://indico-analytics-portfolio.streamlit.app/" class="btn-demo streamlit" target="_blank">
+                                    <i class="fas fa-chart-line"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT A2P TELECOM ANALYTICS -->
                     <div class="project-card featured">
                         <div class="project-content">
                             <div class="project-title">
@@ -614,7 +676,6 @@
                                 <a href="https://github.com/burhanudinera2018/a2p-telecom-analytics" class="btn-demo github" target="_blank">
                                     <i class="fab fa-github"></i> Repository
                                 </a>
-                                <!-- URL Live Dashboard yang sudah dikoreksi -->
                                 <a href="https://a2p-telecom-analytics.streamlit.app/" class="btn-demo streamlit" target="_blank">
                                     <i class="fas fa-chart-line"></i> Live Demo
                                 </a>
@@ -727,6 +788,10 @@
                 <h2 class="section-title">Portofolio Proyek Lainnya</h2>
                 <p style="margin-bottom: 24px; color: #475569;">Selain proyek unggulan, saya juga mengerjakan berbagai simulasi dan proyek mandiri yang menunjukkan kemampuan di bidang data analytics, AI, dan arsitektur sistem.</p>
                 <div class="secondary-grid">
+                    <div class="secondary-item"><strong>📊 INDICO Digital Ecosystem Analytics</strong><br>Dashboard analitik user engagement lintas 3 unit bisnis digital Kuncie, Fita, Majamojo dengan cohort retention & LTV analysis.<br>
+                        <a href="https://github.com/burhanudinera2018/indico-analytics-portfolio" target="_blank" style="font-size: 12px;">GitHub →</a>
+                        <a href="https://indico-analytics-portfolio.streamlit.app/" target="_blank" style="font-size: 12px; margin-left: 12px;">Live Demo →</a>
+                    </div>
                     <div class="secondary-item"><strong>SEC Financial Data Scraper</strong><br>Streamlit + Ollama untuk scraping dan analisis laporan keuangan 10-K perusahaan publik.</div>
                     <div class="secondary-item"><strong>BCG GenAI Chatbot</strong><br>Chatbot keuangan dengan pattern matching dan local LLM untuk analisis real-time.</div>
                     <div class="secondary-item"><strong>Deloitte Telemetry Analytics</strong><br>Analisis downtime pabrik dengan dashboard interaktif dan insight dari LLM lokal.</div>
@@ -735,7 +800,7 @@
                     <div class="secondary-item"><strong>PwC Power BI Dashboard</strong><br>Visualisasi KPI dan analisis gender balance untuk eksekutif.</div>
                     <div class="secondary-item"><strong>Accenture Data Analytics</strong><br>Analisis 7 dataset untuk rekomendasi strategi konten media sosial.</div>
                     <div class="secondary-item"><strong>British Airways Review Scraper</strong><br>Scraping ulasan pelanggan dan model prediksi faktor pembelian.</div>
-                    <div class="secondary-item"><strong>Gemini AI Chatbot</strong><br>Integrasi Google Gemini 1.5 Flash untuk chatbot real-time com Node.js.</div>
+                    <div class="secondary-item"><strong>Gemini AI Chatbot</strong><br>Integrasi Google Gemini 1.5 Flash untuk chatbot real-time dengan Node.js.</div>
                     <div class="secondary-item"><strong>Standard Bank Credit Scoring</strong><br>Model machine learning untuk prediksi default loan dengan siklus data science end-to-end.</div>
                 </div>
                 <div style="margin-top: 32px; text-align: center;">
@@ -761,6 +826,13 @@
     <footer class="footer">
         <div class="container">
             <p>© 2026 Burhanudin Badiuzaman | Dibangun dengan <i class="fas fa-heart" style="color: #2563eb;"></i> untuk menunjukkan dampak data & AI</p>
+            <div class="footer-links">
+                <a href="https://indico-analytics-portfolio.streamlit.app/" target="_blank">INDICO Analytics</a> • 
+                <a href="https://a2p-telecom-analytics.streamlit.app/" target="_blank">A2P Telecom</a> • 
+                <a href="https://portfolioilaspphybrid-ealkwgpld5qq7f8x3h4tn2.streamlit.app/" target="_blank">ILASPP</a> • 
+                <a href="https://github.com/burhanudinera2018" target="_blank">GitHub</a> • 
+                <a href="https://www.linkedin.com/in/burhanudin-badiuzaman-4a9204161/" target="_blank">LinkedIn</a>
+            </div>
         </div>
     </footer>
 </body>
