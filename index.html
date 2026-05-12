@@ -287,7 +287,7 @@
         /* Project Cards Grid */
         .projects-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
             gap: 32px;
         }
 
@@ -376,10 +376,12 @@
             border-radius: 12px;
             margin: 16px 0;
             text-align: center;
+            flex-wrap: wrap;
         }
 
         .metric {
             flex: 1;
+            min-width: 60px;
         }
 
         .metric-value {
@@ -543,6 +545,10 @@
                         <div class="skills-tags">
                             <span class="skill-tag">Python</span>
                             <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Time Series</span>
+                            <span class="skill-tag">Forecasting</span>
+                            <span class="skill-tag">Clustering</span>
+                            <span class="skill-tag">Spatial Analysis</span>
                             <span class="skill-tag">LLM / GenAI</span>
                             <span class="skill-tag">Streamlit</span>
                             <span class="skill-tag">FastAPI</span>
@@ -598,7 +604,110 @@
                 <h2 class="section-title">Proyek Unggulan</h2>
                 <div class="projects-grid">
                     
-                    <!-- PROJECT ILASPP - GWR + KRIGING (UPDATE TERBARU) -->
+                    <!-- PROJECT 1: INDOSAT OOREDOO - RESEARCH CASE STUDY HARVARD DATASET (LENGKAP) -->
+                    <div class="project-card featured">
+                        <div class="project-content">
+                            <div class="project-title">
+                                📡 Indosat Ooredoo | Telecom Network Intelligence
+                                <span class="featured-badge">RESEARCH CASE STUDY</span>
+                            </div>
+                            <div class="project-stack">
+                                <span class="python">🐍 Python</span>
+                                <span>📊 Time Series</span>
+                                <span>🤖 Prophet</span>
+                                <span>🎯 K-Means</span>
+                                <span>🗺️ Folium Heatmap</span>
+                                <span>📈 MAPE 10.8%</span>
+                            </div>
+                            <p><strong>Research-based data science case study</strong> menggunakan public telecom data dari <strong>Harvard University (Milan, Italy)</strong>. Menganalisis traffic patterns, forecasting, spatial heatmaps, dan clustering untuk network optimization insights.</p>
+                            
+                            <div class="project-metrics">
+                                <div class="metric">
+                                    <div class="metric-value">10.8%</div>
+                                    <div class="metric-label">MAPE Forecasting</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value">5 Clusters</div>
+                                    <div class="metric-label">Network Segments</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value">24/7</div>
+                                    <div class="metric-label">Traffic Pattern</div>
+                                </div>
+                            </div>
+                            
+                            <div class="project-impact">
+                                <i class="fas fa-chart-line" style="margin-right: 8px; color:#2563eb;"></i>
+                                <strong>Research Outcomes:</strong>
+                                <ul style="margin-top: 8px; margin-left: 20px; color: #334155;">
+                                    <li>📈 <strong>Traffic Patterns:</strong> Identifikasi peak hours (siang & malam) dengan variasi per district Milan</li>
+                                    <li>🔮 <strong>Forecasting Model:</strong> Prophet time series dengan MAPE 10.8%, akurasi prediksi traffic 24 jam ke depan</li>
+                                    <li>🗺️ <strong>Spatial Heatmaps:</strong> Visualisasi densitas traffic per grid cell (100x100m) untuk identifikasi congestion points</li>
+                                    <li>🎯 <strong>Clustering (K-Means):</strong> 5 segmen network berdasarkan karakteristik traffic → rekomendasi optimasi resource</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="https://github.com/burhanudinera2018/indosat-telecom-network-intelligence" class="btn-demo github" target="_blank">
+                                    <i class="fab fa-github"></i> Repository
+                                </a>
+                                <a href="https://indosat-network-intelligence.streamlit.app/" class="btn-demo streamlit" target="_blank">
+                                    <i class="fas fa-chart-line"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT 2: Telecom Italy Customer Churn Prediction -->
+                    <div class="project-card featured">
+                        <div class="project-content">
+                            <div class="project-title">
+                                📡 Telecom Italy Customer Churn Prediction
+                                <span class="featured-badge">REAL DATASET - HARVARD</span>
+                            </div>
+                            <div class="project-stack">
+                                <span class="python">🐍 Python</span>
+                                <span>🤖 XGBoost</span>
+                                <span>📊 Random Forest</span>
+                                <span>⚡ LightGBM</span>
+                                <span>🎯 SMOTE</span>
+                                <span>📈 Optuna</span>
+                                <span>🔍 SHAP</span>
+                            </div>
+                            <p><strong>Real dataset operator telecom Italia</strong> dari Harvard Dataverse. 3.150+ customers dengan 20 fitur perilaku penggunaan layanan (call, SMS, internet, customer service).</p>
+                            
+                            <div class="project-metrics">
+                                <div class="metric">
+                                    <div class="metric-value">3.150+</div>
+                                    <div class="metric-label">Samples</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value">91.2%</div>
+                                    <div class="metric-label">AUC-ROC</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value">92%</div>
+                                    <div class="metric-label">Akurasi</div>
+                                </div>
+                            </div>
+                            
+                            <div class="project-impact">
+                                <i class="fas fa-chart-line" style="margin-right: 8px; color:#2563eb;"></i>
+                                <strong>Key Insights:</strong> 3 faktor dominan churn: (1) Tingginya jumlah call ke customer service, (2) Customer tenure &lt; 12 bulan, (3) Average call duration rendah.
+                            </div>
+                            
+                            <div class="project-links">
+                                <a href="https://github.com/burhanudinera2018/telecom-italy-churn-prediction" class="btn-demo github" target="_blank">
+                                    <i class="fab fa-github"></i> Repository
+                                </a>
+                                <a href="https://telecom-italy-churn.streamlit.app/" class="btn-demo streamlit" target="_blank">
+                                    <i class="fas fa-chart-line"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT ILASPP - GWR + KRIGING -->
                     <div class="project-card featured">
                         <div class="project-content">
                             <div class="project-title">
@@ -614,7 +723,7 @@
                                 <span>🌐 Kriging</span>
                                 <span>🔥 Folium Heatmap</span>
                             </div>
-                            <p>Sistem informasi nilai tanah spasial prediktif yang dikembangkan untuk ATR/BPN. Mengimplementasikan <strong>GWR (Geographically Weighted Regression)</strong> dan <strong>Kriging Interpolation</strong> dengan dual environment Python.</p>
+                            <p>Sistem informasi nilai tanah spasial prediktif yang dikembangkan untuk ATR/BPN. Mengimplementasikan <strong>GWR (Geographically Weighted Regression)</strong> dan <strong>Kriging Interpolation</strong>.</p>
                             
                             <div class="project-metrics">
                                 <div class="metric">
@@ -633,7 +742,7 @@
                             
                             <div class="project-impact">
                                 <i class="fas fa-chart-line" style="margin-right: 8px; color:#2563eb;"></i>
-                                <strong>Hasil Analisis:</strong> 100% lokasi menunjukkan koefisien negatif untuk jarak ke pusat kota dan 100% positif untuk lebar jalan. Kriging menghasilkan peta prediksi + <strong>variance (ketidakpastian)</strong> untuk identifikasi area yang memerlukan tambahan sampel.
+                                <strong>Hasil Analisis:</strong> 100% lokasi menunjukkan koefisien negatif untuk jarak ke pusat kota dan 100% positif untuk lebar jalan.
                             </div>
                             
                             <div class="project-links">
@@ -648,20 +757,18 @@
                     </div>
 
                     <!-- PROJECT INDICO ANALYTICS -->
-                    <div class="project-card featured">
+                    <div class="project-card">
                         <div class="project-content">
                             <div class="project-title">
-                                📊 INDICO Digital Ecosystem Analytics - Kuncie, Fita, Majamojo
-                                <span class="featured-badge">TERBARU</span>
+                                📊 INDICO Digital Ecosystem Analytics
                             </div>
                             <div class="project-stack">
                                 <span class="python">🐍 Python</span>
                                 <span class="postgres">🐘 PostgreSQL</span>
                                 <span>📊 Streamlit</span>
                                 <span>📈 Plotly</span>
-                                <span>☁️ Supabase</span>
                             </div>
-                            <p>Dashboard analitik untuk INDICO (anak perusahaan Telkomsel) yang menganalisis user engagement di 3 unit bisnis digital: Kuncie (Edu-tech), Fita (Health-tech), dan Majamojo (Game Publishing).</p>
+                            <p>Dashboard analitik untuk INDICO (Telkomsel) menganalisis user engagement di 3 unit bisnis digital.</p>
                             
                             <div class="project-metrics">
                                 <div class="metric">
@@ -678,11 +785,6 @@
                                 </div>
                             </div>
                             
-                            <div class="project-impact">
-                                <i class="fas fa-chart-line" style="margin-right: 8px; color:#2563eb;"></i>
-                                <strong>Key Insights:</strong> Hanya 8% user yang menggunakan lebih dari satu produk → peluang cross-selling <strong>Majamojo → Kuncie</strong>. Kuncie memiliki LTV tertinggi, Fita menunjukkan pertumbuhan aktif user bulanan.
-                            </div>
-                            
                             <div class="project-links">
                                 <a href="https://github.com/burhanudinera2018/indico-analytics-portfolio" class="btn-demo github" target="_blank">
                                     <i class="fab fa-github"></i> Repository
@@ -695,21 +797,18 @@
                     </div>
 
                     <!-- PROJECT A2P TELECOM ANALYTICS -->
-                    <div class="project-card featured">
+                    <div class="project-card">
                         <div class="project-content">
                             <div class="project-title">
-                                📱 A2P Telecom Analytics - Traffic & Revenue Intelligence
-                                <span class="featured-badge">TERBARU</span>
+                                📱 A2P Telecom Analytics
                             </div>
                             <div class="project-stack">
                                 <span class="python">🐍 Python</span>
                                 <span class="r">📐 R</span>
-                                <span class="postgres">🐘 PostgreSQL + PostGIS</span>
                                 <span>📊 Streamlit</span>
                                 <span>🗺️ GWR</span>
-                                <span>📈 A2P Strategy</span>
                             </div>
-                            <p>Dashboard intelijen traffic & revenue untuk A2P messaging. Mengimplementasikan GWR (Geographically Weighted Regression) untuk mengidentifikasi faktor dominan traffic A2P di 30+ wilayah Indonesia.</p>
+                            <p>Dashboard intelijen traffic & revenue A2P messaging dengan GWR di 30+ wilayah Indonesia.</p>
                             
                             <div class="project-metrics">
                                 <div class="metric">
@@ -720,15 +819,6 @@
                                     <div class="metric-value">30+</div>
                                     <div class="metric-label">Regions</div>
                                 </div>
-                                <div class="metric">
-                                    <div class="metric-value">4</div>
-                                    <div class="metric-label">Key Drivers</div>
-                                </div>
-                            </div>
-                            
-                            <div class="project-impact">
-                                <i class="fas fa-chart-line" style="margin-right: 8px; color:#2563eb;"></i>
-                                <strong>Hasil Analisis:</strong> GWR mengungkap bahwa faktor dominan traffic A2P bervariasi per wilayah: MNO partners (Jakarta), BTS density (Timur), OTT penetration (Bali), Regulation score (Sumatra).
                             </div>
                             
                             <div class="project-links">
@@ -742,40 +832,28 @@
                         </div>
                     </div>
 
-                    <!-- HYBRID BRIDGE DASHBOARD - Python vs R Validation -->
-                    <div class="project-card featured">
+                    <!-- HYBRID BRIDGE DASHBOARD -->
+                    <div class="project-card">
                         <div class="project-content">
                             <div class="project-title">
                                 🌉 Hybrid Bridge: Python ↔ R
-                                <span class="featured-badge">NEW</span>
                             </div>
                             <div class="project-stack">
-                                <span class="python">🐍 Python (geopandas)</span>
-                                <span class="r">📐 R (sf)</span>
+                                <span class="python">🐍 Python</span>
+                                <span class="r">📐 R</span>
                                 <span>🗺️ Leaflet</span>
-                                <span>📊 Tabulator</span>
-                                <span>🌐 GitHub Pages</span>
                             </div>
-                            <p>Membuktikan bahwa hasil analisis spasial <strong>Python = R</strong> (selisih &lt; 1e-8) melalui jembatan perbandingan numerik. Dashboard interaktif menampilkan peta dominasi koefisien jarak vs lebar jalan <strong>tanpa storage lokal</strong> — semua data di-fetch langsung dari GitHub. Terintegrasi dengan proyek ILASPP sebagai bukti konsep validasi lintas platform.</p>
+                            <p>Membuktikan hasil analisis spasial Python = R (selisih &lt; 1e-8). Dashboard interaktif tanpa storage lokal.</p>
                             
                             <div class="project-metrics">
                                 <div class="metric">
                                     <div class="metric-value">100%</div>
-                                    <div class="metric-label">Kesamaan Hasil</div>
-                                </div>
-                                <div class="metric">
-                                    <div class="metric-value">100</div>
-                                    <div class="metric-label">Kabupaten/Kota</div>
+                                    <div class="metric-label">Kesamaan</div>
                                 </div>
                                 <div class="metric">
                                     <div class="metric-value">&lt;1e-8</div>
-                                    <div class="metric-label">Selisih Python vs R</div>
+                                    <div class="metric-label">Selisih</div>
                                 </div>
-                            </div>
-                            
-                            <div class="project-impact">
-                                <i class="fas fa-code-branch" style="margin-right: 8px; color:#2563eb;"></i>
-                                <strong>Konsep Utama:</strong> Eksekusi identik di Python (geopandas) dan R (sf) → bandingkan statistik & koefisien → buktikan selisih mendekati nol → tampilkan di dashboard Leaflet. <strong>Sertifikat validasi otomatis</strong> dihasilkan sebagai bukti konkret.
                             </div>
                             
                             <div class="project-links">
@@ -783,60 +861,9 @@
                                     <i class="fab fa-github"></i> Repository
                                 </a>
                                 <a href="https://burhanudinera2018.github.io/hybrid-dashboard/" class="btn-demo dashboard" target="_blank">
-                                    <i class="fas fa-map-marked-alt"></i> Live Dashboard
-                                </a>
-                                <a href="https://burhanudinera2018.github.io/hybrid-dashboard/hybrid_bridge_certificate.html" class="btn-demo" target="_blank" style="background-color:#2b7a4b; color:white;">
-                                    <i class="fas fa-certificate"></i> Sertifikat
+                                    <i class="fas fa-map-marked-alt"></i> Live Demo
                                 </a>
                             </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 1 - AI-Powered Customer Analytics -->
-                    <div class="project-card">
-                        <div class="project-content">
-                            <div class="project-title">AI-Powered Customer Analytics & Order Processing</div>
-                            <div class="project-stack">
-                                <span>Python</span><span>FastAPI</span><span>Kafka</span><span>LangChain</span><span>Docker</span>
-                            </div>
-                            <p>Sistem analitik pelanggan real-time dengan arsitektur hybrid AI yang memproses ribuan order per jam.</p>
-                            <div class="project-impact">
-                                <i class="fas fa-chart-line" style="margin-right: 8px; color:#2563eb;"></i>
-                                <strong>Dampak:</strong> Response API 86% lebih cepat, kapasitas order meningkat 6x (450 → 2.800/jam), error rate turun 94%
-                            </div>
-                            <a href="https://github.com/burhanudinera2018/customer-analytics-sys" class="project-link" target="_blank">Lihat Repository →</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Project 2 - AI-Powered Delinquency Analyzer -->
-                    <div class="project-card">
-                        <div class="project-content">
-                            <div class="project-title">AI-Powered Delinquency Analyzer</div>
-                            <div class="project-stack">
-                                <span>Streamlit</span><span>Ollama</span><span>Pandas</span><span>Plotly</span>
-                            </div>
-                            <p>Sistem analisis risiko kredit dengan local LLM untuk tim collections Gellium Finance.</p>
-                            <div class="project-impact">
-                                <i class="fas fa-shield-alt" style="margin-right: 8px; color:#2563eb;"></i>
-                                <strong>Dampak:</strong> Analisis data sensitif tetap privat (100% lokal), waktu analisis dari jam menjadi menit
-                            </div>
-                            <a href="https://github.com/burhanudinera2018/gellium-delinquency-analysis-v1" class="project-link" target="_blank">Lihat Repository →</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Project 3 - Telecom AI Customer Churn Prediction -->
-                    <div class="project-card">
-                        <div class="project-content">
-                            <div class="project-title">Telecom AI - Customer Churn Prediction</div>
-                            <div class="project-stack">
-                                <span>Python</span><span>Scikit-learn</span><span>MLflow</span><span>SHAP</span>
-                            </div>
-                            <p>Sistem prediksi churn proaktif dengan model monitoring dan drift detection untuk industri telekomunikasi.</p>
-                            <div class="project-impact">
-                                <i class="fas fa-chart-simple" style="margin-right: 8px; color:#2563eb;"></i>
-                                <strong>Dampak:</strong> AUC-ROC 0.855, potensi mengurangi churn 15-20% dengan intervensi tepat waktu
-                            </div>
-                            <a href="https://github.com/burhanudinera2018/telecom-ai-mlops-portfolio" class="project-link" target="_blank">Lihat Repository →</a>
                         </div>
                     </div>
                 </div>
@@ -849,11 +876,19 @@
                 <h2 class="section-title">Portofolio Proyek Lainnya</h2>
                 <p style="margin-bottom: 24px; color: #475569;">Selain proyek unggulan, saya juga mengerjakan berbagai simulasi dan proyek mandiri yang menunjukkan kemampuan di bidang data analytics, AI, dan arsitektur sistem.</p>
                 <div class="secondary-grid">
+                    <div class="secondary-item"><strong>📡 Indosat Ooredoo | Network Intelligence</strong><br>Research case study Harvard dataset (Milan). Traffic forecasting MAPE 10.8%, spatial heatmaps, K-Means clustering untuk network optimization.<br>
+                        <a href="https://github.com/burhanudinera2018/indosat-telecom-network-intelligence" target="_blank" style="font-size: 12px;">GitHub →</a>
+                        <a href="https://indosat-network-intelligence.streamlit.app/" target="_blank" style="font-size: 12px; margin-left: 12px;">Live Demo →</a>
+                    </div>
+                    <div class="secondary-item"><strong>📡 Telecom Italy Customer Churn</strong><br>Real dataset Harvard Dataverse. Prediksi churn dengan XGBoost, Random Forest, LightGBM. AUC 91.2%.<br>
+                        <a href="https://github.com/burhanudinera2018/telecom-italy-churn-prediction" target="_blank" style="font-size: 12px;">GitHub →</a>
+                        <a href="https://telecom-italy-churn.streamlit.app/" target="_blank" style="font-size: 12px; margin-left: 12px;">Live Demo →</a>
+                    </div>
                     <div class="secondary-item"><strong>🌉 Hybrid Bridge Python ↔ R</strong><br>Validasi spasial & dashboard Leaflet tanpa storage lokal. Membuktikan Python = R dengan selisih &lt;1e-8.<br>
                         <a href="https://github.com/burhanudinera2018/hybrid-dashboard" target="_blank" style="font-size: 12px;">GitHub →</a>
                         <a href="https://burhanudinera2018.github.io/hybrid-dashboard/" target="_blank" style="font-size: 12px; margin-left: 12px;">Live Demo →</a>
                     </div>
-                    <div class="secondary-item"><strong>📊 INDICO Digital Ecosystem Analytics</strong><br>Dashboard analitik user engagement lintas 3 unit bisnis digital Kuncie, Fita, Majamojo dengan cohort retention & LTV analysis.<br>
+                    <div class="secondary-item"><strong>📊 INDICO Digital Ecosystem Analytics</strong><br>Dashboard analitik user engagement lintas 3 unit bisnis digital Kuncie, Fita, Majamojo.<br>
                         <a href="https://github.com/burhanudinera2018/indico-analytics-portfolio" target="_blank" style="font-size: 12px;">GitHub →</a>
                         <a href="https://indico-analytics-portfolio.streamlit.app/" target="_blank" style="font-size: 12px; margin-left: 12px;">Live Demo →</a>
                     </div>
@@ -864,13 +899,6 @@
                     <div class="secondary-item"><strong>SEC Financial Data Scraper</strong><br>Streamlit + Ollama untuk scraping dan analisis laporan keuangan 10-K perusahaan publik.</div>
                     <div class="secondary-item"><strong>BCG GenAI Chatbot</strong><br>Chatbot keuangan dengan pattern matching dan local LLM untuk analisis real-time.</div>
                     <div class="secondary-item"><strong>Deloitte Telemetry Analytics</strong><br>Analisis downtime pabrik dengan dashboard interaktif dan insight dari LLM lokal.</div>
-                    <div class="secondary-item"><strong>Asset Management System</strong><br>Microservices dengan RBAC untuk manajemen aset pertanian (PostgreSQL, FastAPI).</div>
-                    <div class="secondary-item"><strong>Quantium Data Analytics</strong><br>Analisis customer insight dan uplift testing untuk rekomendasi bisnis.</div>
-                    <div class="secondary-item"><strong>PwC Power BI Dashboard</strong><br>Visualisasi KPI dan analisis gender balance untuk eksekutif.</div>
-                    <div class="secondary-item"><strong>Accenture Data Analytics</strong><br>Analisis 7 dataset untuk rekomendasi strategi konten media sosial.</div>
-                    <div class="secondary-item"><strong>British Airways Review Scraper</strong><br>Scraping ulasan pelanggan dan model prediksi faktor pembelian.</div>
-                    <div class="secondary-item"><strong>Gemini AI Chatbot</strong><br>Integrasi Google Gemini 1.5 Flash untuk chatbot real-time dengan Node.js.</div>
-                    <div class="secondary-item"><strong>Standard Bank Credit Scoring</strong><br>Model machine learning untuk prediksi default loan dengan siklus data science end-to-end.</div>
                 </div>
                 <div style="margin-top: 32px; text-align: center;">
                     <a href="https://github.com/burhanudinera2018" class="btn-outline" target="_blank"><i class="fab fa-github"></i> Lihat Semua Proyek di GitHub</a>
@@ -896,12 +924,12 @@
         <div class="container">
             <p>© 2026 Burhanudin Badiuzaman | Dibangun dengan <i class="fas fa-heart" style="color: #2563eb;"></i> untuk menunjukkan dampak data & AI</p>
             <div class="footer-links">
-                <a href="https://indico-analytics-portfolio-fym7y7lcnypkzx8lq9cogn.streamlit.app/" target="_blank">INDICO Analytics</a> • 
+                <a href="https://indosat-network-intelligence.streamlit.app/" target="_blank">Indosat Network Intelligence</a> • 
+                <a href="https://telecom-italy-churn.streamlit.app/" target="_blank">Telecom Italy Churn</a> • 
+                <a href="https://indico-analytics-portfolio.streamlit.app/" target="_blank">INDICO Analytics</a> • 
                 <a href="https://a2p-telecom-analytics.streamlit.app/" target="_blank">A2P Telecom</a> • 
-                <a href="https://ilasspp-gwr-dashboard-update2.streamlit.app/" target="_blank">ILASPP GWR + Kriging</a> • 
-                <a href="https://burhanudinera2018.github.io/hybrid-dashboard/" target="_blank">Hybrid Bridge</a> • 
-                <a href="https://github.com/burhanudinera2018" target="_blank">GitHub</a> • 
-                <a href="https://www.linkedin.com/in/burhanudin-badiuzaman-4a9204161/" target="_blank">LinkedIn</a>
+                <a href="https://ilasspp-gwr-dashboard-update2.streamlit.app/" target="_blank">ILASPP</a> • 
+                <a href="https://github.com/burhanudinera2018" target="_blank">GitHub</a>
             </div>
         </div>
     </footer>
