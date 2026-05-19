@@ -29,7 +29,6 @@
             padding: 0 24px;
         }
 
-        /* Navigation */
         .navbar {
             position: sticky;
             top: 0;
@@ -76,7 +75,6 @@
             color: #2563eb;
         }
 
-        /* Buttons */
         .btn-primary {
             display: inline-block;
             background: linear-gradient(135deg, #2563eb, #7c3aed);
@@ -110,7 +108,6 @@
             color: white;
         }
 
-        /* Button untuk Live Demo & Repository */
         .btn-demo {
             display: inline-flex;
             align-items: center;
@@ -160,7 +157,6 @@
             flex-wrap: wrap;
         }
 
-        /* Hero Section */
         .hero {
             padding: 80px 0 60px;
         }
@@ -212,7 +208,6 @@
             color: white;
         }
 
-        /* Section Styles */
         .section {
             padding: 64px 0;
             border-bottom: 1px solid #e2e8f0;
@@ -237,7 +232,6 @@
             border-radius: 2px;
         }
 
-        /* Experience Timeline */
         .timeline {
             display: flex;
             flex-direction: column;
@@ -284,7 +278,6 @@
             margin-bottom: 8px;
         }
 
-        /* Project Cards Grid */
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
@@ -307,7 +300,6 @@
             box-shadow: 0 20px 30px -12px rgba(0,0,0,0.15);
         }
 
-        /* Featured Project Card */
         .project-card.featured {
             border: 2px solid transparent;
             background: linear-gradient(white, white) padding-box,
@@ -404,17 +396,6 @@
             border-left: 3px solid #2563eb;
         }
 
-        .project-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: #2563eb;
-            text-decoration: none;
-            font-weight: 600;
-            margin-top: 16px;
-        }
-
-        /* Secondary Projects */
         .secondary-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -435,7 +416,6 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.05);
         }
 
-        /* Contact Section */
         .contact-links {
             display: flex;
             gap: 24px;
@@ -462,7 +442,6 @@
             color: #2563eb;
         }
 
-        /* Footer */
         .footer {
             text-align: center;
             padding: 32px;
@@ -485,7 +464,6 @@
             color: #2563eb;
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
             .nav-container {
                 flex-direction: column;
@@ -528,17 +506,14 @@
     </nav>
 
     <main>
-        <!-- Hero Section -->
         <section id="home" class="hero">
             <div class="container">
                 <div style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap;">
-                    <!-- Kolom Foto -->
                     <div style="flex: 0 0 auto;">
                         <img src="Burhanudin_SemiFormal.jpeg" 
                              alt="Burhanudin Badiuzaman" 
                              style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 4px solid #2563eb; box-shadow: 0 8px 20px rgba(0,0,0,0.1);">
                     </div>
-                    <!-- Kolom Konten -->
                     <div style="flex: 1;">
                         <h1>Mengubah Data menjadi <span class="hero-highlight">Keputusan Cerdas</span> dengan AI & Analitik</h1>
                         <p>Halo, saya <strong>Burhanudin Badiuzaman</strong>. Data Scientist & AI Engineer dengan pengalaman membangun solusi analitik end-to-end yang meningkatkan efisiensi bisnis hingga 6x lipat.</p>
@@ -570,7 +545,6 @@
             </div>
         </section>
 
-        <!-- Experience Section -->
         <section id="experience" class="section">
             <div class="container">
                 <h2 class="section-title">Pengalaman Kerja</h2>
@@ -598,13 +572,12 @@
             </div>
         </section>
 
-        <!-- Featured Projects -->
         <section id="featured-projects" class="section">
             <div class="container">
                 <h2 class="section-title">Proyek Unggulan</h2>
                 <div class="projects-grid">
                     
-                    <!-- PROJECT 1: TELECOM MILAN NETWORK TRAFFIC ANALYSIS (END-TO-END) -->
+                    <!-- PROJECT 1: TELECOM MILAN -->
                     <div class="project-card featured">
                         <div class="project-content">
                             <div class="project-title">
@@ -621,46 +594,23 @@
                                 <span>🗺️ Spatial Clustering</span>
                                 <span>📈 R² = 0.802</span>
                             </div>
-                            <p><strong>End-to-end data science pipeline</strong> pada dataset telecom Milan (14.3M records, 2.5GB) dari <strong>Harvard Dataverse</strong>. Mencakup parsing data sparse, clustering spasial (5 clusters), time series analysis, dan model prediktif.</p>
-                            
+                            <p>End-to-end data science pipeline pada dataset telecom Milan (14.3M records, 2.5GB) dari Harvard Dataverse. Mencakup parsing data sparse, clustering spasial, time series analysis, dan model prediktif.</p>
                             <div class="project-metrics">
-                                <div class="metric">
-                                    <div class="metric-value">14.3M</div>
-                                    <div class="metric-label">Records</div>
-                                </div>
-                                <div class="metric">
-                                    <div class="metric-value">5</div>
-                                    <div class="metric-label">Clusters</div>
-                                </div>
-                                <div class="metric">
-                                    <div class="metric-value">80.2%</div>
-                                    <div class="metric-label">R² Model</div>
-                                </div>
+                                <div class="metric"><div class="metric-value">14.3M</div><div class="metric-label">Records</div></div>
+                                <div class="metric"><div class="metric-value">5</div><div class="metric-label">Clusters</div></div>
+                                <div class="metric"><div class="metric-value">80.2%</div><div class="metric-label">R² Model</div></div>
                             </div>
-                            
                             <div class="project-impact">
-                                <i class="fas fa-chart-line" style="margin-right: 8px; color:#2563eb;"></i>
-                                <strong>Key Outcomes:</strong>
-                                <ul style="margin-top: 8px; margin-left: 20px; color: #334155;">
-                                    <li>🗺️ <strong>Spatial Clustering:</strong> 45.7% area residensial vs 6.4% pusat kota (aktivitas 8x lebih tinggi)</li>
-                                    <li>⏰ <strong>Time Series:</strong> Peak hour 10:00 (global) vs 16:00 (city center) | Off-peak 04:00</li>
-                                    <li>🤖 <strong>Predictive Model:</strong> Gradient Boosting R²=0.802, feature importance cluster (71%) vs hour (27.5%)</li>
-                                    <li>📊 <strong>Dashboard:</strong> Filter interaktif per cluster, value range, visualisasi pola aktivitas</li>
-                                </ul>
+                                <strong>Key Outcomes:</strong> Spatial clustering: 45.7% area residensial vs 6.4% pusat kota (aktivitas 8x lebih tinggi). Predictive model Gradient Boosting R²=0.802.
                             </div>
-                            
                             <div class="project-links">
-                                <a href="https://github.com/burhanudinera2018/telecom-italy-churn" class="btn-demo github" target="_blank">
-                                    <i class="fab fa-github"></i> Repository
-                                </a>
-                                <a href="https://telecom-italy-churn-r353r4ch.streamlit.app/" class="btn-demo streamlit" style="opacity: 0.6; cursor: not-allowed;" target="_blank">
-                                    <i class="fas fa-chart-line"></i> Live Demo (Deploy Soon)
-                                </a>
+                                <a href="https://github.com/burhanudinera2018/telecom-italy-churn" class="btn-demo github" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="https://telecom-italy-churn-r353r4ch.streamlit.app/" class="btn-demo streamlit" style="opacity:0.6; cursor:not-allowed;" target="_blank"><i class="fas fa-chart-line"></i> Live Demo (Soon)</a>
                             </div>
                         </div>
                     </div>
 
-                    <!-- PROJECT 2: ILASPP - GWR + KRIGING -->
+                    <!-- PROJECT 2: ILASPP -->
                     <div class="project-card featured">
                         <div class="project-content">
                             <div class="project-title">
@@ -676,35 +626,15 @@
                                 <span>🌐 Kriging</span>
                                 <span>🔥 Folium Heatmap</span>
                             </div>
-                            <p>Sistem informasi nilai tanah spasial prediktif yang dikembangkan untuk ATR/BPN. Mengimplementasikan <strong>GWR (Geographically Weighted Regression)</strong> dan <strong>Kriging Interpolation</strong>.</p>
-                            
+                            <p>Sistem informasi nilai tanah spasial prediktif untuk ATR/BPN. Mengimplementasikan GWR dan Kriging Interpolation.</p>
                             <div class="project-metrics">
-                                <div class="metric">
-                                    <div class="metric-value">96.9%</div>
-                                    <div class="metric-label">R² GWR</div>
-                                </div>
-                                <div class="metric">
-                                    <div class="metric-value">100%</div>
-                                    <div class="metric-label">Koef. Negatif Jarak</div>
-                                </div>
-                                <div class="metric">
-                                    <div class="metric-value">186m</div>
-                                    <div class="metric-label">Bandwidth GWR</div>
-                                </div>
+                                <div class="metric"><div class="metric-value">96.9%</div><div class="metric-label">R² GWR</div></div>
+                                <div class="metric"><div class="metric-value">100%</div><div class="metric-label">Koef. Negatif Jarak</div></div>
+                                <div class="metric"><div class="metric-value">186m</div><div class="metric-label">Bandwidth GWR</div></div>
                             </div>
-                            
-                            <div class="project-impact">
-                                <i class="fas fa-chart-line" style="margin-right: 8px; color:#2563eb;"></i>
-                                <strong>Hasil Analisis:</strong> 100% lokasi menunjukkan koefisien negatif untuk jarak ke pusat kota dan 100% positif untuk lebar jalan.
-                            </div>
-                            
                             <div class="project-links">
-                                <a href="https://github.com/burhanudinera2018/ilasspp-gwr-dashboard" class="btn-demo github" target="_blank">
-                                    <i class="fab fa-github"></i> Repository
-                                </a>
-                                <a href="https://ilasspp-gwr-dashboard-update2.streamlit.app/" class="btn-demo streamlit" target="_blank">
-                                    <i class="fas fa-chart-line"></i> Live Demo
-                                </a>
+                                <a href="https://github.com/burhanudinera2018/ilasspp-gwr-dashboard" class="btn-demo github" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="https://ilasspp-gwr-dashboard-update2.streamlit.app/" class="btn-demo streamlit" target="_blank"><i class="fas fa-chart-line"></i> Live Demo</a>
                             </div>
                         </div>
                     </div>
@@ -712,9 +642,7 @@
                     <!-- PROJECT 3: INDICO ANALYTICS -->
                     <div class="project-card">
                         <div class="project-content">
-                            <div class="project-title">
-                                📊 INDICO Digital Ecosystem Analytics
-                            </div>
+                            <div class="project-title">📊 INDICO Digital Ecosystem Analytics</div>
                             <div class="project-stack">
                                 <span class="python">🐍 Python</span>
                                 <span class="postgres">🐘 PostgreSQL</span>
@@ -722,29 +650,14 @@
                                 <span>📈 Plotly</span>
                             </div>
                             <p>Dashboard analitik untuk INDICO (Telkomsel) menganalisis user engagement di 3 unit bisnis digital.</p>
-                            
                             <div class="project-metrics">
-                                <div class="metric">
-                                    <div class="metric-value">500+</div>
-                                    <div class="metric-label">Users</div>
-                                </div>
-                                <div class="metric">
-                                    <div class="metric-value">8,479</div>
-                                    <div class="metric-label">Activities</div>
-                                </div>
-                                <div class="metric">
-                                    <div class="metric-value">8%</div>
-                                    <div class="metric-label">Cross-Engagement</div>
-                                </div>
+                                <div class="metric"><div class="metric-value">500+</div><div class="metric-label">Users</div></div>
+                                <div class="metric"><div class="metric-value">8,479</div><div class="metric-label">Activities</div></div>
+                                <div class="metric"><div class="metric-value">8%</div><div class="metric-label">Cross-Engagement</div></div>
                             </div>
-                            
                             <div class="project-links">
-                                <a href="https://github.com/burhanudinera2018/indico-analytics-portfolio" class="btn-demo github" target="_blank">
-                                    <i class="fab fa-github"></i> Repository
-                                </a>
-                                <a href="https://indico-analytics-portfolio-fym7y7lcnypkzx8lq9cogn.streamlit.app/" class="btn-demo streamlit" target="_blank">
-                                    <i class="fas fa-chart-line"></i> Live Demo
-                                </a>
+                                <a href="https://github.com/burhanudinera2018/indico-analytics-portfolio" class="btn-demo github" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="https://indico-analytics-portfolio-fym7y7lcnypkzx8lq9cogn.streamlit.app/" class="btn-demo streamlit" target="_blank"><i class="fas fa-chart-line"></i> Live Demo</a>
                             </div>
                         </div>
                     </div>
@@ -752,9 +665,7 @@
                     <!-- PROJECT 4: A2P TELECOM ANALYTICS -->
                     <div class="project-card">
                         <div class="project-content">
-                            <div class="project-title">
-                                📱 A2P Telecom Analytics
-                            </div>
+                            <div class="project-title">📱 A2P Telecom Analytics</div>
                             <div class="project-stack">
                                 <span class="python">🐍 Python</span>
                                 <span class="r">📐 R</span>
@@ -762,64 +673,39 @@
                                 <span>🗺️ GWR</span>
                             </div>
                             <p>Dashboard intelijen traffic & revenue A2P messaging dengan GWR di 30+ wilayah Indonesia.</p>
-                            
                             <div class="project-metrics">
-                                <div class="metric">
-                                    <div class="metric-value">89.4%</div>
-                                    <div class="metric-label">R² GWR</div>
-                                </div>
-                                <div class="metric">
-                                    <div class="metric-value">30+</div>
-                                    <div class="metric-label">Regions</div>
-                                </div>
+                                <div class="metric"><div class="metric-value">89.4%</div><div class="metric-label">R² GWR</div></div>
+                                <div class="metric"><div class="metric-value">30+</div><div class="metric-label">Regions</div></div>
                             </div>
-                            
                             <div class="project-links">
-                                <a href="https://github.com/burhanudinera2018/a2p-telecom-analytics" class="btn-demo github" target="_blank">
-                                    <i class="fab fa-github"></i> Repository
-                                </a>
-                                <a href="https://a2p-telecom-analytics.streamlit.app/" class="btn-demo streamlit" target="_blank">
-                                    <i class="fas fa-chart-line"></i> Live Demo
-                                </a>
+                                <a href="https://github.com/burhanudinera2018/a2p-telecom-analytics" class="btn-demo github" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="https://a2p-telecom-analytics.streamlit.app/" class="btn-demo streamlit" target="_blank"><i class="fas fa-chart-line"></i> Live Demo</a>
                             </div>
                         </div>
                     </div>
 
-                    <!-- PROJECT 5: HYBRID BRIDGE DASHBOARD -->
+                    <!-- PROJECT 5: HYBRID BRIDGE -->
                     <div class="project-card">
                         <div class="project-content">
-                            <div class="project-title">
-                                🌉 Hybrid Bridge: Python ↔ R
-                            </div>
+                            <div class="project-title">🌉 Hybrid Bridge: Python ↔ R</div>
                             <div class="project-stack">
                                 <span class="python">🐍 Python</span>
                                 <span class="r">📐 R</span>
                                 <span>🗺️ Leaflet</span>
                             </div>
                             <p>Membuktikan hasil analisis spasial Python = R (selisih &lt; 1e-8). Dashboard interaktif tanpa storage lokal.</p>
-                            
                             <div class="project-metrics">
-                                <div class="metric">
-                                    <div class="metric-value">100%</div>
-                                    <div class="metric-label">Kesamaan</div>
-                                </div>
-                                <div class="metric">
-                                    <div class="metric-value">&lt;1e-8</div>
-                                    <div class="metric-label">Selisih</div>
-                                </div>
+                                <div class="metric"><div class="metric-value">100%</div><div class="metric-label">Kesamaan</div></div>
+                                <div class="metric"><div class="metric-value">&lt;1e-8</div><div class="metric-label">Selisih</div></div>
                             </div>
-                            
                             <div class="project-links">
-                                <a href="https://github.com/burhanudinera2018/hybrid-dashboard" class="btn-demo github" target="_blank">
-                                    <i class="fab fa-github"></i> Repository
-                                </a>
-                                <a href="https://burhanudinera2018.github.io/hybrid-dashboard/" class="btn-demo dashboard" target="_blank">
-                                    <i class="fas fa-map-marked-alt"></i> Live Demo
-                                </a>
+                                <a href="https://github.com/burhanudinera2018/hybrid-dashboard" class="btn-demo github" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="https://burhanudinera2018.github.io/hybrid-dashboard/" class="btn-demo dashboard" target="_blank"><i class="fas fa-map-marked-alt"></i> Live Demo</a>
                             </div>
                         </div>
+                    </div>
 
-                    <!-- PROJECT 6: GRAB EXPANSION ANALYSIS - JAWA TENGAH -->
+                    <!-- PROJECT 6: GRAB EXPANSION ANALYSIS (BARU) -->
                     <div class="project-card featured">
                         <div class="project-content">
                             <div class="project-title">
@@ -835,114 +721,39 @@
                                 <span>📐 Matplotlib</span>
                                 <span>🐘 PostgreSQL</span>
                             </div>
-                            <p><strong>Analisis prioritas ekspansi GrabFood & GrabCar</strong> di 35 kabupaten/kota Jawa Tengah menggunakan data real dari <strong>BPS (Badan Pusat Statistik)</strong>. Menggabungkan data kepadatan penduduk dan PDRB per kapita dengan sistem scoring dinamis.</p>
-                            
+                            <p>Analisis prioritas ekspansi GrabFood & GrabCar di 35 kabupaten/kota Jawa Tengah menggunakan data real dari BPS. Menggabungkan data kepadatan penduduk dan PDRB per kapita dengan sistem scoring dinamis.</p>
                             <div class="project-metrics">
-                                <div class="metric">
-                                    <div class="metric-value">35</div>
-                                    <div class="metric-label">Kab/Kota</div>
-                                </div>
-                                <div class="metric">
-                                    <div class="metric-value">5</div>
-                                    <div class="metric-label">Visualisasi</div>
-                                </div>
-                                <div class="metric">
-                                    <div class="metric-value">88.7</div>
-                                    <div class="metric-label">Skor Tertinggi</div>
-                                </div>
+                                <div class="metric"><div class="metric-value">35</div><div class="metric-label">Kab/Kota</div></div>
+                                <div class="metric"><div class="metric-value">5</div><div class="metric-label">Visualisasi</div></div>
+                                <div class="metric"><div class="metric-value">88.7</div><div class="metric-label">Skor Tertinggi</div></div>
                             </div>
-                            
                             <div class="project-impact">
-                                <i class="fas fa-chart-line" style="margin-right: 8px; color:#2563eb;"></i>
-                                <strong>Key Outcomes:</strong>
-                                <ul style="margin-top: 8px; margin-left: 20px; color: #334155;">
-                                    <li>🏆 <strong>Top Priority:</strong> Kota Surakarta (Solo) dengan skor 88.7</li>
-                                    <li>🗺️ <strong>Interactive Map:</strong> Peta prioritas ekspansi dengan Folium</li>
-                                    <li>📈 <strong>5 Visualizations:</strong> Line Chart, Area Chart, Bar Chart, Facet Grid, Heatmap</li>
-                                    <li>⚡ <strong>Dynamic Simulation:</strong> Real-time order tracking & alert system</li>
-                                    <li>📊 <strong>Live Dashboard:</strong> Streamlit Cloud dengan parameter interaktif</li>
-                                </ul>
+                                <strong>Key Outcomes:</strong> Top priority: Kota Surakarta (Solo) skor 88.7. Interactive map dengan Folium, 5 visualisasi (Line Chart, Area Chart, Bar Chart, Facet Grid, Heatmap), dynamic simulation real-time.
                             </div>
-                            
                             <div class="project-links">
-                                <a href="https://github.com/burhanudinera2018/grab_expansion_analysis" class="btn-demo github" target="_blank">
-                                    <i class="fab fa-github"></i> Repository
-                                </a>
-                                <a href="https://grabexpansionanalysis-v1.streamlit.app/" class="btn-demo streamlit" target="_blank">
-                                    <i class="fas fa-chart-line"></i> Live Demo
-                                </a>
+                                <a href="https://github.com/burhanudinera2018/grab_expansion_analysis" class="btn-demo github" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="https://grabexpansionanalysis-v1.streamlit.app/" class="btn-demo streamlit" target="_blank"><i class="fas fa-chart-line"></i> Live Demo</a>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Other Projects (Ringkasan) -->
         <section id="other-projects" class="section">
             <div class="container">
                 <h2 class="section-title">Portofolio Proyek Lainnya</h2>
                 <p style="margin-bottom: 24px; color: #475569;">Selain proyek unggulan, saya juga mengerjakan berbagai simulasi dan proyek mandiri yang menunjukkan kemampuan di bidang data analytics, AI, dan arsitektur sistem.</p>
                 <div class="secondary-grid">
-                   
-                    <div class="secondary-item">
-                        <strong>📡 Telecom Milan Network Traffic Analysis</strong><br>
-                        End-to-end DS pipeline: parsing 2.5GB data, KMeans clustering (5 clusters), time series, Gradient Boosting (R²=0.802).<br>
-                        <a href="https://github.com/burhanudinera2018/telecom-italy-churn" target="_blank" style="font-size: 12px;">GitHub →</a>
-                        <a href="https://telecom-italy-churn-r353r4ch.streamlit.app/" style="font-size: 12px; margin-left: 12px; opacity:0.6;">Live Demo (Soon) →</a>
-                    </div>
-                   
-                    <div class="secondary-item">
-                        <strong>🗺️ ILASPP - GWR + Kriging</strong><br>
-                        Dashboard analisis spasial dengan GWR dan Kriging Interpolation untuk prediksi nilai tanah.<br>
-                        <a href="https://github.com/burhanudinera2018/ilasspp-gwr-dashboard" target="_blank" style="font-size: 12px;">GitHub →</a>
-                        <a href="https://ilasspp-gwr-dashboard-update2.streamlit.app/" target="_blank" style="font-size: 12px; margin-left: 12px;">Live Demo →</a>
-                    </div>
-                   
-                    <div class="secondary-item">
-                        <strong>📊 INDICO Digital Ecosystem Analytics</strong><br>
-                        Dashboard analitik user engagement lintas 3 unit bisnis digital Kuncie, Fita, Majamojo.<br>
-                        <a href="https://github.com/burhanudinera2018/indico-analytics-portfolio" target="_blank" style="font-size: 12px;">GitHub →</a>
-                        <a href="https://indico-analytics-portfolio.streamlit.app/" target="_blank" style="font-size: 12px; margin-left: 12px;">Live Demo →</a>
-                    </div>
-                   
-                    <div class="secondary-item">
-                        <strong>📱 A2P Telecom Analytics</strong><br>
-                        Dashboard intelijen traffic & revenue A2P messaging dengan GWR di 30+ wilayah.<br>
-                        <a href="https://github.com/burhanudinera2018/a2p-telecom-analytics" target="_blank" style="font-size: 12px;">GitHub →</a>
-                        <a href="https://a2p-telecom-analytics.streamlit.app/" target="_blank" style="font-size: 12px; margin-left: 12px;">Live Demo →</a>
-                    </div>
-                    
-                    <div class="secondary-item">
-                        <strong>🌉 Hybrid Bridge Python ↔ R</strong><br>
-                        Validasi spasial & dashboard Leaflet tanpa storage lokal. Membuktikan Python = R dengan selisih &lt;1e-8.<br>
-                        <a href="https://github.com/burhanudinera2018/hybrid-dashboard" target="_blank" style="font-size: 12px;">GitHub →</a>
-                        <a href="https://burhanudinera2018.github.io/hybrid-dashboard/" target="_blank" style="font-size: 12px; margin-left: 12px;">Live Demo →</a>
-                    </div>
-
-                    <div class="secondary-item">
-                        <strong>🚀 Grab Expansion Priority Analysis - Jateng</strong><br>
-                        Analisis prioritas ekspansi Grab di 35 kab/kota Jateng. Dashboard interaktif dengan peta, simulasi dinamis, dan 5 jenis visualisasi.<br>
-                        <a href="https://github.com/burhanudinera2018/grab_expansion_analysis" target="_blank" style="font-size: 12px;">GitHub →</a>
-                        <a href="https://grabexpansionanalysis-v1.streamlit.app/" target="_blank" style="font-size: 12px; margin-left: 12px;">Live Demo →</a>
-                    </div>
-                    
-                    <div class="secondary-item">
-                        <strong>SEC Financial Data Scraper</strong><br>
-                        Streamlit + Ollama untuk scraping dan analisis laporan keuangan 10-K perusahaan publik.
-                    </div>
-                    
-                    <div class="secondary-item">
-                        <strong>BCG GenAI Chatbot</strong><br>
-                        Chatbot keuangan dengan pattern matching dan local LLM untuk analisis real-time.
-                    </div>
-                    
-                    <div class="secondary-item">
-                        <strong>Deloitte Telemetry Analytics</strong><br>
-                        Analisis downtime pabrik dengan dashboard interaktif dan insight dari LLM lokal.
-                    </div>
-
+                    <div class="secondary-item"><strong>🚀 Grab Expansion Priority Analysis</strong><br>Analisis prioritas ekspansi Grab di 35 kab/kota Jateng. Dashboard interaktif dengan peta dan simulasi dinamis.<br><a href="https://github.com/burhanudinera2018/grab_expansion_analysis" target="_blank" style="font-size:12px;">GitHub →</a> <a href="https://grabexpansionanalysis-v1.streamlit.app/" target="_blank" style="font-size:12px; margin-left:12px;">Live Demo →</a></div>
+                    <div class="secondary-item"><strong>📡 Telecom Milan Network Traffic Analysis</strong><br>End-to-end DS pipeline: parsing 2.5GB data, KMeans clustering, Gradient Boosting (R²=0.802).<br><a href="https://github.com/burhanudinera2018/telecom-italy-churn" target="_blank" style="font-size:12px;">GitHub →</a> <a href="https://telecom-italy-churn-r353r4ch.streamlit.app/" style="font-size:12px; margin-left:12px; opacity:0.6;">Live Demo (Soon) →</a></div>
+                    <div class="secondary-item"><strong>🗺️ ILASPP - GWR + Kriging</strong><br>Dashboard analisis spasial dengan GWR dan Kriging Interpolation untuk prediksi nilai tanah.<br><a href="https://github.com/burhanudinera2018/ilasspp-gwr-dashboard" target="_blank" style="font-size:12px;">GitHub →</a> <a href="https://ilasspp-gwr-dashboard-update2.streamlit.app/" target="_blank" style="font-size:12px; margin-left:12px;">Live Demo →</a></div>
+                    <div class="secondary-item"><strong>📊 INDICO Digital Ecosystem Analytics</strong><br>Dashboard analitik user engagement lintas 3 unit bisnis digital Kuncie, Fita, Majamojo.<br><a href="https://github.com/burhanudinera2018/indico-analytics-portfolio" target="_blank" style="font-size:12px;">GitHub →</a> <a href="https://indico-analytics-portfolio-fym7y7lcnypkzx8lq9cogn.streamlit.app/" target="_blank" style="font-size:12px; margin-left:12px;">Live Demo →</a></div>
+                    <div class="secondary-item"><strong>📱 A2P Telecom Analytics</strong><br>Dashboard intelijen traffic & revenue A2P messaging dengan GWR di 30+ wilayah.<br><a href="https://github.com/burhanudinera2018/a2p-telecom-analytics" target="_blank" style="font-size:12px;">GitHub →</a> <a href="https://a2p-telecom-analytics.streamlit.app/" target="_blank" style="font-size:12px; margin-left:12px;">Live Demo →</a></div>
+                    <div class="secondary-item"><strong>🌉 Hybrid Bridge Python ↔ R</strong><br>Validasi spasial & dashboard Leaflet tanpa storage lokal. Membuktikan Python = R dengan selisih &lt;1e-8.<br><a href="https://github.com/burhanudinera2018/hybrid-dashboard" target="_blank" style="font-size:12px;">GitHub →</a> <a href="https://burhanudinera2018.github.io/hybrid-dashboard/" target="_blank" style="font-size:12px; margin-left:12px;">Live Demo →</a></div>
+                    <div class="secondary-item"><strong>SEC Financial Data Scraper</strong><br>Streamlit + Ollama untuk scraping dan analisis laporan keuangan 10-K perusahaan publik.</div>
+                    <div class="secondary-item"><strong>BCG GenAI Chatbot</strong><br>Chatbot keuangan dengan pattern matching dan local LLM untuk analisis real-time.</div>
+                    <div class="secondary-item"><strong>Deloitte Telemetry Analytics</strong><br>Analisis downtime pabrik dengan dashboard interaktif dan insight dari LLM lokal.</div>
                 </div>
                 <div style="margin-top: 32px; text-align: center;">
                     <a href="https://github.com/burhanudinera2018" class="btn-outline" target="_blank"><i class="fab fa-github"></i> Lihat Semua Proyek di GitHub</a>
@@ -950,7 +761,6 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
         <section id="contact" class="section">
             <div class="container">
                 <h2 class="section-title">Terhubung Dengan Saya</h2>
@@ -968,11 +778,10 @@
         <div class="container">
             <p>© 2026 Burhanudin Badiuzaman | Dibangun dengan <i class="fas fa-heart" style="color: #2563eb;"></i> untuk menunjukkan dampak data & AI</p>
             <div class="footer-links">
-                <a href="https://github.com/burhanudinera2018/telecom-italy-churn" target="_blank">Telecom Milan Analysis</a> •
-                <a href="https://telecom-italy-churn-r353r4ch.streamlit.app/" target="_blank">Live Demo</a> • • 
-                <a href="https://ilasspp-gwr-dashboard-update2.streamlit.app/" target="_blank">ILASPP GWR</a> • 
-                <a href="https://indico-analytics-portfolio.streamlit.app/" target="_blank">INDICO Analytics</a> • 
-                <a href="https://a2p-telecom-analytics.streamlit.app/" target="_blank">A2P Telecom</a> • 
+                <a href="https://github.com/burhanudinera2018/telecom-italy-churn" target="_blank">Telecom Milan</a> •
+                <a href="https://ilasspp-gwr-dashboard-update2.streamlit.app/" target="_blank">ILASPP GWR</a> •
+                <a href="https://indico-analytics-portfolio.streamlit.app/" target="_blank">INDICO Analytics</a> •
+                <a href="https://a2p-telecom-analytics.streamlit.app/" target="_blank">A2P Telecom</a> •
                 <a href="https://burhanudinera2018.github.io/hybrid-dashboard/" target="_blank">Hybrid Bridge</a> •
                 <a href="https://grabexpansionanalysis-v1.streamlit.app/" target="_blank">Grab Expansion</a> •
                 <a href="https://github.com/burhanudinera2018" target="_blank">GitHub</a>
