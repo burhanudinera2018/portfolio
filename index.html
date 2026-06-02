@@ -160,6 +160,16 @@
             transform: translateY(-2px);
         }
 
+        .btn-demo.gcp {
+            background-color: #4285F4;
+            color: white;
+        }
+
+        .btn-demo.gcp:hover {
+            background-color: #3367d6;
+            transform: translateY(-2px);
+        }
+
         .project-links {
             display: flex;
             gap: 12px;
@@ -366,6 +376,11 @@
             color: white;
         }
 
+        .project-stack span.gcp {
+            background-color: #4285F4;
+            color: white;
+        }
+
         .project-metrics {
             display: flex;
             justify-content: space-between;
@@ -536,6 +551,7 @@
                             <span class="skill-tag">PostgreSQL</span>
                             <span class="skill-tag">Power BI</span>
                             <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">GCP / Vertex AI</span>
                             <span class="skill-tag highlight">📐 R</span>
                             <span class="skill-tag highlight">🗺️ GIS / Spasial</span>
                             <span class="skill-tag highlight">GWR</span>
@@ -584,7 +600,40 @@
                 <h2 class="section-title">Proyek Unggulan</h2>
                 <div class="projects-grid">
                     
-                    <!-- ENERGY GRID READINESS PROJECT (LINK TELAH DIPERBAIKI) -->
+                    <!-- NEW: TELCO CHURN PREDICTION - GCP VERTEX AI -->
+                    <div class="project-card featured">
+                        <div class="project-content">
+                            <div class="project-title">
+                                📞 Telco Customer Churn Prediction with GCP & Vertex AI
+                                <span class="featured-badge">MLOps + GCP</span>
+                            </div>
+                            <div class="project-stack">
+                                <span class="python">🐍 Python</span>
+                                <span class="gcp">☁️ BigQuery</span>
+                                <span class="gcp">☁️ Cloud Storage</span>
+                                <span class="gcp">☁️ Vertex AI</span>
+                                <span>🤖 XGBoost</span>
+                                <span>📊 Looker Studio</span>
+                                <span>📈 Scikit-learn</span>
+                                <span>🐘 PostgreSQL</span>
+                            </div>
+                            <p>End-to-end MLOps pipeline untuk prediksi customer churn di industri telekomunikasi. Mengintegrasikan Network KQI (throughput, latency, drop rate) sebagai fitur prediktif. Model terdaftar di Vertex AI Model Registry dengan performa AUC 87.65%.</p>
+                            <div class="project-metrics">
+                                <div class="metric"><div class="metric-value">87.65%</div><div class="metric-label">AUC Score</div></div>
+                                <div class="metric"><div class="metric-value">77.1%</div><div class="metric-label">Recall</div></div>
+                                <div class="metric"><div class="metric-value">14K+</div><div class="metric-label">Records</div></div>
+                            </div>
+                            <div class="project-impact">
+                                <strong>Key Outcomes:</strong> Contract type adalah feature paling penting (35.8%). Network quality score signifikan mempengaruhi churn. Dashboard Looker Studio untuk visualisasi insight bisnis.
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/burhanudinera2018/telco-ai-portfolio" class="btn-demo github" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="#" class="btn-demo dashboard" style="opacity:0.6; cursor:not-allowed;" target="_blank"><i class="fas fa-chart-line"></i> Live Demo (Soon)</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ENERGY GRID READINESS PROJECT -->
                     <div class="project-card featured">
                         <div class="project-content">
                             <div class="project-title">
@@ -610,11 +659,8 @@
                                 <strong>Key Outcomes:</strong> Kapasitas pembangkit Jawa cukup (45-68GW), namun risiko <strong>cascading failure TINGGI</strong> jika terjadi gangguan di GI Bekasi. Rekomendasi: BESS 2.000 MWh, diesel genset 500 MW, dan percepatan transmisi Jawa-Sumatra.
                             </div>
                             <div class="project-links">
-                                <!-- GITHUB REPOSITORY YANG BENAR -->
                                 <a href="https://github.com/burhanudinera2018/energy-grid-readiness" class="btn-demo github" target="_blank"><i class="fab fa-github"></i> Repository</a>
-                                <!-- LINK MEDIUM YANG BENAR -->
                                 <a href="https://medium.com/@studyburhanudin/indonesias-energy-crossroads-can-the-grid-survive-the-ai-data-center-boom-6f4786d77136" class="btn-demo medium" target="_blank"><i class="fab fa-medium"></i> Medium Article</a>
-                                <!-- LINK LINKEDIN YANG BENAR -->
                                 <a href="https://www.linkedin.com/pulse/indonesias-energy-crossroads-data-driven-analysis-badiuzaman-u7rcc/" class="btn-demo dashboard" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn Article</a>
                             </div>
                         </div>
@@ -785,7 +831,11 @@
                 <h2 class="section-title">Portofolio Proyek Lainnya</h2>
                 <p style="margin-bottom: 24px; color: #475569;">Selain proyek unggulan, saya juga mengerjakan berbagai simulasi dan proyek mandiri yang menunjukkan kemampuan di bidang data analytics, AI, dan arsitektur sistem.</p>
                 <div class="secondary-grid">
-                    <!-- PROYEK ENERGY DENGAN LINK YANG DIPERBAIKI -->
+                    <!-- NEW: TELCO CHURN PREDICTION -->
+                    <div class="secondary-item"><strong>📞 Telco Customer Churn Prediction (GCP)</strong><br>End-to-end MLOps pipeline di GCP: BigQuery, Cloud Storage, Vertex AI. Model XGBoost AUC 87.65% dengan Network KQI integration.<br>
+                        <a href="https://github.com/burhanudinera2018/telco-ai-portfolio" target="_blank" style="font-size:12px;">GitHub →</a>
+                        <a href="#" target="_blank" style="font-size:12px; margin-left:12px; opacity:0.5;">Live Demo (Soon) →</a>
+                    </div>
                     <div class="secondary-item"><strong>⚡ Energy Grid Readiness for AI Data Center</strong><br>Analisis kesiapan grid Jawa untuk pusat data AI 500 MW. Simulasi cascading failure, gap supply-demand 2025-2030, rekomendasi mitigasi.<br>
                         <a href="https://github.com/burhanudinera2018/energy-grid-readiness" target="_blank" style="font-size:12px;">GitHub →</a> 
                         <a href="https://medium.com/@studyburhanudin/indonesias-energy-crossroads-can-the-grid-survive-the-ai-data-center-boom-6f4786d77136" target="_blank" style="font-size:12px; margin-left:12px;">Medium →</a>
@@ -826,7 +876,7 @@
         <div class="container">
             <p>© 2026 Burhanudin Badiuzaman | Dibangun dengan <i class="fas fa-heart" style="color: #2563eb;"></i> untuk menunjukkan dampak data & AI</p>
             <div class="footer-links">
-                <!-- LINK FOOTER UNTUK ENERGY SUDAH DIPERBAIKI -->
+                <a href="https://github.com/burhanudinera2018/telco-ai-portfolio" target="_blank">Telco Churn GCP</a> •
                 <a href="https://github.com/burhanudinera2018/energy-grid-readiness" target="_blank">Energy Grid Readiness</a> •
                 <a href="https://github.com/burhanudinera2018/saas-churn-prediction" target="_blank">SaaS Churn</a> •
                 <a href="https://github.com/burhanudinera2018/nl2sql-dvdrental-assistant" target="_blank">NL2SQL</a> •
