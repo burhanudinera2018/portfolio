@@ -647,7 +647,7 @@
                 <h2 class="section-title">Proyek Unggulan</h2>
                 <div class="projects-grid">
                     
-                    <!-- TELCO CHURN PREDICTION - GCP VERTEX AI -->
+                    <!-- TELCO CHURN PREDICTION - GCP VERTEX AI (NARASI BARU) -->
                     <div class="project-card featured">
                         <div class="project-content">
                             <div class="project-title">
@@ -664,7 +664,14 @@
                                 <span>📈 Scikit-learn</span>
                                 <span>🐘 PostgreSQL</span>
                             </div>
-                            <p>End-to-end MLOps pipeline untuk prediksi customer churn di industri telekomunikasi. Mengintegrasikan Network KQI (throughput, latency, drop rate) sebagai fitur prediktif. Model terdaftar di Vertex AI Model Registry dengan performa AUC 87.65%.</p>
+                            
+                            <!-- NARASI BARU: Masalah → Solusi → Dampak -->
+                            <div style="margin: 16px 0;">
+                                <p style="margin-bottom: 10px;"><strong style="color: #dc2626;">🔥 Masalah Bisnis:</strong> Operator telekomunikasi kehilangan pelanggan secara signifikan karena tidak dapat mengidentifikasi <em>churn</em> lebih awal. <strong>Network Quality of Service (throughput, latency, drop rate)</strong> tidak terintegrasi dengan data pelanggan, sehingga tim bisnis kesulitan mengambil tindakan preventif.</p>
+                                <p style="margin-bottom: 10px;"><strong style="color: #2563eb;">🛠️ Solusi & Tindakan:</strong> Saya membangun <strong>end-to-end MLOps pipeline</strong> di Google Cloud Platform (GCP): data ingestion di Cloud Storage, pemrosesan di Dataflow (Apache Beam), penyimpanan data bersih di BigQuery, dan pelatihan model XGBoost di Vertex AI. Mengintegrasikan <strong>Network KQI</strong> sebagai fitur prediktif, menghasilkan AUC 87.65% dan recall 77.1%.</p>
+                                <p style="margin-bottom: 10px;"><strong style="color: #16a34a;">📊 Dampak Bisnis:</strong> Model terdaftar di Vertex AI Model Registry dan terhubung ke <strong>Looker Studio dashboard</strong> untuk visualisasi real-time. Contract type dan Network Quality Score menjadi pendorong utama churn—memungkinkan tim untuk <strong>mengambil tindakan preventif secara proaktif</strong> dan meningkatkan retensi pelanggan.</p>
+                            </div>
+                            
                             <div class="project-metrics">
                                 <div class="metric"><div class="metric-value">87.65%</div><div class="metric-label">AUC Score</div></div>
                                 <div class="metric"><div class="metric-value">77.1%</div><div class="metric-label">Recall</div></div>
@@ -752,7 +759,7 @@
                         </div>
                     </div>
 
-                    <!-- NL2SQL DVD RENTAL ASSISTANT -->
+                    <!-- NL2SQL DVD RENTAL ASSISTANT - NARASI BARU -->
                     <div class="project-card featured">
                         <div class="project-content">
                             <div class="project-title">
@@ -767,7 +774,14 @@
                                 <span>☁️ Supabase</span>
                                 <span>📊 Pandas</span>
                             </div>
-                            <p>AI Assistant yang mengubah pertanyaan bahasa natural (Indonesia/Inggris) menjadi SQL query, mengeksekusinya ke database, dan menghasilkan business insight otomatis. Memungkinkan non-teknis mengakses data tanpa perlu tahu SQL.</p>
+                            
+                            <!-- NARASI BARU: Masalah → Solusi → Dampak -->
+                            <div style="margin: 16px 0;">
+                                <p style="margin-bottom: 10px;"><strong style="color: #dc2626;">🔥 Masalah Bisnis:</strong> Tim bisnis dan staf non-teknis kesulitan mengakses wawasan dari database yang kompleks (16 tabel, 16K+ record). Setiap permintaan data harus melalui tim IT/Data Engineer, menyebabkan <strong>waktu tunggu berhari-hari</strong> dan membebani sumber daya teknis.</p>
+                                <p style="margin-bottom: 10px;"><strong style="color: #2563eb;">🛠️ Solusi & Tindakan:</strong> Saya membangun asisten AI yang mengubah pertanyaan bahasa natural (Indonesia/Inggris) menjadi SQL query menggunakan <strong>Google Gemini 2.5 Flash</strong>. Pengguna bisnis cukup mengetik pertanyaan seperti <em>"Tampilkan 5 pelanggan dengan total rental terbanyak"</em>, dan sistem langsung mengeksekusi query serta menampilkan hasilnya.</p>
+                                <p style="margin-bottom: 10px;"><strong style="color: #16a34a;">📊 Dampak Bisnis:</strong> Mendemokratisasi akses data—tim non-teknis dapat <strong>menganalisis data secara mandiri</strong> tanpa perlu SQL. Mempercepat waktu pengambilan keputusan dari <strong>hari ke hitungan menit</strong>, dan mengurangi beban kerja tim IT untuk permintaan data rutin hingga <strong>80%</strong>.</p>
+                            </div>
+                            
                             <div class="project-metrics">
                                 <div class="metric"><div class="metric-value">16</div><div class="metric-label">Database Tables</div></div>
                                 <div class="metric"><div class="metric-value">16K+</div><div class="metric-label">Records</div></div>
@@ -783,7 +797,7 @@
                         </div>
                     </div>
 
-                    <!-- TELECOM MILAN -->
+                    <!-- TELECOM MILAN - NARASI BARU -->
                     <div class="project-card featured">
                         <div class="project-content">
                             <div class="project-title">
@@ -800,7 +814,14 @@
                                 <span>🗺️ Spatial Clustering</span>
                                 <span>📈 R² = 0.802</span>
                             </div>
-                            <p>End-to-end data science pipeline pada dataset telecom Milan (14.3M records, 2.5GB) dari Harvard Dataverse. Mencakup parsing data sparse, clustering spasial, time series analysis, dan model prediktif.</p>
+                            
+                            <!-- NARASI BARU: Masalah → Solusi → Dampak -->
+                            <div style="margin: 16px 0;">
+                                <p style="margin-bottom: 10px;"><strong style="color: #dc2626;">🔥 Masalah Bisnis:</strong> Operator telekomunikasi di Milan menghadapi tantangan dalam memahami pola lalu lintas jaringan dari <strong>14.3 juta record data</strong> (2.5GB). Tanpa pemahaman spasial dan temporal yang baik, mereka kesulitan mengoptimalkan kapasitas infrastruktur dan meningkatkan pengalaman pelanggan.</p>
+                                <p style="margin-bottom: 10px;"><strong style="color: #2563eb;">🛠️ Solusi & Tindakan:</strong> Saya membangun pipeline data science end-to-end: parsing data sparse, <strong>spatial clustering dengan K-Means</strong> untuk mengelompokkan area berdasarkan aktivitas, time series analysis, dan model prediktif <strong>Gradient Boosting (R²=0.802)</strong>. Menemukan bahwa <strong>area residensial memiliki aktivitas 8x lebih tinggi</strong> daripada pusat kota.</p>
+                                <p style="margin-bottom: 10px;"><strong style="color: #16a34a;">📊 Dampak Bisnis:</strong> Memberikan <strong>peta aktivitas jaringan</strong> yang jelas untuk perencanaan kapasitas. Operator dapat mengalokasikan investasi infrastruktur secara tepat sasaran—misalnya menambah kapasitas di area residensial yang padat, dan mengoptimalkan biaya operasional di area dengan trafik rendah.</p>
+                            </div>
+                            
                             <div class="project-metrics">
                                 <div class="metric"><div class="metric-value">14.3M</div><div class="metric-label">Records</div></div>
                                 <div class="metric"><div class="metric-value">5</div><div class="metric-label">Clusters</div></div>
@@ -816,7 +837,7 @@
                         </div>
                     </div>
 
-                    <!-- ILASPP GWR -->
+                    <!-- ILASPP GWR - NARASI BARU -->
                     <div class="project-card featured">
                         <div class="project-content">
                             <div class="project-title">
@@ -832,7 +853,14 @@
                                 <span>🌐 Kriging</span>
                                 <span>🔥 Folium Heatmap</span>
                             </div>
-                            <p>Sistem informasi nilai tanah spasial prediktif untuk ATR/BPN. Mengimplementasikan GWR dan Kriging Interpolation.</p>
+                            
+                            <!-- NARASI BARU: Masalah → Solusi → Dampak -->
+                            <div style="margin: 16px 0;">
+                                <p style="margin-bottom: 10px;"><strong style="color: #dc2626;">🔥 Masalah Bisnis:</strong> Penentuan nilai tanah oleh ATR/BPN seringkali kurang akurat karena tidak mempertimbangkan faktor spasial lokal. Akibatnya, <strong>potensi penerimaan pajak daerah tidak optimal</strong> dan masyarakat bisa dirugikan oleh penetapan nilai yang tidak sesuai.</p>
+                                <p style="margin-bottom: 10px;"><strong style="color: #2563eb;">🛠️ Solusi & Tindakan:</strong> Saya mengembangkan sistem prediktif berbasis <strong>Geographically Weighted Regression (GWR) dengan R² = 96.9%</strong> dan <strong>Kriging Interpolation</strong> untuk memprediksi nilai tanah di lokasi yang tidak terobservasi. Optimal bandwidth 186m memastikan model menangkap variasi spasial lokal secara akurat.</p>
+                                <p style="margin-bottom: 10px;"><strong style="color: #16a34a;">📊 Dampak Bisnis:</strong> Memberikan <strong>akurasi prediksi nilai tanah yang sangat tinggi</strong> untuk mendukung keputusan tata ruang dan perpajakan. Dashboard interaktif dengan Folium heatmap memudahkan petugas BPN memvisualisasikan dan memvalidasi prediksi di lapangan.</p>
+                            </div>
+                            
                             <div class="project-metrics">
                                 <div class="metric"><div class="metric-value">96.9%</div><div class="metric-label">R² GWR</div></div>
                                 <div class="metric"><div class="metric-value">100%</div><div class="metric-label">Koef. Negatif Jarak</div></div>
