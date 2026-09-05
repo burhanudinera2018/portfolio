@@ -485,6 +485,96 @@
             color: #2563eb;
         }
 
+        /* ROLE MAPPING SECTION */
+        .role-lede {
+            font-size: 1.05rem;
+            color: #334155;
+            max-width: 700px;
+            margin-bottom: 32px;
+        }
+
+        .role-overview {
+            display: grid;
+            grid-template-columns: 220px 1fr;
+            gap: 40px;
+            align-items: center;
+            background: white;
+            border-radius: 20px;
+            padding: 32px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            margin-bottom: 28px;
+        }
+
+        .donut-wrap { position: relative; width: 200px; height: 200px; flex-shrink: 0; }
+        .donut-center {
+            position: absolute; inset: 0;
+            display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+        }
+        .donut-center .num { font-size: 2.1rem; font-weight: 800; color: #0f172a; line-height: 1; }
+        .donut-center .lbl { font-size: 0.75rem; color: #64748b; margin-top: 4px; }
+
+        .role-legend { display: flex; flex-direction: column; gap: 16px; }
+        .role-legend-row {
+            display: grid;
+            grid-template-columns: 14px 1fr auto;
+            align-items: center;
+            gap: 12px;
+        }
+        .role-swatch { width: 14px; height: 14px; border-radius: 4px; }
+        .role-legend-title { font-size: 0.95rem; font-weight: 700; color: #0f172a; }
+        .role-legend-sub { font-size: 0.82rem; color: #64748b; }
+        .role-legend-pct { font-weight: 700; color: #0f172a; }
+
+        .role-table-wrap {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            overflow-x: auto;
+        }
+        table.role-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        table.role-table th {
+            text-align: left;
+            font-size: 0.75rem;
+            color: #64748b;
+            padding: 14px 20px;
+            border-bottom: 1px solid #e2e8f0;
+            background: #f8fafc;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        table.role-table td {
+            padding: 14px 20px;
+            border-bottom: 1px solid #e2e8f0;
+            color: #334155;
+            vertical-align: middle;
+        }
+        table.role-table tr:last-child td { border-bottom: none; }
+        table.role-table tr:hover td { background: #f8fafc; }
+        .role-proj-name { font-weight: 700; color: #0f172a; display: block; }
+        .role-proj-tech { font-size: 0.78rem; color: #64748b; }
+        .role-pill {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 5px 12px; border-radius: 20px;
+            font-size: 0.75rem; font-weight: 700; white-space: nowrap;
+        }
+        .role-pill .dot { width: 7px; height: 7px; border-radius: 50%; }
+        .role-pill.analyst { background: rgba(22,163,74,0.1); color: #16a34a; }
+        .role-pill.analyst .dot { background: #16a34a; }
+        .role-pill.scientist { background: rgba(37,99,235,0.1); color: #2563eb; }
+        .role-pill.scientist .dot { background: #2563eb; }
+        .role-pill.ml { background: rgba(124,58,237,0.1); color: #7c3aed; }
+        .role-pill.ml .dot { background: #7c3aed; }
+        .role-pill.ai { background: rgba(245,87,108,0.1); color: #f5576c; }
+        .role-pill.ai .dot { background: #f5576c; }
+        .role-links a { color: #2563eb; text-decoration: none; font-size: 0.8rem; font-weight: 600; margin-right: 14px; }
+        .role-links a:hover { text-decoration: underline; }
+        .role-tbd { color: #94a3b8; font-size: 0.8rem; font-style: italic; }
+
+        @media (max-width: 768px) {
+            .role-overview { grid-template-columns: 1fr; justify-items: center; text-align: center; }
+        }
+
         @media (max-width: 768px) {
             .nav-container {
                 flex-direction: column;
@@ -521,6 +611,7 @@
                 <li><a href="#vision">Visi</a></li>
                 <li><a href="#experience">Pengalaman</a></li>
                 <li><a href="#featured-projects">Proyek Unggulan</a></li>
+                <li><a href="#role-map">Role Fit</a></li>
                 <li><a href="#other-projects">Portofolio Lain</a></li>
                 <li><a href="#contact">Kontak</a></li>
             </ul>
@@ -917,6 +1008,138 @@
         <a href="https://grabexpansionanalysis-v1.streamlit.app/" class="btn-demo streamlit" target="_blank"><i class="fas fa-chart-line"></i> Live Demo</a>
     </div>
 </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="role-map" class="section">
+            <div class="container">
+                <h2 class="section-title">Portofolio Berdasarkan Role</h2>
+                <p class="role-lede">Setiap project di atas menuntut peran teknis yang berbeda—dari menerjemahkan data jadi insight bisnis, sampai membangun dan men-deploy model AI. Ringkasan ini memudahkan Anda melihat langsung kesesuaian saya dengan role yang sedang dicari.</p>
+
+                <div class="role-overview">
+                    <div class="donut-wrap">
+                        <svg viewBox="0 0 200 200" width="200" height="200">
+                            <circle cx="100" cy="100" r="70" fill="none" stroke="#e2e8f0" stroke-width="26"/>
+                            <circle cx="100" cy="100" r="70" fill="none" stroke="#16a34a" stroke-width="26" stroke-dasharray="135.3 439.8" stroke-dashoffset="0" transform="rotate(-90 100 100)"/>
+                            <circle cx="100" cy="100" r="70" fill="none" stroke="#2563eb" stroke-width="26" stroke-dasharray="135.3 439.8" stroke-dashoffset="-135.3" transform="rotate(-90 100 100)"/>
+                            <circle cx="100" cy="100" r="70" fill="none" stroke="#f5576c" stroke-width="26" stroke-dasharray="101.5 439.8" stroke-dashoffset="-270.6" transform="rotate(-90 100 100)"/>
+                            <circle cx="100" cy="100" r="70" fill="none" stroke="#7c3aed" stroke-width="26" stroke-dasharray="67.7 439.8" stroke-dashoffset="-372.1" transform="rotate(-90 100 100)"/>
+                        </svg>
+                        <div class="donut-center">
+                            <div class="num">13</div>
+                            <div class="lbl">Total Project</div>
+                        </div>
+                    </div>
+                    <div class="role-legend">
+                        <div class="role-legend-row">
+                            <span class="role-swatch" style="background:#16a34a"></span>
+                            <div>
+                                <div class="role-legend-title">Data Analyst</div>
+                                <div class="role-legend-sub">Energy Crossroads, Grab Expansion, INDICO, Deloitte Telemetry</div>
+                            </div>
+                            <span class="role-legend-pct">4 (31%)</span>
+                        </div>
+                        <div class="role-legend-row">
+                            <span class="role-swatch" style="background:#2563eb"></span>
+                            <div>
+                                <div class="role-legend-title">Data Scientist</div>
+                                <div class="role-legend-sub">SaaS Churn, Telecom Milan, ILASPP GWR, A2P Telecom</div>
+                            </div>
+                            <span class="role-legend-pct">4 (31%)</span>
+                        </div>
+                        <div class="role-legend-row">
+                            <span class="role-swatch" style="background:#f5576c"></span>
+                            <div>
+                                <div class="role-legend-title">AI Engineer</div>
+                                <div class="role-legend-sub">NL2SQL Assistant, BCG GenAI Chatbot, SEC Scraper</div>
+                            </div>
+                            <span class="role-legend-pct">3 (23%)</span>
+                        </div>
+                        <div class="role-legend-row">
+                            <span class="role-swatch" style="background:#7c3aed"></span>
+                            <div>
+                                <div class="role-legend-title">ML Engineer</div>
+                                <div class="role-legend-sub">Telco Churn (GCP/Vertex AI), Hybrid Bridge Python↔R</div>
+                            </div>
+                            <span class="role-legend-pct">2 (15%)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="role-table-wrap">
+                    <table class="role-table">
+                        <thead>
+                            <tr><th>Project</th><th>Role</th><th>Akses</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="role-proj-name">📞 Telco Customer Churn (GCP + Vertex AI)</span><span class="role-proj-tech">XGBoost · MLOps pipeline · AUC 87.65%</span></td>
+                                <td><span class="role-pill ml"><span class="dot"></span>ML Engineer</span></td>
+                                <td class="role-links"><a href="https://github.com/burhanudinera2018/telco-ai-portfolio" target="_blank">GitHub</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class="role-proj-name">⚡ Indonesia's Energy Crossroads</span><span class="role-proj-tech">Grid readiness · cascading failure simulation</span></td>
+                                <td><span class="role-pill analyst"><span class="dot"></span>Data Analyst</span></td>
+                                <td class="role-links"><a href="https://github.com/burhanudinera2018/energy-grid-readiness" target="_blank">GitHub</a><a href="https://medium.com/@studyburhanudin/indonesias-energy-crossroads-can-the-grid-survive-the-ai-data-center-boom-6f4786d77136" target="_blank">Medium</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class="role-proj-name">📉 SaaS Churn Prediction & Retention</span><span class="role-proj-tech">Logistic Regression · $72K budget saving</span></td>
+                                <td><span class="role-pill scientist"><span class="dot"></span>Data Scientist</span></td>
+                                <td class="role-links"><a href="https://github.com/burhanudinera2018/saas-churn-prediction" target="_blank">GitHub</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class="role-proj-name">🗣️ NL2SQL DVD Rental Assistant</span><span class="role-proj-tech">Gemini 2.5 Flash · natural language to SQL</span></td>
+                                <td><span class="role-pill ai"><span class="dot"></span>AI Engineer</span></td>
+                                <td class="role-links"><a href="https://github.com/burhanudinera2018/nl2sql-dvdrental-assistant" target="_blank">GitHub</a><a href="https://nl2sql-dvrental-assistant-v1.streamlit.app/" target="_blank">Demo</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class="role-proj-name">📡 Telecom Milan Network Traffic</span><span class="role-proj-tech">K-Means spatial clustering · Gradient Boosting R²=0.802</span></td>
+                                <td><span class="role-pill scientist"><span class="dot"></span>Data Scientist</span></td>
+                                <td class="role-links"><a href="https://github.com/burhanudinera2018/telecom-italy-churn" target="_blank">GitHub</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class="role-proj-name">🗺️ ILASPP — Nilai Tanah Spasial Prediktif</span><span class="role-proj-tech">GWR + Kriging · R²=96.9%</span></td>
+                                <td><span class="role-pill scientist"><span class="dot"></span>Data Scientist</span></td>
+                                <td class="role-links"><a href="https://github.com/burhanudinera2018/ilasspp-gwr-dashboard" target="_blank">GitHub</a><a href="https://ilasspp-gwr-dashboard-update2.streamlit.app/" target="_blank">Demo</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class="role-proj-name">🚀 Grab Expansion Priority Analysis</span><span class="role-proj-tech">Dynamic scoring · 35 kab/kota Jateng</span></td>
+                                <td><span class="role-pill analyst"><span class="dot"></span>Data Analyst</span></td>
+                                <td class="role-links"><a href="https://github.com/burhanudinera2018/grab_expansion_analysis" target="_blank">GitHub</a><a href="https://grabexpansionanalysis-v1.streamlit.app/" target="_blank">Demo</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class="role-proj-name">📊 INDICO Digital Ecosystem Analytics</span><span class="role-proj-tech">Cross-business-unit engagement dashboard</span></td>
+                                <td><span class="role-pill analyst"><span class="dot"></span>Data Analyst</span></td>
+                                <td class="role-links"><a href="https://github.com/burhanudinera2018/indico-analytics-portfolio" target="_blank">GitHub</a><a href="https://indico-analytics-portfolio-fym7y7lcnypkzx8lq9cogn.streamlit.app/" target="_blank">Demo</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class="role-proj-name">📱 A2P Telecom Analytics</span><span class="role-proj-tech">GWR spasial · traffic & revenue intelligence, 30+ wilayah</span></td>
+                                <td><span class="role-pill scientist"><span class="dot"></span>Data Scientist</span></td>
+                                <td class="role-links"><a href="https://github.com/burhanudinera2018/a2p-telecom-analytics" target="_blank">GitHub</a><a href="https://a2p-telecom-analytics.streamlit.app/" target="_blank">Demo</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class="role-proj-name">🌉 Hybrid Bridge Python ↔ R</span><span class="role-proj-tech">Cross-platform validation, selisih &lt;1e-8</span></td>
+                                <td><span class="role-pill ml"><span class="dot"></span>ML Engineer</span></td>
+                                <td class="role-links"><a href="https://github.com/burhanudinera2018/hybrid-dashboard" target="_blank">GitHub</a><a href="https://burhanudinera2018.github.io/hybrid-dashboard/" target="_blank">Demo</a></td>
+                            </tr>
+                            <tr>
+                                <td><span class="role-proj-name">SEC Financial Data Scraper</span><span class="role-proj-tech">Streamlit + Ollama · analisis laporan 10-K</span></td>
+                                <td><span class="role-pill ai"><span class="dot"></span>AI Engineer</span></td>
+                                <td class="role-links"><span class="role-tbd">Link repo belum ditambahkan</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="role-proj-name">BCG GenAI Chatbot</span><span class="role-proj-tech">Local LLM · financial pattern matching</span></td>
+                                <td><span class="role-pill ai"><span class="dot"></span>AI Engineer</span></td>
+                                <td class="role-links"><span class="role-tbd">Link repo belum ditambahkan</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="role-proj-name">Deloitte Telemetry Analytics</span><span class="role-proj-tech">Downtime analysis · local LLM insight</span></td>
+                                <td><span class="role-pill analyst"><span class="dot"></span>Data Analyst</span></td>
+                                <td class="role-links"><span class="role-tbd">Link repo belum ditambahkan</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
