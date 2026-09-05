@@ -1,0 +1,68 @@
+backend:
+  name: github
+  repo: burhanudinera2018/portfolio
+  branch: main
+  base_url: https://sveltia-cms-auth.burhanudinera2018.workers.dev
+  auth_endpoint: auth
+
+media_folder: "assets/img/uploads"
+public_folder: "/assets/img/uploads"
+
+collections:
+  - name: "projects"
+    label: "Data Project"
+    files:
+      - name: "projects_data"
+        label: "Semua Project (Unggulan + Lainnya)"
+        file: "projects.json"
+        fields:
+          - label: "Proyek Unggulan"
+            name: "featured_projects"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Icon (emoji)", name: "icon", widget: "string", required: false }
+              - { label: "Judul Project", name: "title", widget: "string" }
+              - { label: "Badge", name: "badge", widget: "string" }
+              - label: "Tech Stack"
+                name: "stack"
+                widget: "list"
+                fields:
+                  - { label: "Emoji", name: "emoji", widget: "string", required: false }
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "CSS Class (python/gcp/r/postgres, kosongkan jika tidak ada)", name: "class", widget: "string", required: false }
+              - { label: "Masalah Bisnis (boleh pakai <strong>)", name: "problem", widget: "text" }
+              - { label: "Solusi & Tindakan (boleh pakai <strong>)", name: "solution", widget: "text" }
+              - { label: "Dampak Bisnis (boleh pakai <strong>)", name: "impact", widget: "text" }
+              - label: "Metrics"
+                name: "metrics"
+                widget: "list"
+                fields:
+                  - { label: "Value", name: "value", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+              - { label: "Key Outcomes", name: "outcomes", widget: "text" }
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Icon class (contoh: fab fa-github)", name: "icon", widget: "string" }
+                  - { label: "Tombol class (github/streamlit/dashboard/medium)", name: "class", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+                  - { label: "Nonaktifkan tombol (Soon)", name: "disabled", widget: "boolean", default: false }
+          - label: "Portofolio Proyek Lainnya"
+            name: "other_projects"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Icon (emoji, boleh kosong)", name: "icon", widget: "string", required: false }
+              - { label: "Judul Project", name: "title", widget: "string" }
+              - { label: "Deskripsi Singkat", name: "description", widget: "text" }
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+                  - { label: "Buat redup (untuk 'Soon')", name: "dim", widget: "boolean", default: false, required: false }
