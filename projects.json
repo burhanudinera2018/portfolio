@@ -1,0 +1,210 @@
+{
+  "featured_projects": [
+    {
+      "icon": "📞",
+      "title": "Telco Customer Churn Prediction with GCP & Vertex AI",
+      "badge": "MLOps + GCP",
+      "stack": [
+        {"emoji": "🐍", "label": "Python", "class": "python"},
+        {"emoji": "☁️", "label": "BigQuery", "class": "gcp"},
+        {"emoji": "☁️", "label": "Cloud Storage", "class": "gcp"},
+        {"emoji": "☁️", "label": "Vertex AI", "class": "gcp"},
+        {"emoji": "🤖", "label": "XGBoost", "class": ""},
+        {"emoji": "📊", "label": "Looker Studio", "class": ""},
+        {"emoji": "📈", "label": "Scikit-learn", "class": ""},
+        {"emoji": "🐘", "label": "PostgreSQL", "class": ""}
+      ],
+      "problem": "Operator telekomunikasi kehilangan pelanggan secara signifikan karena tidak dapat mengidentifikasi <em>churn</em> lebih awal. <strong>Network Quality of Service (throughput, latency, drop rate)</strong> tidak terintegrasi dengan data pelanggan, sehingga tim bisnis kesulitan mengambil tindakan preventif.",
+      "solution": "Saya membangun <strong>end-to-end MLOps pipeline</strong> di Google Cloud Platform (GCP): data ingestion di Cloud Storage, pemrosesan di Dataflow (Apache Beam), penyimpanan data bersih di BigQuery, dan pelatihan model XGBoost di Vertex AI. Mengintegrasikan <strong>Network KQI</strong> sebagai fitur prediktif, menghasilkan AUC 87.65% dan recall 77.1%.",
+      "impact": "Model terdaftar di Vertex AI Model Registry dan terhubung ke <strong>Looker Studio dashboard</strong> untuk visualisasi real-time. Contract type dan Network Quality Score menjadi pendorong utama churn—memungkinkan tim untuk <strong>mengambil tindakan preventif secara proaktif</strong> dan meningkatkan retensi pelanggan.",
+      "metrics": [
+        {"value": "87.65%", "label": "AUC Score"},
+        {"value": "77.1%", "label": "Recall"},
+        {"value": "14K+", "label": "Records"}
+      ],
+      "outcomes": "Contract type adalah feature paling penting (35.8%). Network quality score signifikan mempengaruhi churn. Dashboard Looker Studio untuk visualisasi insight bisnis.",
+      "links": [
+        {"label": "Repository", "icon": "fab fa-github", "class": "github", "url": "https://github.com/burhanudinera2018/telco-ai-portfolio", "disabled": false},
+        {"label": "Live Demo (Soon)", "icon": "fas fa-chart-line", "class": "dashboard", "url": "#", "disabled": true}
+      ]
+    },
+    {
+      "icon": "⚡",
+      "title": "Indonesia's Energy Crossroads: Grid Readiness for AI Data Center",
+      "badge": "ENERGY + STRATEGIC ANALYTICS",
+      "stack": [
+        {"emoji": "🐍", "label": "Python", "class": "python"},
+        {"emoji": "📊", "label": "Pandas", "class": ""},
+        {"emoji": "📈", "label": "Plotly", "class": ""},
+        {"emoji": "🎨", "label": "Streamlit", "class": ""},
+        {"emoji": "🗺️", "label": "Folium", "class": ""},
+        {"emoji": "🔄", "label": "Cascading Simulation", "class": ""},
+        {"emoji": "📊", "label": "Gap Analysis", "class": ""}
+      ],
+      "problem": "Investasi pusat data AI sebesar <strong>500 MW</strong> (Digital Edge CGK Campus) di Jawa terancam karena ketidakpastian kesiapan jaringan listrik. Gangguan di satu titik bisa menyebabkan <strong>pemadaman berantai (cascading failure)</strong> yang merugikan hingga <strong>US$45 juta</strong> per 18 jam, serta mengancam stabilitas pasokan listrik nasional.",
+      "solution": "Saya mengintegrasikan data <strong>6.800+ pembangkit global</strong>, jaringan transmisi, proyeksi RUPTL PLN, dan melakukan <strong>simulasi cascading failure</strong>. Menganalisis skenario permintaan, kapasitas pembangkit, dan titik rawan di <strong>Gardu Induk Bekasi</strong> sebagai pusat beban utama.",
+      "impact": "Memberikan rekomendasi strategis yang terukur: <strong>BESS 2.000 MWh</strong> untuk penyimpanan energi, <strong>diesel genset 500 MW</strong> sebagai cadangan, dan <strong>percepatan transmisi Jawa-Sumatra</strong> untuk mengurangi risiko cascading. Hasil analisis dipublikasikan di Medium dan LinkedIn sebagai panduan bagi pengambil kebijakan dan investor energi.",
+      "metrics": [
+        {"value": "500 MW", "label": "DC Load"},
+        {"value": "US$45M", "label": "18h Blackout Loss"},
+        {"value": "HIGH", "label": "Cascading Risk"}
+      ],
+      "outcomes": "Kapasitas pembangkit Jawa cukup (45-68GW), namun risiko <strong>cascading failure TINGGI</strong> jika terjadi gangguan di GI Bekasi. Rekomendasi: BESS 2.000 MWh, diesel genset 500 MW, dan percepatan transmisi Jawa-Sumatra.",
+      "links": [
+        {"label": "Repository", "icon": "fab fa-github", "class": "github", "url": "https://github.com/burhanudinera2018/energy-grid-readiness", "disabled": false},
+        {"label": "Medium Article", "icon": "fab fa-medium", "class": "medium", "url": "https://medium.com/@studyburhanudin/indonesias-energy-crossroads-can-the-grid-survive-the-ai-data-center-boom-6f4786d77136", "disabled": false},
+        {"label": "LinkedIn Article", "icon": "fab fa-linkedin", "class": "dashboard", "url": "https://www.linkedin.com/pulse/indonesias-energy-crossroads-data-driven-analysis-badiuzaman-u7rcc/", "disabled": false}
+      ]
+    },
+    {
+      "icon": "📉",
+      "title": "SaaS Churn Prediction & Retention Analytics",
+      "badge": "ML + BUSINESS IMPACT",
+      "stack": [
+        {"emoji": "🐍", "label": "Python", "class": "python"},
+        {"emoji": "📊", "label": "Pandas", "class": ""},
+        {"emoji": "🤖", "label": "Scikit-learn", "class": ""},
+        {"emoji": "📈", "label": "XGBoost", "class": ""},
+        {"emoji": "🎨", "label": "Matplotlib", "class": ""},
+        {"emoji": "📊", "label": "Seaborn", "class": ""},
+        {"emoji": "🐘", "label": "PostgreSQL", "class": ""}
+      ],
+      "problem": "Perusahaan SaaS kehilangan <strong>57.3% pelanggan</strong> per tahun, menggerogoti pendapatan berulang. Tim retensi membuang <strong>60% anggaran</strong> karena tidak tahu pelanggan mana yang harus diprioritaskan.",
+      "solution": "Saya memimpin pengembangan model prediktif (Logistic Regression) yang mendeteksi <strong>4 dari 5</strong> pelanggan berisiko churn. Analisis mengungkap <strong>payment failure</strong> sebagai sinyal #1 (risiko 9x lebih tinggi). Model di-deploy sebagai dashboard untuk tim retensi.",
+      "impact": "Model ini memungkinkan alokasi anggaran retensi hanya untuk 40% pelanggan berisiko tinggi, menghemat <strong>$72K per tahun</strong> dan menstabilkan revenue stream.",
+      "metrics": [
+        {"value": "57.3%", "label": "Churn Rate Awal"},
+        {"value": "78.5%", "label": "Recall Model"},
+        {"value": "60%", "label": "Budget Saving"}
+      ],
+      "outcomes": "Payment failures = #1 churn signal (9x higher risk). Customer segmentation (Low/Medium/High Risk) menghemat 60% budget retention.",
+      "links": [
+        {"label": "Repository", "icon": "fab fa-github", "class": "github", "url": "https://github.com/burhanudinera2018/saas-churn-prediction", "disabled": false},
+        {"label": "Live Demo (Soon)", "icon": "fas fa-chart-line", "class": "dashboard", "url": "#", "disabled": true}
+      ]
+    },
+    {
+      "icon": "🗣️",
+      "title": "NL2SQL DVD Rental Assistant",
+      "badge": "LLM + AI ASSISTANT",
+      "stack": [
+        {"emoji": "🐍", "label": "Python", "class": "python"},
+        {"emoji": "🤖", "label": "Gemini 2.5 Flash", "class": ""},
+        {"emoji": "🎨", "label": "Streamlit", "class": ""},
+        {"emoji": "🐘", "label": "PostgreSQL", "class": "postgres"},
+        {"emoji": "☁️", "label": "Supabase", "class": ""},
+        {"emoji": "📊", "label": "Pandas", "class": ""}
+      ],
+      "problem": "Tim bisnis dan staf non-teknis kesulitan mengakses wawasan dari database yang kompleks (16 tabel, 16K+ record). Setiap permintaan data harus melalui tim IT/Data Engineer, menyebabkan <strong>waktu tunggu berhari-hari</strong> dan membebani sumber daya teknis.",
+      "solution": "Saya membangun asisten AI yang mengubah pertanyaan bahasa natural (Indonesia/Inggris) menjadi SQL query menggunakan <strong>Google Gemini 2.5 Flash</strong>. Pengguna bisnis cukup mengetik pertanyaan seperti <em>\"Tampilkan 5 pelanggan dengan total rental terbanyak\"</em>, dan sistem langsung mengeksekusi query serta menampilkan hasilnya.",
+      "impact": "Mendemokratisasi akses data—tim non-teknis dapat <strong>menganalisis data secara mandiri</strong> tanpa perlu SQL. Mempercepat waktu pengambilan keputusan dari <strong>hari ke hitungan menit</strong>, dan mengurangi beban kerja tim IT untuk permintaan data rutin hingga <strong>80%</strong>.",
+      "metrics": [
+        {"value": "16", "label": "Database Tables"},
+        {"value": "16K+", "label": "Records"},
+        {"value": "~85%", "label": "Query Accuracy"}
+      ],
+      "outcomes": "Live demo di Streamlit Cloud dengan database PostgreSQL di Supabase. Window functions, cohort retention, conditional aggregation didemonstrasikan. Built with Google Gemini 2.5 Flash API.",
+      "links": [
+        {"label": "Repository", "icon": "fab fa-github", "class": "github", "url": "https://github.com/burhanudinera2018/nl2sql-dvdrental-assistant", "disabled": false},
+        {"label": "Live Demo", "icon": "fas fa-chart-line", "class": "streamlit", "url": "https://nl2sql-dvrental-assistant-v1.streamlit.app/", "disabled": false}
+      ]
+    },
+    {
+      "icon": "📡",
+      "title": "Telecom Milan Network Traffic Analysis",
+      "badge": "END-TO-END DS PIPELINE",
+      "stack": [
+        {"emoji": "🐍", "label": "Python", "class": "python"},
+        {"emoji": "🔄", "label": "ETL 2.5GB", "class": ""},
+        {"emoji": "🎯", "label": "K-Means", "class": ""},
+        {"emoji": "📊", "label": "Time Series", "class": ""},
+        {"emoji": "🤖", "label": "Gradient Boosting", "class": ""},
+        {"emoji": "🎨", "label": "Streamlit", "class": ""},
+        {"emoji": "🗺️", "label": "Spatial Clustering", "class": ""},
+        {"emoji": "📈", "label": "R² = 0.802", "class": ""}
+      ],
+      "problem": "Operator telekomunikasi di Milan menghadapi tantangan dalam memahami pola lalu lintas jaringan dari <strong>14.3 juta record data</strong> (2.5GB). Tanpa pemahaman spasial dan temporal yang baik, mereka kesulitan mengoptimalkan kapasitas infrastruktur dan meningkatkan pengalaman pelanggan.",
+      "solution": "Saya membangun pipeline data science end-to-end: parsing data sparse, <strong>spatial clustering dengan K-Means</strong> untuk mengelompokkan area berdasarkan aktivitas, time series analysis, dan model prediktif <strong>Gradient Boosting (R²=0.802)</strong>. Menemukan bahwa <strong>area residensial memiliki aktivitas 8x lebih tinggi</strong> daripada pusat kota.",
+      "impact": "Memberikan <strong>peta aktivitas jaringan</strong> yang jelas untuk perencanaan kapasitas. Operator dapat mengalokasikan investasi infrastruktur secara tepat sasaran—misalnya menambah kapasitas di area residensial yang padat, dan mengoptimalkan biaya operasional di area dengan trafik rendah.",
+      "metrics": [
+        {"value": "14.3M", "label": "Records"},
+        {"value": "5", "label": "Clusters"},
+        {"value": "80.2%", "label": "R² Model"}
+      ],
+      "outcomes": "Spatial clustering: 45.7% area residensial vs 6.4% pusat kota (aktivitas 8x lebih tinggi). Predictive model Gradient Boosting R²=0.802.",
+      "links": [
+        {"label": "Repository", "icon": "fab fa-github", "class": "github", "url": "https://github.com/burhanudinera2018/telecom-italy-churn", "disabled": false},
+        {"label": "Live Demo (Soon)", "icon": "fas fa-chart-line", "class": "streamlit", "url": "#", "disabled": true}
+      ]
+    },
+    {
+      "icon": "🗺️",
+      "title": "ILASPP - Sistem Informasi Nilai Tanah Spasial Prediktif",
+      "badge": "UPDATE",
+      "stack": [
+        {"emoji": "🐍", "label": "Python", "class": "python"},
+        {"emoji": "📐", "label": "R", "class": "r"},
+        {"emoji": "🐘", "label": "PostgreSQL + PostGIS", "class": "postgres"},
+        {"emoji": "📊", "label": "Streamlit", "class": ""},
+        {"emoji": "🗺️", "label": "GWR", "class": ""},
+        {"emoji": "🌐", "label": "Kriging", "class": ""},
+        {"emoji": "🔥", "label": "Folium Heatmap", "class": ""}
+      ],
+      "problem": "Penentuan nilai tanah oleh ATR/BPN seringkali kurang akurat karena tidak mempertimbangkan faktor spasial lokal. Akibatnya, <strong>potensi penerimaan pajak daerah tidak optimal</strong> dan masyarakat bisa dirugikan oleh penetapan nilai yang tidak sesuai.",
+      "solution": "Saya mengembangkan sistem prediktif berbasis <strong>Geographically Weighted Regression (GWR) dengan R² = 96.9%</strong> dan <strong>Kriging Interpolation</strong> untuk memprediksi nilai tanah di lokasi yang tidak terobservasi. Optimal bandwidth 186m memastikan model menangkap variasi spasial lokal secara akurat.",
+      "impact": "Memberikan <strong>akurasi prediksi nilai tanah yang sangat tinggi</strong> untuk mendukung keputusan tata ruang dan perpajakan. Dashboard interaktif dengan Folium heatmap memudahkan petugas BPN memvisualisasikan dan memvalidasi prediksi di lapangan.",
+      "metrics": [
+        {"value": "96.9%", "label": "R² GWR"},
+        {"value": "100%", "label": "Koef. Negatif Jarak"},
+        {"value": "186m", "label": "Bandwidth GWR"}
+      ],
+      "outcomes": "GWR dan Kriging Interpolation berhasil memprediksi nilai tanah dengan akurasi sangat tinggi untuk mendukung keputusan tata ruang dan perpajakan.",
+      "links": [
+        {"label": "Repository", "icon": "fab fa-github", "class": "github", "url": "https://github.com/burhanudinera2018/ilasspp-gwr-dashboard", "disabled": false},
+        {"label": "Live Demo", "icon": "fas fa-chart-line", "class": "streamlit", "url": "https://ilasspp-gwr-dashboard-update2.streamlit.app/", "disabled": false}
+      ]
+    },
+    {
+      "icon": "🚀",
+      "title": "Grab Expansion Priority Analysis",
+      "badge": "STRATEGIC PLANNING",
+      "stack": [
+        {"emoji": "🐍", "label": "Python", "class": "python"},
+        {"emoji": "📊", "label": "Pandas", "class": ""},
+        {"emoji": "🎨", "label": "Streamlit", "class": ""},
+        {"emoji": "📈", "label": "Plotly", "class": ""},
+        {"emoji": "🗺️", "label": "Folium", "class": ""},
+        {"emoji": "📐", "label": "Matplotlib", "class": ""},
+        {"emoji": "🐘", "label": "PostgreSQL", "class": ""}
+      ],
+      "problem": "Grab ingin memperluas layanan GrabFood & GrabCar ke <strong>35 kabupaten/kota di Jawa Tengah</strong>, namun tim ekspansi kesulitan menentukan prioritas karena data tersebar dan tidak terstruktur. Tanpa prioritas yang jelas, investasi pemasaran dan logistik bisa terbuang sia-sia di area dengan potensi rendah.",
+      "solution": "Saya membangun sistem scoring dinamis yang menggabungkan data <strong>kepadatan penduduk</strong> dan <strong>PDRB per kapita</strong> dari BPS. Mengembangkan dashboard interaktif dengan <strong>5 visualisasi</strong> (Line Chart, Area Chart, Bar Chart, Facet Grid, Heatmap) dan <strong>peta interaktif Folium</strong> untuk memvisualisasikan skor prioritas secara real-time.",
+      "impact": "Menghasilkan daftar prioritas ekspansi yang jelas—<strong>Kota Surakarta (Solo) dengan skor 88.7</strong> menjadi target utama. Tim ekspansi dapat mengalokasikan <strong>anggaran pemasaran dan logistik secara efisien</strong>, mempercepat waktu penetrasi pasar, dan memaksimalkan ROI di setiap wilayah.",
+      "metrics": [
+        {"value": "35", "label": "Kab/Kota"},
+        {"value": "5", "label": "Visualisasi"},
+        {"value": "88.7", "label": "Skor Tertinggi"}
+      ],
+      "outcomes": "Top priority: Kota Surakarta (Solo) skor 88.7. Interactive map dengan Folium, 5 visualisasi (Line Chart, Area Chart, Bar Chart, Facet Grid, Heatmap), dynamic simulation real-time.",
+      "links": [
+        {"label": "Repository", "icon": "fab fa-github", "class": "github", "url": "https://github.com/burhanudinera2018/grab_expansion_analysis", "disabled": false},
+        {"label": "Live Demo", "icon": "fas fa-chart-line", "class": "streamlit", "url": "https://grabexpansionanalysis-v1.streamlit.app/", "disabled": false}
+      ]
+    }
+  ],
+  "other_projects": [
+    {"icon": "📞", "title": "Telco Customer Churn Prediction (GCP)", "description": "End-to-end MLOps pipeline di GCP: BigQuery, Cloud Storage, Vertex AI. Model XGBoost AUC 87.65% dengan Network KQI integration.", "links": [{"label": "GitHub", "url": "https://github.com/burhanudinera2018/telco-ai-portfolio"}, {"label": "Live Demo (Soon)", "url": "#", "dim": true}]},
+    {"icon": "⚡", "title": "Energy Grid Readiness for AI Data Center", "description": "Analisis kesiapan grid Jawa untuk pusat data AI 500 MW. Simulasi cascading failure, gap supply-demand 2025-2030, rekomendasi mitigasi.", "links": [{"label": "GitHub", "url": "https://github.com/burhanudinera2018/energy-grid-readiness"}, {"label": "Medium", "url": "https://medium.com/@studyburhanudin/indonesias-energy-crossroads-can-the-grid-survive-the-ai-data-center-boom-6f4786d77136"}, {"label": "LinkedIn", "url": "https://www.linkedin.com/pulse/indonesias-energy-crossroads-data-driven-analysis-badiuzaman-u7rcc/"}]},
+    {"icon": "📉", "title": "SaaS Churn Prediction", "description": "End-to-end churn prediction dengan Logistic Regression (recall 78.5%). Customer segmentation + business impact simulation (60% budget saving).", "links": [{"label": "GitHub", "url": "https://github.com/burhanudinera2018/saas-churn-prediction"}]},
+    {"icon": "🗣️", "title": "NL2SQL DVD Rental Assistant", "description": "AI Assistant bahasa natural ke SQL dengan Google Gemini 2.5 Flash. Live database PostgreSQL di Supabase.", "links": [{"label": "GitHub", "url": "https://github.com/burhanudinera2018/nl2sql-dvdrental-assistant"}, {"label": "Live Demo", "url": "https://nl2sql-dvrental-assistant-v1.streamlit.app/"}]},
+    {"icon": "🚀", "title": "Grab Expansion Priority Analysis", "description": "Analisis prioritas ekspansi Grab di 35 kab/kota Jateng. Dashboard interaktif dengan peta dan simulasi dinamis.", "links": [{"label": "GitHub", "url": "https://github.com/burhanudinera2018/grab_expansion_analysis"}, {"label": "Live Demo", "url": "https://grabexpansionanalysis-v1.streamlit.app/"}]},
+    {"icon": "📡", "title": "Telecom Milan Network Traffic Analysis", "description": "End-to-end DS pipeline: parsing 2.5GB data, KMeans clustering, Gradient Boosting (R²=0.802).", "links": [{"label": "GitHub", "url": "https://github.com/burhanudinera2018/telecom-italy-churn"}]},
+    {"icon": "🗺️", "title": "ILASPP - GWR + Kriging", "description": "Dashboard analisis spasial dengan GWR dan Kriging Interpolation untuk prediksi nilai tanah.", "links": [{"label": "GitHub", "url": "https://github.com/burhanudinera2018/ilasspp-gwr-dashboard"}, {"label": "Live Demo", "url": "https://ilasspp-gwr-dashboard-update2.streamlit.app/"}]},
+    {"icon": "📊", "title": "INDICO Digital Ecosystem Analytics", "description": "Dashboard analitik user engagement lintas 3 unit bisnis digital Kuncie, Fita, Majamojo.", "links": [{"label": "GitHub", "url": "https://github.com/burhanudinera2018/indico-analytics-portfolio"}, {"label": "Live Demo", "url": "https://indico-analytics-portfolio-fym7y7lcnypkzx8lq9cogn.streamlit.app/"}]},
+    {"icon": "📱", "title": "A2P Telecom Analytics", "description": "Dashboard intelijen traffic & revenue A2P messaging dengan GWR di 30+ wilayah.", "links": [{"label": "GitHub", "url": "https://github.com/burhanudinera2018/a2p-telecom-analytics"}, {"label": "Live Demo", "url": "https://a2p-telecom-analytics.streamlit.app/"}]},
+    {"icon": "🌉", "title": "Hybrid Bridge Python ↔ R", "description": "Validasi spasial & dashboard Leaflet tanpa storage lokal. Membuktikan Python = R dengan selisih <1e-8.", "links": [{"label": "GitHub", "url": "https://github.com/burhanudinera2018/hybrid-dashboard"}, {"label": "Live Demo", "url": "https://burhanudinera2018.github.io/hybrid-dashboard/"}]},
+    {"icon": "", "title": "SEC Financial Data Scraper", "description": "Streamlit + Ollama untuk scraping dan analisis laporan keuangan 10-K perusahaan publik.", "links": []},
+    {"icon": "", "title": "BCG GenAI Chatbot", "description": "Chatbot keuangan dengan pattern matching dan local LLM untuk analisis real-time.", "links": []},
+    {"icon": "", "title": "Deloitte Telemetry Analytics", "description": "Analisis downtime pabrik dengan dashboard interaktif dan insight dari LLM lokal.", "links": []}
+  ]
+}
